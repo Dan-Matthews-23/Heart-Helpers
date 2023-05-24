@@ -88,18 +88,18 @@ There are two main aims for the website:
 
 - To find information on the next national event, and to sign up to it with ease
 - To be presented with clear, factual information
-- To be able to connect with my local branch or a central team if they have any questions
+- To be able to connect with a local branch or a central team
 
 #### Returning Visitor Goals
 
 - To sign up to the next event
 - To find out how sucessful the previous events have been
-- To read volunteer testimonies, or submit one myself
+- To read volunteer testimonies, or submit one
 
 #### Frequent Visitor Goals
 
 - To find out how sucessful the previous events have been
-- To read volunteer testimonies, or submit one themselves
+- To read volunteer testimonies, or submit one
 
 - - -
 
@@ -109,7 +109,7 @@ There are two main aims for the website:
 
 Wireframes were created for desktop, tablet and mobile (1200px, 758px, 476px respectivley).
 
-[Home Page Wireframe](IMAGE OF INDEX.HTML)
+[Home Page Wireframe](../assets/images/Index.html - desktop view (mobile).png)
 [About Us Wireframe](IMAGE OF About Us.HTML)
 [Get Involved Wireframe](IMAGE OF Get Involved.HTML)
 [Confirm Sign-Up](IMAGE OF Confirm Sign-U.HTML)
