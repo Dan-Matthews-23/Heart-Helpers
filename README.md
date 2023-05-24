@@ -109,13 +109,13 @@ There are two main aims for the website:
 
 Wireframes were created for desktop, tablet and mobile (1200px, 758px, 476px respectivley).
 
-[Home Page Wireframe](../assets/images/Index.html - desktop view (mobile).png)
-[About Us Wireframe](IMAGE OF About Us.HTML)
-[Get Involved Wireframe](IMAGE OF Get Involved.HTML)
-[Confirm Sign-Up](IMAGE OF Confirm Sign-U.HTML)
-[Contact Us](IMAGE OF Contact Us.HTML)
-[Previous Events](IMAGE OF Previous Events.HTML)
-[Testomonies](IMAGE OF Testomonies.HTML)
+[Home Page Wireframe](/assets/images/wireframes-index-desktop.png)
+[About Us Wireframe](/assets/images/Index.html - desktop view (mobile).png)
+[Get Involved Wireframe](/assets/images/Index.html - desktop view (mobile).png)
+[Confirm Sign-Up](/assets/images/Index.html - desktop view (mobile).png)
+[Contact Us](/assets/images/Index.html - desktop view (mobile).png)
+[Previous Events](/assets/images/Index.html - desktop view (mobile).png)
+[Testomonies](/assets/images/Index.html - desktop view (mobile).png)
 
 ### Colour
 
