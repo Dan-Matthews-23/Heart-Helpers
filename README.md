@@ -109,13 +109,18 @@ There are two main aims for the website:
 
 Wireframes were created for desktop, tablet and mobile (1200px, 758px, 476px respectivley).
 
-[Home Page Wireframe](/assets/images/wireframes-index-desktop.png)
-[About Us Wireframe](/assets/images/Index.html - desktop view (mobile).png)
-[Get Involved Wireframe](/assets/images/Index.html - desktop view (mobile).png)
-[Confirm Sign-Up](/assets/images/Index.html - desktop view (mobile).png)
-[Contact Us](/assets/images/Index.html - desktop view (mobile).png)
-[Previous Events](/assets/images/Index.html - desktop view (mobile).png)
-[Testomonies](/assets/images/Index.html - desktop view (mobile).png)
+[Home Page Wireframe in Mobile View](/assets/images/wireframes-index-mobile.png)
+[Home Page Wireframe in Tablet View](/assets/images/wireframes-index-tablet.png)
+[Home Page Wireframe in Desktop View](/assets/images/wireframes-index-desktop.png)
+
+[About Us Page Wireframe in Mobile View](/assets/images/wireframes-aboutus-mobile.png)
+[About Us Page Wireframe in Tablet View](/assets/images/wireframes-aboutus-tablet.png)
+[About Us Page Wireframe in Desktop View](/assets/images/wireframes-aboutus-desktop.png)
+
+[Get Involved Page Wireframe in Mobile View](/assets/images/wireframes-getinvolved-mobile.png)
+[Get Involved Page Wireframe in Tablet View](/assets/images/wireframes-getinvolved-tablet.png)
+[Get Involved Page Wireframe in Desktop View](/assets/images/wireframes-getinvolved-desktop.png)
+
 
 ### Colour
 
@@ -226,7 +231,8 @@ To clone the Heart Helpers repository:
 
 How did you test as you went along? What did you do to resolve errors? What were the errors? What did your users suggest? What did your mento  suggest? Did you use developer tools chrome to help?
 
-T
+ReadMe
+On testing my ReadMe, I realised that the names I had for my wireframes were inappropiate and were causing issues. I renamed the files and updated the links that then worked. (24/05/2023 @ 16:50)
 
 ### W3C Validator
 
