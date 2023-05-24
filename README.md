@@ -110,21 +110,29 @@ There are two main aims for the website:
 Wireframes were created for desktop, tablet and mobile (1200px, 758px, 476px respectivley).
 
 [Home Page Wireframe in Mobile View](/assets/images/wireframes-index-mobile.png)
+
 [Home Page Wireframe in Tablet View](/assets/images/wireframes-index-tablet.png)
+
 [Home Page Wireframe in Desktop View](/assets/images/wireframes-index-desktop.png)
 
+
 [About Us Page Wireframe in Mobile View](/assets/images/wireframes-aboutus-mobile.png)
+
 [About Us Page Wireframe in Tablet View](/assets/images/wireframes-aboutus-tablet.png)
+
 [About Us Page Wireframe in Desktop View](/assets/images/wireframes-aboutus-desktop.png)
 
+
 [Get Involved Page Wireframe in Mobile View](/assets/images/wireframes-getinvolved-mobile.png)
+
 [Get Involved Page Wireframe in Tablet View](/assets/images/wireframes-getinvolved-tablet.png)
+
 [Get Involved Page Wireframe in Desktop View](/assets/images/wireframes-getinvolved-desktop.png)
 
 
 ### Colour
 
-![HEART-HELPERS COLOUR PALETTE](LINK)
+![HEART-HELPERS COLOUR PALETTE](/assets/images/colour-palette.png)
 
 What colour choices did you make? Why? Where can I get the same color scheme from? e.g. coolors.co
 
