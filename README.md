@@ -132,9 +132,9 @@ Wireframes were created for desktop, tablet and mobile (1200px, 758px, 476px res
 
 ### Colour
 
-![HEART-HELPERS COLOUR PALETTE](/assets/images/colour-palette-final.png)
+[HEART-HELPERS COLOUR PALETTE](/assets/images/colour-palette-final.png)
 
-![available as Coolors palette](https://coolors.co/f8f9fa-e9ecef-dee2e6-ced4da-adb5bd-6c757d-495057-343a40-212529)
+[available as Coolors palette](https://coolors.co/f8f9fa-e9ecef-dee2e6-ced4da-adb5bd-6c757d-495057-343a40-212529)
 
 
 I have chosen the above colour palette for the Heart Helpers website for several reasons. First, I wanted to use a palette that was easy for the users to see. I did research on what colours would be the most accessible to use. The Office for National Statistics suggest three helpful rules to consider when creating accessible websites:
@@ -145,7 +145,7 @@ I have chosen the above colour palette for the Heart Helpers website for several
 
 - “Red and green should never be seen”
 
-Following the advice of fellow students, I decided to use ![Coolors](https://coolors.co/) for my palette. I've used this particular palette out of personal choice. I'm partially colourblind myself and have always appreciated a website with an appropiate contrast. 
+Following the advice of fellow students, I decided to use [Coolors](https://coolors.co/) for my palette. I've used this particular palette out of personal choice. I'm partially colourblind myself and have always appreciated a website with an appropiate contrast. 
 
 
 ### Font
