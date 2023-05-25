@@ -132,9 +132,9 @@ Wireframes were created for desktop, tablet and mobile (1200px, 758px, 476px res
 
 ### Colour
 
-[HEART-HELPERS COLOUR PALETTE](/assets/images/colour-palette-final.png)
+![HEART HELPERS COLOUR PALETTE](/assets/images/colour-palette-final.png)
 
-[available as Coolors palette](https://coolors.co/f8f9fa-e9ecef-dee2e6-ced4da-adb5bd-6c757d-495057-343a40-212529)
+[Also available as Coolors palette](https://coolors.co/f8f9fa-e9ecef-dee2e6-ced4da-adb5bd-6c757d-495057-343a40-212529)
 
 
 I have chosen the above colour palette for the Heart Helpers website for several reasons. First, I wanted to use a palette that was easy for the users to see. I did research on what colours would be the most accessible to use. The Office for National Statistics suggest three helpful rules to consider when creating accessible websites:
@@ -150,7 +150,9 @@ Following the advice of fellow students, I decided to use [Coolors](https://cool
 
 ### Font
 
-Which Google fonts did you use? Why? Where can they be found?
+
+The font I have chosen to use for Heart Helpers is one called Poppins, which is part of the Sans Sarif family. It can be found [here](https://fonts.google.com/specimen/Poppins?preview.text=Heart%20Helpers&preview.text_type=custom). I chose the 'Light' weighting as I felt that it would look better against an off-white colour I planned to use as my background colour. 
+
 
 ### Images
 
@@ -160,9 +162,54 @@ Where did your images come from? Did ypu get permission? Did you credit them?
 
 ### Features
 
-This is where you describe in detail how your site is laid out, including all features on each page
+#### Header
 
-  Future Developments
+My header will be comprised of the Heart Helpers logo (see above for images) that will also act as a hyperlink that will always bring the user back to the Home page. It will also contain the navigation bar which will change position depending on the user's device.
+
+
+#### Footer
+
+My footer will contain links to LinkedIn, GitHub, Facebook and Twitter. 
+
+
+#### Home Page
+
+My Home page will begin with the Next Event with a large image (see Images) and a block of text describing what the event is, with a button just below called 'Sign Up'. If clicked, the button will take the user to the Get Involved page so that they can sign up to this event. 
+
+The next thing the desktop and tablet users will see is an image of the previous event (in this case, the Winter Wonderland Event), showcasing a team of happy volunteers. This image will not be displayed on the mobile view.
+
+Beneath the Winter Wonderland Event image, the user will be shown a series of four written testimonies from previous volunteers. All four will be shown to users regardless of the device they are using, however the way in which they see them will differ (see Wireframes).
+
+
+#### Get Involved
+
+Get Involved will be where the user can sign up to the next event by using a form that captures (through POST) the user's name, email address and date of birth. There is also a 'Confirm Email' address and a date selection for the date of birth, although neither of them have validation assigned to it (see Future Developments).
+
+There is also a checkbox with a 'I agree with the Terms of Service' label assigned to it. There will be no data validation assigned to this checkbox. The label will carry a hyperlink that will take the user to the Terms of Service page. 
+
+
+ 
+ 
+## Future Developments
+
+There are several improvements I would like to make to Heart Helpers in the future when my knowledge and experience are improved.
+
+
+
+
+| Page  | Future Development Ideas  | Reason not added in this release  |
+| ------------ | ------------ | ------------ |
+|  Get Involved | On:Hover option that explains why DOB is required  |  Limited knowledge of Javascript |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+
+
 
 ### Accessibility
 
@@ -295,6 +342,8 @@ Get-InvolvedHyperlinks
 - - -
 
 ## Credits
+[The Office of National Statistics](https://style.ons.gov.uk/category/data-visualisation/using-colours/#accessibility-and-colours) for advice on colour palette. 
+
 
 ### Code Used
 
@@ -303,8 +352,6 @@ Get-InvolvedHyperlinks
 Content for the website was written by Dan Matthews.
 
 ### Media
-
-#### Book Cover Images
 
 #### Other Images
 
