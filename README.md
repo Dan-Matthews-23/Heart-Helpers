@@ -197,65 +197,53 @@ There are several improvements I would like to make to Heart Helpers in the futu
 
 
 
-| Page  | Future Development Ideas  | Reason not added in this release  |
-| ------------ | ------------ | ------------ |
+|      Page     |   Future Development Ideas  | Reason not added in this release  |
+| ------------  | ------------ | ------------ |
 |  Get Involved | On:Hover option that explains why DOB is required  |  Limited knowledge of Javascript |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-
+|  Get Involved | Javascript that will idenfity if the user is under 18. If yes, refer to sign-up-on-hold page, await parental consent  | Limited knowledge of Javascript  |
+|  Get Involved | Data vadlidation on Confirm Email Address | Limited knowledge of Javascript  |
+|  Get Involved | Data validation on Terms of Service checkbox | Limited knowledge of Javascript  |
+|  Contact Us   | Data vadlidation on Contact Us form to detect value submission (more than 0, less than 'X') |  Limited knowledge of Javascript  |
+|  Contact Us   | Data validation on other input values (email address format, numerical only for telephone) | Limited knowledge of Javascript  |
+|  About Us     | Interactivity on central rounded image so that when user clicks, information sections are shown | Limited knowledge of Javascript  |
 
 
 ### Accessibility
 
 I have been mindful during coding to ensure that the website is as accessible friendly as possible. I have achieved this by:
 
-What are the main accessibility issues with websites? What did you do to mitigate these? Did you include alt text for images? What about screen readers? Was the colour contrast right? What about the nav bar - what did you do with that to make it accessible?
+- Using alternative text for all images throughout the Heart Helpers website
+- Using an accessible colour palette and contracts suitable for all users
+- Using an easy to access navigation bar that clearly highlights which page the user is currently viewing
+- Where possible, using screen reading tools where there is no alternative text available and the user is presented with an important feature (e.g. button, icon)
+- Using semantic scripts
 
-- Using semantic HTML.
-- Using descriptive alt attributes on images on the site.
-- Providing information for screen readers where there are icons used and no text - such as the review ratings for books & footer icons.
-- Ensuring that there is a sufficient colour contrast throughout the site.
-- Ensuring menus are accessible by marking the current page as current for screen readers.
 
 - - -
 
 ## Technologies Used
 
-### Languages Used
 
-HTML and CSS were used to create this website.
+|      Programme / feature      |   Technology used                                                               | 
+| ------------------------      | -------------------                                                             | 
+|  Languages                    | HTML and CSS                                                                    |
+|  Framework                    | [Bootstrap version 5.3](https://getbootstrap.com/docs/5.3/)                     |
+|  Colour Scheme                | [Coolors](https://coolors.co/?home/)                                            |
+|  Fonts                        | [Google Fonts](https://fonts.google.com/)                                       |
+|  **Images**                   |                                                                                 |
+|                               |                                                                                 |
+|  *Icons*                      | [Font Awesome](https://fontawesome.com/) and [Favicon](https://favicon.io/)     |
+|  *Image Compression tools*    | [Tiny PNG](https://tinypng.com/)                                                |
+|  *Image editing*              | [Birme](https://www.birme.net/)                                                 |
+|  *Responsiveness testing*     | [Am I Responsive?](http://ami.responsivedesign.is/)                             |
+|  *Other icons*                | [Shields.io](https://shields.io/)                                               |
+|                               |                                                                                 |                                                                            
+|  Version control              | Git                                                                             |
+|  IDE / file storing           | [Gitpod](https://gitpod.io/) and [Code Anywhere](https://app.codeanywhere.com/) |
+|  Wireframes                   | [Balsamiq](https://balsamiq.com/)                                               |
+|  Code Validation              | [W3C Schools](https://validator.w3.org/)                                        |
+|  Developer Tools              | Chrome Developer Tools                                                          |
 
-### Frameworks, Libraries & Programs Used
-
-Balsamiq - Used to create wireframes.
-
-Git - For version control.
-
-Github - To save and store the files for the website.
-
-Bootstrap Version 4.6 - The framework for the website. Code for the navigation bar, carousel, cards and form were used and modified. Additional CSS styling was also implemented in style.css.
-
-Google Fonts - To import the fonts used on the website.
-
-Font Awesome - For the iconography on the website.
-
-Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
-
-[Tiny PNG](https://tinypng.com/) To compress images.
-
-[Birme](https://www.birme.net/) To resize images and change to webp format.
-
-[Favicon.io](https://favicon.io/) To create favicon.
-
-[Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
-
-[Shields.io](https://shields.io/) To add badges to the README
 
 - - -
 
@@ -263,7 +251,7 @@ Google Dev Tools - To troubleshoot and test features, solve issues with responsi
 
 ### Deployment
 
-Github Pages was used to deploy the live website. The instructions to achieve this are below:
+The Heart Helpers website was made live through GitHub. This is how to deploy Heart Helpers again:
 
 1. Log in (or sign up) to Github.
 2. Find the repository for this project, Dan-Matthews-23/heart-helpers.
@@ -296,16 +284,24 @@ To clone the Heart Helpers repository:
 
 ## Testing
 
-How did you test as you went along? What did you do to resolve errors? What were the errors? What did your users suggest? What did your mento  suggest? Did you use developer tools chrome to help?
+The following tests were undertaken using Google Chrome, Firefox, Microsoft Edge and SAfari. I have not tested the features using Internet Explorer as support ended for this browser (on some operating systems in June 2022.
 
-ReadMe
-On testing my ReadMe, I realised that the names I had for my wireframes were inappropiate and were causing issues. I renamed the files and updated the links that then worked. (24/05/2023 @ 16:50)
 
-### W3C Validator
+|      Page     |   Browser                 |   Feature (by ID)                 | Result                                 |
+| ------------  | ------------              | ------------                      |------------                                    |
+|  About Us     | Chrome                    |   email_address                   | Pass                                           |
+|  Get Involved | Firefox                   |  Pass                             | Pass                                           |
+|  Get Involved | Microsoft Edge            |  Fail                             | Fail                                           |
+|  Get Involved | Safari                    |  Fail                             | Pass                                           |
+|  Get Involved | Safari                    |  Fail                             | Fail                                           |
 
-How did you use the W3C validator?
+
 
 ### Solved Bugs
+
+|      Page     |   Feature                 | What went wrong and how you resolved it                                    |
+| ------------  | ------------              | ------------                                                               |
+|  Get Involved | Hover button              |  Resolved issue where submit buttom was not working                        |
 
 
 
