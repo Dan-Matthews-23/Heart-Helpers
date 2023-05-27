@@ -295,8 +295,8 @@ The following tests were undertaken using Google Chrome, Firefox, Microsoft Edge
 |      Page     |   Browser                 |   Feature (by ID)                 | Result     | 
 | ------------  | ------------              | ------------                      |------------|
 |  style.css    | Chrome                    |  #banner                          | Fail       |
-|  Get Involved | Firefox                   |  Pass                             | Pass       |
-|  Get Involved | Microsoft Edge            |  Fail                             | Fail       |
+|  index.html   | Chrome                    |  #happy-volunteers                | Fail       |
+|  style.css    | Chrome                    |  @media...max-width: 576px        | Fail       |
 |  Get Involved | Safari                    |  Fail                             | Pass       |
 |  Get Involved | Safari                    |  Fail                             | Fail       |
 
@@ -304,9 +304,11 @@ The following tests were undertaken using Google Chrome, Firefox, Microsoft Edge
 
 ### Solved Bugs
 
-|      Page     |   Feature             | What went wrong and how you resolved it                                                                                                            |
-| ------------  | ------------          | ------------                                                                                                                                       |
-|  style.css    | #banner               |  Developer Tools not updating CSS source code. Several tests failed. Deleted cache and tried again, passed on fifth attempt                        |
+|      Page   |   Feature                       | What went wrong and how you resolved it                                                                                                |
+| ------------| ------------                    | -----------                                                                                                                            |
+|  style.css  | #banner                         |  Developer Tools not updating CSS source code. Several tests failed. Deleted cache and tried again, passed on fifth attempt                        |
+|  index.html | #happy-volunteers     |  Image not dissapearing on smaller screens. Consulted Bootstrap documentation and tested by replacing container class. Worked on 8th attempt                        |
+|  style.css  | @media...max-width: 576px     |  Font size not changing across different viewports. On research, realised code incorrectly calling parent class not child. Worked on 4th attempt 
 
 
 
