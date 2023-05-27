@@ -1,6 +1,6 @@
 # Heart Helpers
 
-The Heart Helpers website designed to attract prospect volunteers to participate in events that raise money for people suffering with heart disease. It is designed to be responsive so that users of a range of devices can use the website without degredation of experience.
+The Heart Helpers website is designed to attract prospect volunteers to participate in events that raise money for people suffering with heart disease. It is designed to be responsive so that users of a range of devices can use the website without degredation of experience.
 
 INCLUDE IMAGE HERE
 ![ALT TEXT](HYPERLINK.PNG)
@@ -16,11 +16,10 @@ INCLUDE IMAGE HERE
 ## CONTENTS
 
 - [Heart Helpers](#heart-helpers)
-  - [CONTENTS](#contents)
   - [User Experience (UX)](#user-experience-ux)
     - [Background](#background)
       - [Key information for the site](#key-information-for-the-site)
-    - [About the user](#about-the-user)
+      - [About the user](#about-the-user)
       - [User Goals](#user-goals)
       - [First Time Visitor Goals](#first-time-visitor-goals)
       - [Returning Visitor Goals](#returning-visitor-goals)
@@ -50,8 +49,7 @@ INCLUDE IMAGE HERE
     - [Code Used](#code-used)
     - [Content](#content)
     - [Media](#media)
-      - [Book Cover Images](#book-cover-images)
-      - [Other Images](#other-images)
+    - [Other Images](#other-images)
     - [Acknowledgments](#acknowledgments)
 
 - - -
@@ -62,10 +60,12 @@ INCLUDE IMAGE HERE
 
 Heart Helpers are a fictional charitiable organisation that aim to generate revenue and attarct volunteers to support in local and national events in the interest of raising money for people affected by heart disease. Heart Helpers have twelve branches across the United Kingsdom. Each branch hosts fundraising activities in their local communities such as sponsered walks, walks and events with their local authority to raise awareness, particularly in schools and community centres. Each branch participates in quarterly national events organised by the central team. This website aims to showcase such events and attract new participents. 
 
+
 There are two main aims for the website:
 
 - Recruit new and existing volunteers to help with natioanlly-organised events
 - Provide contact information about local branches to new and existing volunteers
+
 
 #### Key information for the site
 
@@ -73,6 +73,7 @@ There are two main aims for the website:
 - Information about previous events
 - Testimonies of previous and existing volunteers
 - Contact information for the twelve branches across the United Kingdom
+
 
 ### About the user
 
@@ -84,11 +85,13 @@ There are two main aims for the website:
 - To allow users to find information on their local branch
 - To allow the user to contact someone if they need more information
 
+
 #### First Time Visitor Goals
 
 - To find information on the next national event, and to sign up to it with ease
 - To be presented with clear, factual information
 - To be able to connect with a local branch or a central team
+
 
 #### Returning Visitor Goals
 
@@ -96,14 +99,17 @@ There are two main aims for the website:
 - To find out how sucessful the previous events have been
 - To read volunteer testimonies, or submit one
 
+
 #### Frequent Visitor Goals
 
 - To find out how sucessful the previous events have been
 - To read volunteer testimonies, or submit one
 
+
 - - -
 
 ## Design
+
 
 ### Wireframes
 
@@ -150,7 +156,6 @@ Following the advice of fellow students, I decided to use [Coolors](https://cool
 
 ### Font
 
-
 The font I have chosen to use for Heart Helpers is one called Poppins, which is part of the Sans Sarif family. It can be found [here](https://fonts.google.com/specimen/Poppins?preview.text=Heart%20Helpers&preview.text_type=custom). I chose the 'Light' weighting as I felt that it would look better against an off-white colour I planned to use as my background colour. 
 
 
@@ -161,6 +166,8 @@ Where did your images come from? Did ypu get permission? Did you credit them?
 
 
 ### Features
+
+
 
 #### Header
 
@@ -188,9 +195,7 @@ Get Involved will be where the user can sign up to the next event by using a for
 There is also a checkbox with a 'I agree with the Terms of Service' label assigned to it. There will be no data validation assigned to this checkbox. The label will carry a hyperlink that will take the user to the Terms of Service page. 
 
 
- 
- 
-## Future Developments
+ ## Future Developments
 
 There are several improvements I would like to make to Heart Helpers in the future when my knowledge and experience are improved.
 
@@ -313,29 +318,9 @@ The following tests were undertaken using Google Chrome, Firefox, Microsoft Edge
 
 Refer back to the User Stories under First Time Visitors, Returning Visotirs and the other one. Get feedback from peers
 
-### Full Testing
 
-Which browsers did you test it on? Why?
-
-Did you use developer tools? Which browser? Why?
-
-Index.html
-    Hyperlinks
-    Images
-    Forms
-    Responsive Design    
-Contact-US
-    Hyperlinks
-    Images
-    Forms
-    Responsive Design  
-    
-Get-InvolvedHyperlinks
-    Images
-    Forms
-    Responsive Design  
-    
 - - -
+
 
 ## Credits
 [The Office of National Statistics](https://style.ons.gov.uk/category/data-visualisation/using-colours/#accessibility-and-colours) for advice on colour palette. 
