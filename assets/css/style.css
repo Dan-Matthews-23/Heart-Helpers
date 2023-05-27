@@ -1,24 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
-font-family: 'Poppins', sans-serif;
+
 
 /* FOUND HERE: https://fonts.google.com/specimen/Poppins?preview.text=Heart%20Helpers&preview.text_type=custom /*
 
+#banner { font-size: 50px; }
 
 
-/* Color palette taken from She Codes. See Credits for link*/
-.first-color { 
-	background: #faf6e9; 
-}
-	
-.second-color { 
-	background: #ece8d9; 
-}
 
-.third-color { 
-	background: #fffdf6; 
-}
 
-.fourth-color { 
-	background: #494949; 
-}
+
+
