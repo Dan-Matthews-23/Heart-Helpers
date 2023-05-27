@@ -295,10 +295,14 @@ The following tests were undertaken using Google Chrome, Firefox, Microsoft Edge
 |      Page     |   Browser                 |   Feature (by ID)                 | Result     | 
 | ------------  | ------------              | ------------                      |------------|
 |  style.css    | Chrome                    |  #banner                          | Fail       |
+|  style.css    | Chrome                    |  #banner                          | Pass       |
 |  index.html   | Chrome                    |  #happy-volunteers                | Fail       |
+|  index.html   | Chrome                    |  #happy-volunteers                | Pass       |
 |  style.css    | Chrome                    |  @media...max-width: 576px        | Fail       |
-|  Get Involved | Safari                    |  Fail                             | Pass       |
-|  Get Involved | Safari                    |  Fail                             | Fail       |
+|  style.css    | Chrome                    |  @media...max-width: 576px        | Pass       |
+|  index.html   | Chrome                    |  div.testimonies                  | Fail       |
+|  index.html   | Chrome                    |  div.testimonies                  | Pass       |
+
 
 
 
@@ -308,8 +312,8 @@ The following tests were undertaken using Google Chrome, Firefox, Microsoft Edge
 | ------------| ------------                    | -----------                                                                                                                            |
 |  style.css  | #banner                         |  Developer Tools not updating CSS source code. Several tests failed. Deleted cache and tried again, passed on fifth attempt                        |
 |  index.html | #happy-volunteers     |  Image not dissapearing on smaller screens. Consulted Bootstrap documentation and tested by replacing container class. Worked on 8th attempt                        |
-|  style.css  | @media...max-width: 576px     |  Font size not changing across different viewports. On research, realised code incorrectly calling parent class not child. Worked on 4th attempt 
-
+|  style.css  | @media...max-width: 576px       |  Font size not changing across different viewports. On research, realised code incorrectly calling parent class not child. Worked on 4th attempt 
+|  index.html | div.testimonies                 | The Testimonies div was not responsive to change in viewports. On smaller screen the breakpoint did not work. Studied Bootstrap module and realised my columns were wrong. Passed test on sixteenth test                         |
 
 
 ### Known Bugs
