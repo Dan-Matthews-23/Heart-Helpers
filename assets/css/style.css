@@ -1,10 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 
-#banner { background-color: blue; font-size: 50px; }
 
 
 
+div 
+{ 
+  border:solid; 
+  padding: 10px; 
+  font-size: 14px; 
+}
+ 
+.testimonies 
+{ 
+  border:solid; 
+  background-color: #fafafa;
+ }
 
 
+ @media screen and (max-width: 480px) { div.testimonies { font-size: 18px; } }
+ @media screen and (max-width: 480px) { div.testimonies { font-size: 18px; } }
+/*<!-----------------------THIS CODE WAS TAKEN FROM https://mdbootstrap.com/how-to/bootstrap/text-responsive/#section-explanation------------------------------------------------->*/
 
+/*<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------->*/

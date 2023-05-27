@@ -292,21 +292,21 @@ To clone the Heart Helpers repository:
 The following tests were undertaken using Google Chrome, Firefox, Microsoft Edge and SAfari. I have not tested the features using Internet Explorer as support ended for this browser (on some operating systems in June 2022.
 
 
-|      Page     |   Browser                 |   Feature (by ID)                 | Result                                 |
-| ------------  | ------------              | ------------                      |------------                                    |
-|  About Us     | Chrome                    |   email_address                   | Pass                                           |
-|  Get Involved | Firefox                   |  Pass                             | Pass                                           |
-|  Get Involved | Microsoft Edge            |  Fail                             | Fail                                           |
-|  Get Involved | Safari                    |  Fail                             | Pass                                           |
-|  Get Involved | Safari                    |  Fail                             | Fail                                           |
+|      Page     |   Browser                 |   Feature (by ID)                 | Result     | 
+| ------------  | ------------              | ------------                      |------------|
+|  style.css    | Chrome                    |  #banner                          | Fail       |
+|  Get Involved | Firefox                   |  Pass                             | Pass       |
+|  Get Involved | Microsoft Edge            |  Fail                             | Fail       |
+|  Get Involved | Safari                    |  Fail                             | Pass       |
+|  Get Involved | Safari                    |  Fail                             | Fail       |
 
 
 
 ### Solved Bugs
 
-|      Page     |   Feature                 | What went wrong and how you resolved it                                    |
-| ------------  | ------------              | ------------                                                               |
-|  Get Involved | Hover button              |  Resolved issue where submit buttom was not working                        |
+|      Page     |   Feature             | What went wrong and how you resolved it                                                                                                            |
+| ------------  | ------------          | ------------                                                                                                                                       |
+|  style.css    | #banner               |  Developer Tools not updating CSS source code. Several tests failed. Deleted cache and tried again, passed on fifth attempt                        |
 
 
 
