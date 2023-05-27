@@ -11,10 +11,13 @@ div
   font-size: 16px;
  }
  
+ 
+ 
  div.testimonies { font-size: 16px; border:solid; background-color: #F8F9FA; }
 
 /*<!-----------------------THIS CODE WAS TAKEN FROM https://stackoverflow.com/questions/40528290/how-to-implement-max-font-size------------------------------------------------->*/
  @media screen and (min-width: 576px) { div.testimonies { font-size: calc(16px + 16 * ((100vw - 600px) / 600)); } }
- @media screen and (min-width: 1200px) { div.testimonies { font-size: 32px; } }
+ /*<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------->*/
 
-/*<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------->*/
+ @media screen and (min-width: 1200px) { div.testimonies { font-size: 20px; } }
+
