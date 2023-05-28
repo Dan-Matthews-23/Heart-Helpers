@@ -302,6 +302,7 @@ The following tests were undertaken using Google Chrome, Firefox, Microsoft Edge
 |  style.css    | Chrome                    |  @media...max-width: 576px        | Pass       |
 |  index.html   | Chrome                    |  div.testimonies                  | Fail       |
 |  index.html   | Chrome                    |  div.testimonies                  | Pass       |
+|  index.html   | Chrome                    |  div.testimonies                  | Fail       |
 
 
 
@@ -314,7 +315,7 @@ The following tests were undertaken using Google Chrome, Firefox, Microsoft Edge
 |  index.html | #happy-volunteers     |  Image not dissapearing on smaller screens. Consulted Bootstrap documentation and tested by replacing container class. Worked on 8th attempt                        |
 |  style.css  | @media...max-width: 576px       |  Font size not changing across different viewports. On research, realised code incorrectly calling parent class not child. Worked on 4th attempt 
 |  index.html | div.testimonies                 | The Testimonies div was not responsive to change in viewports. On smaller screen the breakpoint did not work. Studied Bootstrap module and realised my columns were wrong. Passed test on sixteenth test                         |
-
+|  index.html | div.testimonies                 | Added second row of divs for the name of the user who submitted the testimonies. Did not pass the the responsiveness test when on small viewports, as the names collapsed into rows like the divs above. They need to stay beneath the testimony and not move. I've placed them in the same div and seperated with HR. They passed the test on the second attempt                         |
 
 ### Known Bugs
 
