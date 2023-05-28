@@ -1,7 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 
+#test
+{
+  background-color: black;
+}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#logo 
+{ 
+  border-color: black;
+  border:solid;
+  
+}
+
+#logo-banner
+{
+
+  background-color:#F8F9FA;
+  font-size: 300px;
+  font-weight: 900;
+
+}
 
 
 div 

@@ -303,6 +303,7 @@ The following tests were undertaken using Google Chrome, Firefox, Microsoft Edge
 |  index.html   | Chrome                    |  div.testimonies                  | Fail       |
 |  index.html   | Chrome                    |  div.testimonies                  | Pass       |
 |  index.html   | Chrome                    |  div.testimonies                  | Fail       |
+|  index.html   | Chrome                    |  #logo-banner                     | Pass       |
 
 
 
