@@ -17,7 +17,26 @@ body
 { 
   border-color: black;
   border:solid;
+  size: 10w;
+  
 }
+#logo-banner 
+{ 
+  border-color: black;
+  border:solid;
+ 
+  
+}
+
+/*.logo
+{
+  border-color: black;
+  border:solid;
+  position: relative;
+  left: 30px;
+    
+  
+}*/
 
 div 
 { 
