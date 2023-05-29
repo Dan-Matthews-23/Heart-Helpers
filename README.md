@@ -310,6 +310,9 @@ The following tests were undertaken using Google Chrome, Firefox, Microsoft Edge
 |  index.html   | Chrome                    |  .logo                            | Pass       |
 |  index.html   | Chrome                    |  'sign-up-promotion '             | Fail       |
 |  index.html   | Chrome                    |  'sign-up-promotion '             | Pass       |
+|  index.html   | Chrome                    |  .responsive-background-section   | Fail       |
+|  index.html   | Chrome                    |  .responsive-background-section   | Pass       |
+|  index.html   | Chrome                    |  .responsive-background-section   | Fail       |
 
 
 
@@ -326,7 +329,8 @@ The following tests were undertaken using Google Chrome, Firefox, Microsoft Edge
 |  index.html | .title                 |    Title font failed responsiveness test and did not change with viewport. My mistake was trying to set '%'. After some research on [CSS Tricks](https://css-tricks.com/viewport-sized-typography/) I found that the solution was to use viewport. Passed test on first attempt                     |
 |  index.html | #logo                 |    Logo failed responsiveness test, did not resize with viewport. Advised by colleage to try using the img-fluid class. Test passed. See #Credits                      |
 |  index.html | 'sign-up-promotion '                |    Sign-up-promotion section failed responsiveness test. On larger screens it veered to the left. I got an idea from [W3 Schools](https://www.w3schools.com/css/css_align.asp) to set a class decicated to alignment. Worked on second attempt                 |
-
+|  index.html | .responsive-background-section              |    The responsinvess test failed. The background image did not change relative to the viewport as hoped. Instead I've created a new image that is a much smaller version that the original (shrunken in size)                 |
+|  index.html | .responsive-background-section              |    The responsinvess test failed. rounded-circle div does not resize relative to the viewport as the logo rounded-circle. Up to twenty tests later I still could not figure it out. As a temporary fix I will force the browser to not display the section on smaller viewports. I will note this in the Known Bugs and come back to it when I have more time.                  |
 
 
 
@@ -345,8 +349,9 @@ The following tests were undertaken using Google Chrome, Firefox, Microsoft Edge
 
 
 ### Known Bugs
-
-
+|      Page   |   Feature                       | What went wrong and how you resolved it                                                                                                |
+| ------------| ------------                    | -----------                                                                                                                            |
+|  index.html   | Chrome                        |  .responsive-background-section            | On viewports less than 992px, the rounded-circle div distorts. To counter this I've forced the browser to remove the section completley in viewports less than 992px       |
 
 
 
