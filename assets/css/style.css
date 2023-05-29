@@ -65,6 +65,30 @@ h3
 
 }
 
+.responsive-background-image
+{
+  background-image: url("/assets/images/responsive-original-test-pixels.png");
+  
+ 
+}
+
+
+.responsive-background-section
+{
+  line-height: 150px;
+  padding: 10px 10px 10px 10px;
+  text-align: justify;
+  background-color: white;
+}
+
+
+
+.rounded-circle-index
+{
+  height: 200px;
+  width: 200px;
+}
+
 .nav-link
 {
   
