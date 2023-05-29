@@ -28,15 +28,19 @@ body
   
 }
 
-/*.logo
+.logo
 {
   border-color: black;
   border:solid;
   position: relative;
-  left: 30px;
+  top:40px;
+  right: 0;
+  bottom: 0px;
+  left: 20px;
+  
     
   
-}*/
+}
 
 div 
 { 

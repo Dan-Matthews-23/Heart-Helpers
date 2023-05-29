@@ -306,6 +306,8 @@ The following tests were undertaken using Google Chrome, Firefox, Microsoft Edge
 |  index.html   | Chrome                    |  #logo-banner                     | Pass       |
 |  index.html   | Chrome                    |  .title                           | Fail       |
 |  index.html   | Chrome                    |  #logo                            | Fail       |
+|  index.html   | Chrome                    |  #logo                            | Pass       |
+|  index.html   | Chrome                    |  .logo                            | Pass       |
 
 
 
@@ -344,12 +346,31 @@ The following tests were undertaken using Google Chrome, Firefox, Microsoft Edge
 
 
 
+
+
+
+
+
+
+
+
+
 ### Testing User Stories
 
 Refer back to the User Stories under First Time Visitors, Returning Visotirs and the other one. Get feedback from peers
 
 
 - - -
+
+
+
+
+
+
+
+
+
+
 
 
 ## Credits
