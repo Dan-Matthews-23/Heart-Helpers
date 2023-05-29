@@ -292,7 +292,7 @@ To clone the Heart Helpers repository:
 The following tests were undertaken using Google Chrome, Firefox, Microsoft Edge and SAfari. I have not tested the features using Internet Explorer as support ended for this browser (on some operating systems in June 2022.
 
 
-|      Page     |   Browser                 |   Feature (by ID)                 | Result     | 
+|      Page     |   Browser                 |   Feature (by class/ ID / name)   | Result     | 
 | ------------  | ------------              | ------------                      |------------|
 |  style.css    | Chrome                    |  #banner                          | Fail       |
 |  style.css    | Chrome                    |  #banner                          | Pass       |
@@ -308,6 +308,8 @@ The following tests were undertaken using Google Chrome, Firefox, Microsoft Edge
 |  index.html   | Chrome                    |  #logo                            | Fail       |
 |  index.html   | Chrome                    |  #logo                            | Pass       |
 |  index.html   | Chrome                    |  .logo                            | Pass       |
+|  index.html   | Chrome                    |  'sign-up-promotion '             | Fail       |
+|  index.html   | Chrome                    |  'sign-up-promotion '             | Pass       |
 
 
 
@@ -323,7 +325,7 @@ The following tests were undertaken using Google Chrome, Firefox, Microsoft Edge
 |  index.html | div.testimonies                 | Added second row of divs for the name of the user who submitted the testimonies. Did not pass the the responsiveness test when on small viewports, as the names collapsed into rows like the divs above. They need to stay beneath the testimony and not move. I've placed them in the same div and seperated with HR. They passed the test on the second attempt                         |
 |  index.html | .title                 |    Title font failed responsiveness test and did not change with viewport. My mistake was trying to set '%'. After some research on [CSS Tricks](https://css-tricks.com/viewport-sized-typography/) I found that the solution was to use viewport. Passed test on first attempt                     |
 |  index.html | #logo                 |    Logo failed responsiveness test, did not resize with viewport. Advised by colleage to try using the img-fluid class. Test passed. See #Credits                      |
-
+|  index.html | 'sign-up-promotion '                |    Sign-up-promotion section failed responsiveness test. On larger screens it veered to the left. I got an idea from [W3 Schools](https://www.w3schools.com/css/css_align.asp) to set a class decicated to alignment. Worked on second attempt                 |
 
 
 
@@ -378,6 +380,8 @@ Refer back to the User Stories under First Time Visitors, Returning Visotirs and
 
 
 ### Code Used
+
+
 
 ### Content
 

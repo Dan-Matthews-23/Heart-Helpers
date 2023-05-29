@@ -7,6 +7,16 @@ body
   background-color:#F8F9FA; 
 }
 
+h1
+{
+  font-size: 160%;
+}
+
+h3
+{
+  font-size: 100%;
+}
+
 #test 
 { 
   background-color: black; 
@@ -38,13 +48,41 @@ body
 
 #nav-bar 
 { 
+  line-height: 20px;
   border-color: black; 
   border:solid; 
-  padding-top:0; 
-  padding-right: 50px; 
+ 
+}
+
+.align-center
+{
+   
+  text-align: center;
+  padding: 0;
+  border: 2px black solid;
+  width: 100%;
+  margin: auto;
+
+}
+
+.nav-link
+{
+  
+  padding-top: 0; 
+  padding-right: 20px; 
   padding-bottom: 0; 
-  padding-left: 50px; 
-}  
+  padding-left: 20px;
+}
+
+#menu a:hover
+{
+  border-bottom: 1px solid #777777;
+}
+
+.this-page
+{
+  border-bottom: 1px solid #777777;
+}
 
 div 
 {  
