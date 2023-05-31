@@ -75,13 +75,17 @@ h3
 
 .responsive-background-section
 {
-  line-height: 150px;
-  padding: 10px 10px 10px 10px;
-  text-align: justify;
-  background-color: white;
+  line-height: 130px;
+ 
+  
+  background: url("/assets/images/speech-bubble-resize.png")no-repeat center center;
 }
 
+#inside-speech
+{
+padding: 50px 50px 50px 50px;
 
+}
 
 .rounded-circle-index
 {
@@ -121,7 +125,7 @@ div.testimonies
 
 @media screen and (min-width: 576px) 
  { 
-    div.testimonies 
+    div.responsive-text
       { 
 /*<!-----------------------THIS SECTION OF CODE WAS BASED ON CODE SNIPPET FROM https://stackoverflow.com/questions/40528290/how-to-implement-max-font-size----------------------->*/       
         font-size: calc(16px + 16 * ((100vw - 600px) / 600)); 
@@ -132,7 +136,7 @@ div.testimonies
 
  @media screen and (min-width: 1200px) 
   { 
-    div.testimonies 
+    div.responsive-text
         { 
           font-size: 20px; 
         } 
