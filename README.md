@@ -314,6 +314,7 @@ The following tests were undertaken using Google Chrome, Firefox, Microsoft Edge
 |  index.html   | Chrome                    |  .responsive-background-section   | Pass       |
 |  index.html   | Chrome                    |  .responsive-background-section   | Fail       |
 |  index.html   | Chrome                    |  .responsive-background-section   | Fail       |
+|  index.html   | Chrome                    |  .responsive-background-section   | Pass       |
 
 
 

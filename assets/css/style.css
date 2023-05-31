@@ -1,5 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
+
+
+<!-----------------------HEADER------------------------------------>
+header{
+  height: 150px;
+}
+
+.header-links{
+  text-align: center;
+
+}
+
+.header-links li{
+  display: inline;
+  border:solid black;
+  letter-spacing: 2px;
+}
+<!----------------------------------------------------------------->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 body
 { 
   font-family: 'Poppins', sans-serif; 
@@ -122,6 +171,45 @@ div.testimonies
 {  
   border:solid;  
 }
+
+
+
+
+<!-----------------------FOOTER------------------------------------>
+footer{
+  height: 150px;
+}
+
+.footer-links{
+  text-align: center;
+
+}
+
+.footer-links li{
+  display: inline;
+}
+
+.footer-links i{
+  font-size: 160%;
+  margin: auto;
+  padding: 10px 10px 10px 10px;
+  color: #777777;
+}
+<!----------------------------------------------------------------->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (min-width: 576px) 
  { 
