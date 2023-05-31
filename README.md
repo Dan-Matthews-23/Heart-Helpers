@@ -312,9 +312,11 @@ The following tests were undertaken using Google Chrome, Firefox, Microsoft Edge
 |  index.html   | Chrome                    |  'sign-up-promotion '             | Pass       |
 |  index.html   | Chrome                    |  .responsive-background-section   | Fail       |
 |  index.html   | Chrome                    |  .responsive-background-section   | Pass       |
-|  index.html   | Chrome                    |  .responsive-background-section   | Fail       |
-|  index.html   | Chrome                    |  .responsive-background-section   | Fail       |
-|  index.html   | Chrome                    |  .responsive-background-section   | Pass       |
+|  index.html               | Chrome                    |  .responsive-background-section   | Fail       |
+|  index.html               | Chrome                    |  .responsive-background-section   | Fail       |
+|  index.html               | Chrome                    |  .responsive-background-section   | Pass       |
+|  index.html / stype.css   | Chrome                    |  .header                          | Pass       |
+|  index.html / stype.css               | Chrome                    |  .footer                          | Pass       |
 
 
 
