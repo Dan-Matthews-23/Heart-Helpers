@@ -318,6 +318,8 @@ The following tests were undertaken using Google Chrome, Firefox, Microsoft Edge
 |  index.html / stype.css   | Chrome                    |  .header                          | Pass       |
 |  index.html / stype.css               | Chrome                    |  .footer                          | Pass       |
 |  index.html               | Chrome                    |  #logo-banner                      | Pass       |
+|  index.html / stype.css              | Chrome                    |  .sign-up-promotion                     | Fail       |
+|  index.html / stype.css              | Chrome                    |  .sign-up-promotion                     | Pass       |
 
 
 
@@ -337,6 +339,7 @@ The following tests were undertaken using Google Chrome, Firefox, Microsoft Edge
 |  index.html | .responsive-background-section              |    The responsinvess test failed. The background image did not change relative to the viewport as hoped. Instead I've created a new image that is a much smaller version that the original (shrunken in size)                 |
 |  index.html | .responsive-background-section              |    The responsinvess test failed. rounded-circle div does not resize relative to the viewport as the logo rounded-circle. Up to twenty tests later I still could not figure it out. As a temporary fix I will force the browser to not display the section on smaller viewports. I will note this in the Known Bugs and come back to it when I have more time.                  |
 |  index.html | .responsive-background-section              |    When trying to set a background image to the section with an alt of "speech mark" with the "img-fluid" class, the element failed the responsiveness test. I have ran dozens of tests with different versions of code and can't get it to work. This is something else I will try again when I have more time. In the meantime I have used a simple div with responsive text and no background image                  |
+|  index.html | 'sign-up-promotion '             |    The div was being pushed up at the top over the top of the header. I realised this was because of the 'relative' positioning of my header, so I've created a seperate class called 'content' to specify that it should start below the header by setting the height pixels. It worked after ninth test                 |
 
 
 

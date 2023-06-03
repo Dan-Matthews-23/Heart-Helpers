@@ -17,9 +17,50 @@ header{
   border:solid black;
   letter-spacing: 2px;
 }
+
+#logo 
+{   
+  border-color: black; 
+  border:solid; 
+  size: 10w; 
+}
+
+.logo 
+{ 
+   
+  position: relative; 
+  top:40px; 
+  right: 0; 
+  bottom: 0px; 
+  left: 20px; 
+}
+
+#menu a:hover
+{
+  border-bottom: 1px solid #777777;
+}
+
+.this-page
+{
+  border-bottom: 1px solid #777777;
+}
+
+.rounded-circle-index
+{
+  height: 200px;
+  width: 200px;
+}
+
+#nav-bar
+{
+  height: 120px;
+}
 /*<!----------------------------------------------------------------->*/
 
-
+.content
+{ 
+  margin-top: 290px;
+}
 
 
 
@@ -71,12 +112,7 @@ h3
   background-color: black; 
 }
 
-#logo 
-{   
-  border-color: black; 
-  border:solid; 
-  size: 10w; 
-}
+
 
 
 
@@ -85,25 +121,9 @@ max-width-container
   max-width: 100%;
 }
 
-.logo 
-{ 
-   
-  position: relative; 
-  top:40px; 
-  right: 0; 
-  bottom: 0px; 
-  left: 20px; 
-}
 
-#nav-bar 
-{ 
-  
-  border-color: black; 
-  border:solid;
-  padding-top: 200px;
 
- 
-}
+
 
 .align-center
 {
@@ -138,30 +158,11 @@ padding: 50px 50px 50px 50px;
 
 }
 
-.rounded-circle-index
-{
-  height: 200px;
-  width: 200px;
-}
 
-.nav-link
-{
-  
-  padding-top: 0; 
-  padding-right: 20px; 
-  padding-bottom: 0; 
-  padding-left: 20px;
-}
 
-#menu a:hover
-{
-  border-bottom: 1px solid #777777;
-}
 
-.this-page
-{
-  border-bottom: 1px solid #777777;
-}
+
+
 
 div 
 {  
@@ -250,7 +251,7 @@ footer{
 
 
     .title {
-      font-size: 5vw;
+      font-size: 10vw;
       padding-top: 50px;
       padding-right: 50px;
       padding-bottom: 50px;
