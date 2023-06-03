@@ -78,16 +78,16 @@ h3
   size: 10w; 
 }
 
-#logo-banner 
-{  
-  border-color: black; 
-  border:solid; 
+
+
+max-width-container
+{
+  max-width: 100%;
 }
 
 .logo 
 { 
-  border-color: black; 
-  border:solid; 
+   
   position: relative; 
   top:40px; 
   right: 0; 
@@ -97,9 +97,11 @@ h3
 
 #nav-bar 
 { 
-  line-height: 50px;
+  
   border-color: black; 
-  border:solid; 
+  border:solid;
+  padding-top: 200px;
+
  
 }
 
