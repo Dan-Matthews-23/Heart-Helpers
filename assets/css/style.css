@@ -3,6 +3,12 @@
 
 
 /*<!-----------------------HEADER------------------------------------>*/
+
+.header-colour
+{
+  background-color: #F5EBE6;
+}
+
 header{
   height: 150px;
 }
@@ -60,6 +66,7 @@ header{
 .content
 { 
   margin-top: 290px;
+  background-color: #F5EBE6;
   
 }
 
@@ -95,7 +102,7 @@ body
 { 
   font-family: 'Poppins', sans-serif; 
   font-size:16px; 
-  background-color:#F8F9FA; 
+  
 }
 
 h1
@@ -119,7 +126,7 @@ h3
 
 max-width-container
 {
-  max-width: 100%;
+  max-width: 1VW;
 }
 
 
@@ -150,14 +157,10 @@ max-width-container
   line-height: 130px;
  
   
-  background: url("/assets/images/speech-bubble-resize.png")no-repeat center center;
-}
-
-#inside-speech
-{
-padding: 50px 50px 50px 50px;
 
 }
+
+
 
 
 
@@ -174,7 +177,9 @@ div
 
 div.testimonies 
 {  
-  border:solid;  
+  border:solid;
+  background-color: #D0A78D;
+ 
 }
 
 
@@ -185,6 +190,7 @@ div.testimonies
 /*<!-----------------------FOOTER------------------------------------>*/
 footer{
   height: 150px;
+  background-color: #C57965;
 }
 
 .footer-links{
@@ -200,7 +206,7 @@ footer{
   font-size: 160%;
   margin: auto;
   padding: 10px 10px 10px 10px;
-  color: #777777;
+  color: #B12E2B;
 }
 /*<!------------------------------- ---------------------------------->*/
 
