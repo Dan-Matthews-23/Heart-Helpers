@@ -1,8 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
-
+/* NOTES
+padding-top.
+padding-right.
+padding-bottom.
+padding-left.
+*/
 
 /*<!-----------------------HEADER------------------------------------>*/
+
+
+
+
+
+.row-header
+{
+  text-align:top;
+  width: 50%;
+}
+.col-header-background
+{
+  text-align:top;
+  padding-bottom: 100px;
+  height: auto;
+  /*background-image: url("/assets/images/heart-helpers-background-image-for-header-resize.png");*/
+  
+  
+  
+}
+
+.col-header-logo
+{
+  text-align:top;
+  padding: 0px 0px 0px 0px;
+  height:auto;
+  /*background-image: url(/assets/images/);*/
+ 
+}
+
+
+
 
 .header-colour
 {

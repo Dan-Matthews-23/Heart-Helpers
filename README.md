@@ -396,6 +396,9 @@ Refer back to the User Stories under First Time Visitors, Returning Visotirs and
 ## Credits
 [The Office of National Statistics](https://style.ons.gov.uk/category/data-visualisation/using-colours/#accessibility-and-colours) for advice on colour palette. 
 
+Photo by Stas Knop: https://www.pexels.com/photo/red-vinyl-record-3552948/ - heart logo
+Photo by cottonbro studio: https://www.pexels.com/photo/close-up-photo-of-a-volunteer-id-6565756/ - background header - 
+
 
 ### Code Used
 
