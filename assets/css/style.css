@@ -9,9 +9,7 @@
   background-color: #F5EBE6;
 }
 
-header{
-  height: 150px;
-}
+
 
 .header-links{
   text-align: center;
@@ -57,15 +55,12 @@ header{
   width: 200px;
 }
 
-#nav-bar
-{
-  height: 120px;
-}
+
 /*<!----------------------------------------------------------------->*/
 
 .content
 { 
-  margin-top: 290px;
+  
   background-color: #F5EBE6;
   
 }

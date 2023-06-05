@@ -315,12 +315,13 @@ The following tests were undertaken using Google Chrome, Firefox, Microsoft Edge
 |  index.html               | Chrome                    |  .responsive-background-section   | Fail       |
 |  index.html               | Chrome                    |  .responsive-background-section   | Fail       |
 |  index.html               | Chrome                    |  .responsive-background-section   | Pass       |
-|  index.html / stype.css   | Chrome                    |  .header                          | Pass       |
-|  index.html / stype.css               | Chrome                    |  .footer                          | Pass       |
+|  index.html / style.css   | Chrome                    |  .header                          | Pass       |
+|  index.html / style.css               | Chrome                    |  .footer                          | Pass       |
 |  index.html               | Chrome                    |  #logo-banner                      | Pass       |
-|  index.html / stype.css              | Chrome                    |  .sign-up-promotion                     | Fail       |
-|  index.html / stype.css              | Chrome                    |  .sign-up-promotion                     | Pass       |
-|  index.html / stype.css              | Chrome                    | Unclear, possible .sign-up promotion and nav bar                    | Fail       |
+|  index.html / style.css              | Chrome                    |  .sign-up-promotion                     | Fail       |
+|  index.html / style.css              | Chrome                    |  .sign-up-promotion                     | Pass       |
+|  index.html / style.css              | Chrome                    | Unclear, possible .sign-up promotion and nav bar                    | Fail       |
+|  style.css              | Chrome                    | .header{}, #nav-bar{}, content{}                    | Pass       |
 
 
 
@@ -342,6 +343,8 @@ The following tests were undertaken using Google Chrome, Firefox, Microsoft Edge
 |  index.html | .responsive-background-section              |    When trying to set a background image to the section with an alt of "speech mark" with the "img-fluid" class, the element failed the responsiveness test. I have ran dozens of tests with different versions of code and can't get it to work. This is something else I will try again when I have more time. In the meantime I have used a simple div with responsive text and no background image                  |
 |  index.html | 'sign-up-promotion '             |    The div was being pushed up at the top over the top of the header. I realised this was because of the 'relative' positioning of my header, so I've created a seperate class called 'content' to specify that it should start below the header by setting the height pixels. It worked after ninth test                 |
 |  index.html | Unclear, possible .sign-up promotion and nav bar              |    The page passed responsive testing on smaller screens but on larger screens the nav bar seemed to be crushed beneath the sign-up promotion div. It's not clear why. I think it has something to do with the position: relative for the heading. Tests ongoing                 |
+|  style.css | .header{}, #nav-bar{}, content{}               |   After careful testing and configuration I realised that by setting the height in pixels of the three elements, it was causing the error above where the header section was crushed against the content and cauisng it to blend. I've removed the fixed heights of all three elements (bearing in mind that the .content height was only to correct a responsiveness error on the mobile view) and tested again, and it passed all resposiveness testing. I still don't fully understand why it happened. I will ask the community so I don't make the same mistake again                 |
+
 
 
 
