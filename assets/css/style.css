@@ -16,9 +16,10 @@ padding-left.
 .row-header-left
 {
   text-align:top;
-  width: 100%;
+  
   background-color: #B12E2B;
   padding-bottom: 20px;
+  border-radius: 0% 0% 70% 00%;
  
 }
 
@@ -26,15 +27,11 @@ padding-left.
 .col-header-background-left
 {
   text-align:top;
-  height: 150px;
-  
-  
-  
   background-image: url("/assets/images/heart-helpers-new-header-background-dark-heart-resize.png");
   background-repeat: no-repeat;
-  background-size: 100%;
-
-  border-radius: 0% 0% 60% 00%;
+  border-radius: 0% 0% 80% 00%;
+  height: 300px;
+  width: 650px;
  
 }
 
@@ -47,7 +44,7 @@ padding-left.
  
 }
 
-.row-header-right
+/*.row-header-right
 {
   text-align:top;
   width: 100%;
@@ -71,7 +68,7 @@ padding-left.
  
 }
 
-
+*/
 
 
 .header-colour
