@@ -323,6 +323,9 @@ The following tests were undertaken using Google Chrome, Firefox, Microsoft Edge
 |  index.html / style.css              | Chrome                    | Unclear, possible .sign-up promotion and nav bar                    | Fail       |
 |  style.css              | Chrome                    | .header{}, #nav-bar{}, content{}                    | Pass       |
 |  index.html / style.css              | Chrome                    | -header-                    | Pass       |
+|  index.html / style.css              | Chrome                    | -header-                    | Fail       |
+|  index.html / style.css              | Chrome                    | -header-                    | Fail       |
+|  index.html / style.css              | Chrome                    | -header-                    | Pass       |
 
 
 
@@ -346,6 +349,9 @@ The following tests were undertaken using Google Chrome, Firefox, Microsoft Edge
 |  index.html | Unclear, possible .sign-up promotion and nav bar              |    The page passed responsive testing on smaller screens but on larger screens the nav bar seemed to be crushed beneath the sign-up promotion div. It's not clear why. I think it has something to do with the position: relative for the heading. Tests ongoing                 |
 |  style.css | .header{}, #nav-bar{}, content{}               |   After careful testing and configuration I realised that by setting the height in pixels of the three elements, it was causing the error above where the header section was crushed against the content and cauisng it to blend. I've removed the fixed heights of all three elements (bearing in mind that the .content height was only to correct a responsiveness error on the mobile view) and tested again, and it passed all resposiveness testing. I still don't fully understand why it happened. I will ask the community so I don't make the same mistake again                 |
 |  index.html / style.css | -header-              |   Tested new layout of -header- for layout and responsiveness. Passed all tests                 |
+|  index.html / style.css | -header-              |   Tested new layout of -header- for layout and responsiveness, in particular the new background image and rounded corners. On larger screens the tests failed responsiveness. Could not rectify               |
+|  index.html / style.css | -header-              |   Tested new layout of -header- for layout and responsiveness, in particular the new background image and rounded corners. On larger screens the tests failed responsiveness. Spent a long time researching different ways of making the image responsive between the -img- / css-background-image properties, but could not make it responsive on larger screens. Tests failed               |
+|  index.html / style.css | -header-              |   Set the CSS background-image properties to background-size-cover after some research on W3 schools. Header then passed first stage of responsive testing. Next stage will be new row with mirror-version of rounded DIV.                |
 
 
 

@@ -10,7 +10,13 @@ padding-left.
 /*<!-----------------------HEADER------------------------------------>*/
 
 
-
+/*#banner-background
+{
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  
+}*/
 
 
 .row-header-left
@@ -26,12 +32,15 @@ padding-left.
 
 .col-header-background-left
 {
-  text-align:top;
+  
   background-image: url("/assets/images/heart-helpers-new-header-background-dark-heart-resize.png");
-  background-repeat: no-repeat;
+  
   border-radius: 0% 0% 80% 00%;
   height: 300px;
   width: 650px;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
  
 }
 
