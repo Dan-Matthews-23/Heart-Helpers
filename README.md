@@ -326,6 +326,7 @@ The following tests were undertaken using Google Chrome, Firefox, Microsoft Edge
 |  index.html / style.css              | Chrome                    | -header-                    | Fail       |
 |  index.html / style.css              | Chrome                    | -header-                    | Fail       |
 |  index.html / style.css              | Chrome                    | -header-                    | Pass       |
+|  index.html / style.css              | Chrome                    | -header-                    | Pass       |
 
 
 
@@ -352,6 +353,7 @@ The following tests were undertaken using Google Chrome, Firefox, Microsoft Edge
 |  index.html / style.css | -header-              |   Tested new layout of -header- for layout and responsiveness, in particular the new background image and rounded corners. On larger screens the tests failed responsiveness. Could not rectify               |
 |  index.html / style.css | -header-              |   Tested new layout of -header- for layout and responsiveness, in particular the new background image and rounded corners. On larger screens the tests failed responsiveness. Spent a long time researching different ways of making the image responsive between the -img- / css-background-image properties, but could not make it responsive on larger screens. Tests failed               |
 |  index.html / style.css | -header-              |   Set the CSS background-image properties to background-size-cover after some research on W3 schools. Header then passed first stage of responsive testing. Next stage will be new row with mirror-version of rounded DIV.                |
+|  index.html / style.css | -header-              |   New DIV created in header that has a breakpoint on large and smaller screens. Passed all resposinveness testing                |
 
 
 
