@@ -138,9 +138,9 @@ Wireframes were created for desktop, tablet and mobile (1200px, 758px, 476px res
 
 ### Colour
 
-![HEART HELPERS COLOUR PALETTE](/assets/images/heart-helpers.png)
+![HEART HELPERS COLOUR PALETTE](/assets/images/Final-Colour-Palette.png)
 
-[Also available as Coolors palette](https://coolors.co/f5ebe6-c57965-9c5949-b12e2b-d0a78d)
+[Also available as Coolors palette](https://coolors.co/2b0201-911306-240101-5d0d04-cf4214)
 
 
 I have chosen the above colour palette for the Heart Helpers website for several reasons. First, I wanted to use a palette that was easy for the users to see. I did research on what colours would be the most accessible to use. The Office for National Statistics suggest three helpful rules to consider when creating accessible websites:
@@ -329,6 +329,8 @@ The following tests were undertaken using Google Chrome, Firefox, Microsoft Edge
 |  index.html / style.css              | Chrome                    | -header-                    | Pass       |
 |  index.html / style.css              | Chrome                    | -header-                    | Pass       |
 |  index.html / style.css              | Chrome                    | -header-                    | Fail       |
+|  index.html / style.css              | Chrome                    | .row-header-right                   | Fail       |
+|  index.html / style.css              | Chrome                    | .row-header-right                   | Pass       |
 
 
 
@@ -358,6 +360,8 @@ The following tests were undertaken using Google Chrome, Firefox, Microsoft Edge
 |  index.html / style.css | -header-              |   New DIV created in header that has a breakpoint on large and smaller screens. Passed all resposinveness testing                |
 |  index.html / style.css | -header-              |   New content added to header section and tested for responsiveness. Passed all tests                |
 |  index.html / style.css | -header-              |   Added new button to header section to donate now. Failed interactivity tests                |
+|  index.html / style.css | .row-header-right              |   Tested element for responsiveness. Failed tests on smaller devices. The block of text was not wrapping and was instead being lost in the curve of the DIV. Need to find a way of wrapping it more                |
+|  index.html / style.css | .row-header-right              |   Changed the curve of the DIV from 100% to 95%. Passed all responsiveness tests                |
 
 
 

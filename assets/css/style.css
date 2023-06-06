@@ -16,19 +16,21 @@ padding-bottom.
 padding-left.
 */
 
+/*
+Colour Palette
+#2b0201 - BLACK BEAN (RED/BROWN)
+#911306 - PANN RED (DARK RED)
+#240101 - BLACK BEAN (BLACK/BROWN)
+#5d0d04 - BLOOD RED (DARKER RED THAN PENN RED)
+#cf4214 - SINOPIA - ORANGE
+
+*/
+
+
+
 /*<!-----------------------HEADER------------------------------------>*/
 
 
-/*#banner-background
-{
-  max-width: 100%;
-  max-height: 100%;
-  display: block;
-  
-}*/
-
-.xxl-padding
-{ padding: 60px;}
 
 #header-padding
 { padding: 30px 10px 60px 30px;}
@@ -47,23 +49,12 @@ padding-left.
   color: #fafafa; 
   letter-spacing: 1px; 
   font-display: block;
-  font-size: adjust;
+  font-size: 1em;
   
 }
-
-
-
-
 
 .row-header-left
-{
-  
- /* border:solid black;*/
-  background-color: #B12E2B;
-  
-  /*border-radius: 0% 0% 70% 00%;*/
- 
-}
+{ background-color: #911306; }
 
 
 .col-header-background-left
@@ -72,7 +63,7 @@ padding-left.
   background-image: url("/assets/images/heart-helpers-new-header-background-dark-heart-resize.png");
   
   border-radius: 0% 0% 100% 00%;
-  height: 300px;
+  height: 400px;
   width: 100%;
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
@@ -91,11 +82,11 @@ padding-left.
 
 .row-header-right
 {
-  text-align:top;
+  
   /*border:solid black;*/
-  background-color: #B12E2B;
+  background-color: #911306;
   padding-bottom: 0;
-  border-radius: 0% 0% 100% 00%;
+  border-radius: 0% 0% 95% 00%;
  
 }
 
@@ -106,7 +97,7 @@ padding-left.
   /*background-image: url("/assets/images/heart-helpers-new-header-background-dark-heart-resize.png");*/
   /*border:solid black;*/
   border-radius: 0% 0% 0% 0%;
-  height: 300px;
+  height: 400px;
   width: 650px;
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
@@ -128,7 +119,8 @@ padding-left.
 
 
 
-
+.xxl-padding
+{ padding: 60px;}
 
 
 
