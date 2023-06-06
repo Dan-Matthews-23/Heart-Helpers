@@ -1,4 +1,13 @@
+/*
+@import url(/assets/css/header.css);
+@import url(/assets/css/footer.css);
+*/
+
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+
 
 /* NOTES
 padding-top.
@@ -18,11 +27,38 @@ padding-left.
   
 }*/
 
+.xxl-padding
+{ padding: 60px;}
+
+#header-padding
+{ padding: 30px 10px 60px 30px;}
+
+.header-title-font
+{ 
+  color: #fafafa; 
+  letter-spacing: 2px; 
+  font-display: block;
+  font-size: adjust;
+  font-weight: bold; 
+}
+
+.header-text-font
+{ 
+  color: #fafafa; 
+  letter-spacing: 1px; 
+  font-display: block;
+  font-size: adjust;
+  
+}
+
+
+
+
 
 .row-header-left
 {
   
-  
+ /* border:solid black;*/
   background-color: #B12E2B;
   
   /*border-radius: 0% 0% 70% 00%;*/
@@ -32,10 +68,10 @@ padding-left.
 
 .col-header-background-left
 {
-  
+  /*border:solid black;*/
   background-image: url("/assets/images/heart-helpers-new-header-background-dark-heart-resize.png");
   
-  border-radius: 0% 0% 80% 00%;
+  border-radius: 0% 0% 100% 00%;
   height: 300px;
   width: 100%;
   background-position: center; /* Center the image */
@@ -48,7 +84,7 @@ padding-left.
 {
   text-align:top;
   padding: 0px 0px 0px 0px;
- 
+  /*border:solid black;*/
   /*background-image: url(/assets/images/);*/
  
 }
@@ -56,10 +92,10 @@ padding-left.
 .row-header-right
 {
   text-align:top;
-  
+  /*border:solid black;*/
   background-color: #B12E2B;
   padding-bottom: 0;
-  /*border-radius: 0% 0% 70% 00%;*/
+  border-radius: 0% 0% 100% 00%;
  
 }
 
@@ -68,8 +104,8 @@ padding-left.
 {
   
   /*background-image: url("/assets/images/heart-helpers-new-header-background-dark-heart-resize.png");*/
-  
-  border-radius: 0% 0% 80% 00%;
+  /*border:solid black;*/
+  border-radius: 0% 0% 0% 0%;
   height: 300px;
   width: 650px;
   background-position: center; /* Center the image */
@@ -82,7 +118,7 @@ padding-left.
 {
   text-align:top;
   padding: 0px 0px 0px 0px;
- 
+  border:solid black;
   /*background-image: url(/assets/images/);*/
  
 }
@@ -269,12 +305,7 @@ max-width-container
 
 
 
-div 
-{  
-  
-  
- 
-}
+
 
 div.testimonies 
 {  

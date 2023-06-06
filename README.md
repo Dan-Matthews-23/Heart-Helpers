@@ -327,6 +327,8 @@ The following tests were undertaken using Google Chrome, Firefox, Microsoft Edge
 |  index.html / style.css              | Chrome                    | -header-                    | Fail       |
 |  index.html / style.css              | Chrome                    | -header-                    | Pass       |
 |  index.html / style.css              | Chrome                    | -header-                    | Pass       |
+|  index.html / style.css              | Chrome                    | -header-                    | Pass       |
+|  index.html / style.css              | Chrome                    | -header-                    | Fail       |
 
 
 
@@ -354,7 +356,8 @@ The following tests were undertaken using Google Chrome, Firefox, Microsoft Edge
 |  index.html / style.css | -header-              |   Tested new layout of -header- for layout and responsiveness, in particular the new background image and rounded corners. On larger screens the tests failed responsiveness. Spent a long time researching different ways of making the image responsive between the -img- / css-background-image properties, but could not make it responsive on larger screens. Tests failed               |
 |  index.html / style.css | -header-              |   Set the CSS background-image properties to background-size-cover after some research on W3 schools. Header then passed first stage of responsive testing. Next stage will be new row with mirror-version of rounded DIV.                |
 |  index.html / style.css | -header-              |   New DIV created in header that has a breakpoint on large and smaller screens. Passed all resposinveness testing                |
-
+|  index.html / style.css | -header-              |   New content added to header section and tested for responsiveness. Passed all tests                |
+|  index.html / style.css | -header-              |   Added new button to header section to donate now. Failed interactivity tests                |
 
 
 
