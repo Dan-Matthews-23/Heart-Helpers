@@ -21,11 +21,11 @@ padding-left.
 
 .row-header-left
 {
-  text-align:top;
+  
   
   background-color: #B12E2B;
-  padding-bottom: 20px;
-  border-radius: 0% 0% 70% 00%;
+  
+  /*border-radius: 0% 0% 70% 00%;*/
  
 }
 
@@ -37,7 +37,7 @@ padding-left.
   
   border-radius: 0% 0% 80% 00%;
   height: 300px;
-  width: 650px;
+  width: 100%;
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
@@ -53,31 +53,70 @@ padding-left.
  
 }
 
-/*.row-header-right
+.row-header-right
 {
   text-align:top;
-  width: 100%;
+  
   background-color: #B12E2B;
-  padding-top: 20px;
+  padding-bottom: 0;
+  /*border-radius: 0% 0% 70% 00%;*/
  
 }
 
 
 .col-header-background-right
 {
-  text-align:top;
   
-  border-radius: 90% 0% 0% 00%;
- }
+  /*background-image: url("/assets/images/heart-helpers-new-header-background-dark-heart-resize.png");*/
+  
+  border-radius: 0% 0% 80% 00%;
+  height: 300px;
+  width: 650px;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+ 
+}
 
 .col-header-logo-right
 {
   text-align:top;
   padding: 0px 0px 0px 0px;
  
+  /*background-image: url(/assets/images/);*/
+ 
 }
 
-*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .header-colour
@@ -206,7 +245,7 @@ max-width-container
    
   text-align: center;
   padding: 0;
-  border: 2px black solid;
+ 
   width: 100%;
   margin: auto;
 
@@ -232,8 +271,8 @@ max-width-container
 
 div 
 {  
-  border:solid; 
-  padding: 10px;
+  
+  
  
 }
 
