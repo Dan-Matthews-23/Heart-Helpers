@@ -334,6 +334,7 @@ The following tests were undertaken using Google Chrome, Firefox, Microsoft Edge
 |  index.html / style.css              | Chrome                    | .row-header-right                   | Fail       |
 |  index.html / style.css              | Chrome                    | .row-header-right                   | Pass       |
 |  index.html / style.css              | Chrome                    | #nav-bar                   | Pass       |
+|  index.html / style.css              | Chrome                    | .user-choice                   | Fail       |
 
 
 
@@ -368,6 +369,8 @@ The following tests were undertaken using Google Chrome, Firefox, Microsoft Edge
 |  index.html / style.css | .row-header-right              |   On larger screens the div containing the header text was crushing itself together. Respinsiveness test failed                 |
 |  index.html / style.css | .row-header-right              |   The parent of the nested DIV that contained the header test was set to col-6 on larger screens. I have removed all bootstrap from that line. Test passed responsiveness tests                 |
 |  index.html / style.css | #nav-bar             |   Tested links on nav-bar to make sure they worked. Passed all tests                 |
+|  index.html / style.css | .user-choice             |   The DIVs were being pushed beneath one another for no apparent reason. Attempts to correct failed               |
+|  index.html / style.css | .user-choice             |   A class called 'align-center' was causing the error above. Removed class, passed tests               |
 
 
 

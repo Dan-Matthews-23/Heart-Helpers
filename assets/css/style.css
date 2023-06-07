@@ -27,6 +27,13 @@ Colour Palette
 */
 
 
+.with-borders
+{
+  border-style: solid;
+  border-color: black;
+}
+
+
 
 /*<!-----------------------HEADER------------------------------------>*/
 
@@ -119,10 +126,93 @@ Colour Palette
  
 }
 
+/*-------------------END OF HEADER SECTION----------------------------------------------------------------------------------*/
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------START OF FIRST SECTION--------------------------------------------------------------------------------*/
+
+.user-choice
+{
+  padding-top: 64px;
+  padding-right: 0;
+  padding-bottom: 32px;
+  padding-left: 0;
+  
+}
+
+.user-choice-row-title
+{
+ width: 50%;
+  text-align: center;
+  margin:auto;
+  padding-top: 10px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  
+  
+ }
+
+ .user-choice-row
+{
+  width: auto;
+  text-align: center;
+  margin:auto;
+  padding-top: 10px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------END OF FIRST SECTION--------------------------------------------------------------------------------*/
 
 
 
