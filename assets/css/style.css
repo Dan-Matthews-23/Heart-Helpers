@@ -211,7 +211,11 @@ Colour Palette
  
 /*-----------END OF CODE SNIPPET FROM SCALER.COM-------------------------------------------------------------------------------------*/
 
-
+.user-choice-links
+{
+  color: inherit;
+  text-decoration: none;
+}
 
 
 
