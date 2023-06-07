@@ -331,6 +331,8 @@ The following tests were undertaken using Google Chrome, Firefox, Microsoft Edge
 |  index.html / style.css              | Chrome                    | -header-                    | Fail       |
 |  index.html / style.css              | Chrome                    | .row-header-right                   | Fail       |
 |  index.html / style.css              | Chrome                    | .row-header-right                   | Pass       |
+|  index.html / style.css              | Chrome                    | .row-header-right                   | Fail       |
+|  index.html / style.css              | Chrome                    | .row-header-right                   | Pass       |
 
 
 
@@ -362,6 +364,8 @@ The following tests were undertaken using Google Chrome, Firefox, Microsoft Edge
 |  index.html / style.css | -header-              |   Added new button to header section to donate now. Failed interactivity tests                |
 |  index.html / style.css | .row-header-right              |   Tested element for responsiveness. Failed tests on smaller devices. The block of text was not wrapping and was instead being lost in the curve of the DIV. Need to find a way of wrapping it more                |
 |  index.html / style.css | .row-header-right              |   Changed the curve of the DIV from 100% to 95%. Passed all responsiveness tests                |
+|  index.html / style.css | .row-header-right              |   On larger screens the div containing the header text was crushing itself together. Respinsiveness test failed                 |
+|  index.html / style.css | .row-header-right              |   The parent of the nested DIV that contained the header test was set to col-6 on larger screens. I have removed all bootstrap from that line. Test passed responsiveness tests                 |
 
 
 
