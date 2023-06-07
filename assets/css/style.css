@@ -33,7 +33,12 @@ Colour Palette
 
 
 #header-padding
-{ padding: 30px 10px 60px 30px;}
+{ padding-top: 100px;
+  padding-right: 50px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+}
+  
 
 .header-title-font
 { 
@@ -95,10 +100,10 @@ Colour Palette
 {
   
   /*background-image: url("/assets/images/heart-helpers-new-header-background-dark-heart-resize.png");*/
-  /*border:solid black;*/
+ /*border:solid black;*/
   border-radius: 0% 0% 0% 0%;
   height: 400px;
-  width: 650px;
+  width: 100;
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
@@ -109,7 +114,7 @@ Colour Palette
 {
   text-align:top;
   padding: 0px 0px 0px 0px;
-  border:solid black;
+  /*border:solid black;*/
   /*background-image: url(/assets/images/);*/
  
 }
@@ -147,59 +152,45 @@ Colour Palette
 
 
 
-.header-colour
-{
-  background-color: #F5EBE6;
-}
-
-
-
-.header-links{
-  text-align: center;
-
-}
+/* This section of code is for the navigation bar that is used across all pages ------------------------------------------------------------------------*/
 
 .header-links li{
   display: inline;
-  border:solid black;
+  color: black;
   letter-spacing: 2px;
+  background-color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 0px;
+  padding-right: 0px;
+  
 }
 
-#logo 
-{   
-  border-color: black; 
-  border:solid; 
-  size: 10w; 
+#nav-bar a {
+  color: inherit;
+  text-decoration: none;
+  
 }
 
-.logo 
-{ 
-   
-  position: relative; 
-  top:40px; 
-  right: 0; 
-  bottom: 0px; 
-  left: 20px; 
-}
-
-#menu a:hover
-{
+#nav-bar a:hover{
   border-bottom: 1px solid #777777;
 }
 
-.this-page
-{
+.this-page{
   border-bottom: 1px solid #777777;
 }
 
-.rounded-circle-index
-{
-  height: 200px;
-  width: 200px;
-}
+/* End of code for navigation bar-----------------------------------------------------------------------------------------------------------------------*/
 
 
-/*<!----------------------------------------------------------------->*/
+
+
+
+
+
+
+
+
 
 .content
 { 
