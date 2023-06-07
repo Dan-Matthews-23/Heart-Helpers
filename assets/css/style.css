@@ -124,18 +124,28 @@ Colour Palette
 
 
 
+
+
+.xxsm-padding
+{ padding: 1px;}
+
+.xsm-padding
+{ padding: 2px;}
+
+.sm-padding
+{ padding: 4px;}
+
+.md-padding
+{ padding: 8px;}
+
+.lg-padding
+{ padding: 16px;}
+
+.xlg-padding
+{ padding: 32px;}
+
 .xxl-padding
-{ padding: 60px;}
-
-
-
-
-
-
-
-
-
-
+{ padding: 64px;}
 
 
 
@@ -159,11 +169,25 @@ Colour Palette
   color: black;
   letter-spacing: 2px;
   background-color: white;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 0px;
-  padding-right: 0px;
+  padding: 10px 10px 10px 10px;
   
+  
+}
+
+.nav-left-edge
+{
+  border-top-left-radius: 30px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 0px;
+}
+
+.nav-right-edge
+{
+  border-top-left-radius: 0px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 30px;
 }
 
 #nav-bar a {
