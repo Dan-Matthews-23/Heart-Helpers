@@ -335,6 +335,7 @@ The following tests were undertaken using Google Chrome, Firefox, Microsoft Edge
 |  index.html / style.css              | Chrome                    | .row-header-right                   | Pass       |
 |  index.html / style.css              | Chrome                    | #nav-bar                   | Pass       |
 |  index.html / style.css              | Chrome                    | .user-choice                   | Fail       |
+|  index.html / style.css              | Chrome                    | .user-choice-icons                   | Pass       |
 
 
 
@@ -371,6 +372,7 @@ The following tests were undertaken using Google Chrome, Firefox, Microsoft Edge
 |  index.html / style.css | #nav-bar             |   Tested links on nav-bar to make sure they worked. Passed all tests                 |
 |  index.html / style.css | .user-choice             |   The DIVs were being pushed beneath one another for no apparent reason. Attempts to correct failed               |
 |  index.html / style.css | .user-choice             |   A class called 'align-center' was causing the error above. Removed class, passed tests               |
+|  index.html / style.css | .user-choice-icons             |   AAfter some research and a section of code I wrote that was based on a snippet I found from Scaler.com (see Acknowledgements)  I tested the new icons for scalability and responsiveness. Passed all tests              |
 
 
 
@@ -432,6 +434,22 @@ Photo by Hassan OUAJBIR: https://www.pexels.com/photo/woman-sitting-while-showin
 Photo by Allec Gomes: https://www.pexels.com/photo/neon-heart-shining-in-red-9762615/
 
 Photo by Ugur Tandogan: https://www.pexels.com/photo/heart-drawn-on-glass-of-wet-window-7557532/
+
+
+
+shop
+<div> Icons made by <a href="https://www.flaticon.com/authors/nikita-golubev" title="Nikita Golubev"> Nikita Golubev </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a></div>
+
+next event
+<div> Icons made by <a href="https://www.flaticon.com/authors/ifanicon" title="Ifanicon"> Ifanicon </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a></div>
+
+pre-loved
+<div> Icons made by <a href="https://www.flaticon.com/authors/darius-dan" title="Darius Dan"> Darius Dan </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a></div>
+
+fact
+<div> Icons made by <a href="https://www.flaticon.com/authors/awicon" title="Awicon"> Awicon </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a></div>
+
+https://www.scaler.com/topics/css-line-break/
 
 
 ### Code Used

@@ -178,7 +178,7 @@ Colour Palette
 
 .user-choice-row-title
 {
- width: 50%;
+  width: auto;
   text-align: center;
   margin:auto;
   padding-top: 10px;
@@ -193,16 +193,23 @@ Colour Palette
 {
   width: auto;
   text-align: center;
+  
   margin:auto;
   padding-top: 10px;
   padding-right: 5px;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
   padding-left: 5px;
+  height:100px;
  }
 
 
-
-
+ /*----------THIS SECTION OF CODE WAS BASED ON A SNIPPET OF CODE I GOT FROM SCALER.COM (FULL LINK: https://www.scaler.com/topics/css-line-break/)------------*/
+ #next-week::after { content: "\a"; white-space: pre; }
+ #nearest-branch::after { content: "\a"; white-space: pre; }
+ #donate-items::after { content: "\a"; white-space: pre; }
+ #know-facts::after { content: "\a"; white-space: pre; }
+ 
+/*-----------END OF CODE SNIPPET FROM SCALER.COM-------------------------------------------------------------------------------------*/
 
 
 
