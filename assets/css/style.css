@@ -36,6 +36,55 @@ Colour Palette
 
 
 /*<!-----------------------HEADER------------------------------------>*/
+
+/* This section of code is for the navigation bar that is used across all pages ------------------------------------------------------------------------*/
+
+.header-links li{
+  display: inline;
+  color: black;
+  letter-spacing: 2px;
+  background-color: white;
+  padding: 10px 10px 10px 10px;
+  
+  
+}
+
+.nav-left-edge
+{
+  border-top-left-radius: 30px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 0px;
+}
+
+.nav-right-edge
+{
+  border-top-left-radius: 0px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 30px;
+}
+
+#nav-bar a {
+  color: inherit;
+  text-decoration: none;
+  
+}
+
+#nav-bar a:hover{
+  border-bottom: 1px solid #777777;
+}
+
+.this-page{
+  border-bottom: 1px solid #777777;
+}
+
+/* End of code for navigation bar-----------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
 #nav-container
 {
   overflow: hidden;
@@ -50,7 +99,7 @@ Colour Palette
 }
   
 
-.header-title-font
+.header-title-font, .footer-font
 { 
   color: #fafafa; 
   letter-spacing: 2px; 
@@ -197,21 +246,24 @@ Colour Palette
 
 /*--------------------END OF USER CHOICE SECTION--------------------------------------------------------------------------------*/
 
+
+
 /*--------------------START OF SUMMER SOLSTICE SECTION--------------------------------------------------------------------------------*/
 
 
-
 .row-summer-solstice-left
-{ background-color: #cf4214 }
+{ background-color: #911306; 
+  
+}
 
 
 .col-summer-solstice-background-left
 {
-  /*border:solid black;*/
-  background-image: url("/assets/images/Mary-resize-three.png");
-  background-color: #cf4214;
-  border-radius: 0% 0% 80% 00%;
-  height: 800px;
+  /*border:solid black;
+  background-image: url("/assets/images/Mary-resize-three.png");*/
+  background-color: white;
+  border-radius: 0% 0% 80% 0%;
+  height: 400px;
   width: 100%;
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
@@ -232,9 +284,10 @@ Colour Palette
 {
   
   /*border:solid black;*/
-  background-color:#cf4214;
+  background-color:#911306;
   
-  border-radius: 0% 0% 80% 00%;
+  border-radius: 0% 0% 80% 0%;
+ 
  
 }
 
@@ -244,8 +297,8 @@ Colour Palette
   
   /*background-image: url("/assets/images/Mary.jpg");*/
  /*border:solid black;*/
-  border-radius: 0% 0% 0% 0%;
-  height: 800px;
+  /*border-radius: 0% 0% 0% 0%;*/
+  height: 400px;
   width: 100;
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
@@ -272,7 +325,7 @@ Colour Palette
   text-align: center;
 }
 
-.summer-solstice-body
+.summer-solstice
 { 
   color: #fafafa; 
   letter-spacing: 2px; 
@@ -281,8 +334,104 @@ Colour Palette
   text-align: center;
 }
 
-/*--------------------END OF SECOND SECTION--------------------------------------------------------------------------------*/
 
+
+
+
+
+
+
+
+
+/*--------------------END OF SUMMER SOLSTICE SECTION--------------------------------------------------------------------------------*/
+
+
+/*--------------------START OF MARY SECTION--------------------------------------------------------------------------------*/
+
+
+
+.row-mary-left
+{ background-color: #cf4214 }
+
+
+.col-mary-background-left
+{
+  /*border:solid black;*/
+  background-image: url("/assets/images/Mary-resize-three.png");
+  background-color: #cf4214;
+  border-radius: 0% 0% 80% 00%;
+  height: 800px;
+  width: 100%;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+ 
+}
+
+.col-mary-logo-left
+{
+  text-align:top;
+ 
+  /*border:solid black;*/
+  /*background-image: url(/assets/images/);*/
+ 
+}
+
+.row-mary-right
+{
+  
+  /*border:solid black;*/
+  background-color:#cf4214;
+  
+  border-radius: 0% 0% 80% 00%;
+ 
+}
+
+
+.col-mary-background-right
+{
+  
+  /*background-image: url("/assets/images/Mary.jpg");*/
+ /*border:solid black;*/
+  border-radius: 0% 0% 0% 0%;
+  height: 800px;
+  width: 100;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+ 
+}
+
+.col-mary-logo-right
+{
+  text-align:top;
+  padding: 0px 0px 0px 0px;
+  /*border:solid black;*/
+  /*background-image: url(/assets/images/);*/
+ 
+}
+
+.header-mary
+{ 
+  color: #fafafa; 
+  letter-spacing: 2px; 
+  font-display: block;
+  font-size: adjust;
+  font-weight: bold;
+  text-align: center;
+}
+
+.mary-body, .acknowledgements
+{ 
+  color: #fafafa; 
+  letter-spacing: 2px; 
+  font-display: block;
+  font-size: adjust;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+/*--------------------END OF MARY SECTION--------------------------------------------------------------------------------*/
 
 
 
@@ -367,49 +516,6 @@ Colour Palette
 
 
 
-/* This section of code is for the navigation bar that is used across all pages ------------------------------------------------------------------------*/
-
-.header-links li{
-  display: inline;
-  color: black;
-  letter-spacing: 2px;
-  background-color: white;
-  padding: 10px 10px 10px 10px;
-  
-  
-}
-
-.nav-left-edge
-{
-  border-top-left-radius: 30px;
-  border-top-right-radius: 0px;
-  border-bottom-left-radius: 30px;
-  border-bottom-right-radius: 0px;
-}
-
-.nav-right-edge
-{
-  border-top-left-radius: 0px;
-  border-top-right-radius: 30px;
-  border-bottom-left-radius: 0px;
-  border-bottom-right-radius: 30px;
-}
-
-#nav-bar a {
-  color: inherit;
-  text-decoration: none;
-  
-}
-
-#nav-bar a:hover{
-  border-bottom: 1px solid #777777;
-}
-
-.this-page{
-  border-bottom: 1px solid #777777;
-}
-
-/* End of code for navigation bar-----------------------------------------------------------------------------------------------------------------------*/
 
 
 
@@ -516,12 +622,7 @@ max-width-container
 
 
 
-div.testimonies 
-{  
-  border:solid;
-  background-color: #D0A78D;
- 
-}
+
 
 
 
@@ -529,25 +630,28 @@ div.testimonies
 
 
 /*<!-----------------------FOOTER------------------------------------>*/
-footer{
-  height: 150px;
-  background-color: #C57965;
+.footer-style{
+  
+  background-color: #911306;
+  border-radius: 80% 0% 0% 0%;
+  height: 400px;
+  padding-top: 50px;
+
 }
 
-.footer-links{
-  text-align: center;
 
-}
 
 .footer-links li{
   display: inline;
+  
+  
 }
 
 .footer-links i{
   font-size: 160%;
   margin: auto;
-  padding: 10px 10px 10px 10px;
-  color: #B12E2B;
+  padding: 30px 30px 30px 30px;
+  color: white;
 }
 /*<!------------------------------- ---------------------------------->*/
 
