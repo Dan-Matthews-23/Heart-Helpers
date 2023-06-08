@@ -36,12 +36,15 @@ Colour Palette
 
 
 /*<!-----------------------HEADER------------------------------------>*/
-
+#nav-container
+{
+  overflow: hidden;
+}
 
 
 #header-padding
 { padding-top: 100px;
-  padding-right: 50px;
+  padding-right: 100px;
   padding-bottom: 10px;
   padding-left: 30px;
 }
@@ -128,43 +131,6 @@ Colour Palette
 
 /*-------------------END OF HEADER SECTION----------------------------------------------------------------------------------*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*--------------------START OF FIRST SECTION--------------------------------------------------------------------------------*/
 
 .user-choice, .next-event
@@ -174,11 +140,13 @@ Colour Palette
   padding-bottom: 128px;
   padding-left: 0;
   
+  
 }
 
 .user-choice-row-title
 {
-  width: auto;
+  width: 100%;
+  height: 100%;
   text-align: center;
   margin:auto;
   padding-top: 10px;
@@ -191,7 +159,8 @@ Colour Palette
 
  .user-choice-row
 {
-  width: auto;
+  overflow: hidden;
+  
   text-align: center;
   
   margin:auto;
@@ -199,7 +168,7 @@ Colour Palette
   padding-right: 5px;
   padding-bottom: 30px;
   padding-left: 5px;
-  height:100px;
+  
  }
 
 
@@ -219,19 +188,128 @@ Colour Palette
 
 .user-choice-icons
 {
+  height: 100%;
   padding-top: 100px;
   padding-left: 0px;
   padding-bottom: 20px;
   padding-right: 0px;
 }
 
-
-
-
-
-
-
 /*--------------------END OF FIRST SECTION--------------------------------------------------------------------------------*/
+
+/*--------------------START OF SECOND SECTION--------------------------------------------------------------------------------*/
+
+.row-summer-sol-left
+{ background-color: #911306; }
+
+
+.col-summer-sol-background-left
+{
+  /*border:solid black;*/
+  background-image: url("/assets/images/heart-helpers-new-header-background-dark-heart-resize.png");
+  
+  border-radius: 0% 0% 100% 00%;
+  height: 400px;
+  width: 100%;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+ 
+}
+
+.col-summer-sol-left
+{
+  text-align:top;
+  padding: 0px 0px 0px 0px;
+  /*border:solid black;*/
+  /*background-image: url(/assets/images/);*/
+ 
+}
+
+.row-summer-sol-right
+{
+  
+  /*border:solid black;*/
+  background-color: #911306;
+  padding-bottom: 0;
+  border-radius: 0% 0% 95% 00%;
+ 
+}
+
+
+.col-summer-sol-background-right
+{
+  
+  /*background-image: url("../images/heart-helpers-new-header-background-dark-heart-resize.png");*/
+ /*border:solid black;*/
+  border-radius: 0% 0% 0% 0%;
+  height: 400px;
+  width: 100;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+ 
+}
+
+.col-summer-sol-logo-right
+{
+  text-align:top;
+  padding: 0px 0px 0px 0px;
+  /*border:solid black;*/
+  /*background-image: url(/assets/images/);*/
+ 
+}
+
+
+
+
+/*--------------------END OF SECOND SECTION--------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
