@@ -131,9 +131,9 @@ Colour Palette
 
 /*-------------------END OF HEADER SECTION----------------------------------------------------------------------------------*/
 
-/*--------------------START OF FIRST SECTION--------------------------------------------------------------------------------*/
+/*--------------------START OF USER CHOICE SECTION--------------------------------------------------------------------------------*/
 
-.user-choice, .next-event
+.user-choice, .summer-solstice
 {
   padding-top: 64px;
   padding-right: 0;
@@ -195,19 +195,21 @@ Colour Palette
   padding-right: 0px;
 }
 
-/*--------------------END OF FIRST SECTION--------------------------------------------------------------------------------*/
+/*--------------------END OF USER CHOICE SECTION--------------------------------------------------------------------------------*/
 
-/*--------------------START OF SECOND SECTION--------------------------------------------------------------------------------*/
-
-.row-summer-sol-left
-{ background-color: #911306; }
+/*--------------------START OF SUMMER SOLSTICE SECTION--------------------------------------------------------------------------------*/
 
 
-.col-summer-sol-background-left
+
+.row-summer-solstice-left
+{ background-color: #cf4214 }
+
+
+.col-summer-solstice-background-left
 {
   /*border:solid black;*/
-  background-image: url("/assets/images/heart-helpers-new-header-background-dark-heart-resize.png");
-  
+  /*background-image: url("/assets/images/heart-helpers-new-header-background-dark-heart-resize.png");*/
+  background-color: #cf4214;
   border-radius: 0% 0% 100% 00%;
   height: 400px;
   width: 100%;
@@ -217,7 +219,7 @@ Colour Palette
  
 }
 
-.col-summer-sol-left
+.col-summer-solstice-logo-left
 {
   text-align:top;
   padding: 0px 0px 0px 0px;
@@ -226,18 +228,18 @@ Colour Palette
  
 }
 
-.row-summer-sol-right
+.row-summer-solstice-right
 {
   
   /*border:solid black;*/
-  background-color: #911306;
+  background-color:#cf4214;
   padding-bottom: 0;
   border-radius: 0% 0% 95% 00%;
  
 }
 
 
-.col-summer-sol-background-right
+.col-summer-solstice-background-right
 {
   
   /*background-image: url("../images/heart-helpers-new-header-background-dark-heart-resize.png");*/
@@ -251,7 +253,7 @@ Colour Palette
  
 }
 
-.col-summer-sol-logo-right
+.col-summer-solstice-logo-right
 {
   text-align:top;
   padding: 0px 0px 0px 0px;
@@ -259,7 +261,6 @@ Colour Palette
   /*background-image: url(/assets/images/);*/
  
 }
-
 
 
 
