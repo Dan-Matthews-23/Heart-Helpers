@@ -208,7 +208,7 @@ Colour Palette
 .col-summer-solstice-background-left
 {
   /*border:solid black;*/
-  /*background-image: url("/assets/images/heart-helpers-new-header-background-dark-heart-resize.png");*/
+  background-image: url("/assets/images/Mary-resize.png");
   background-color: #cf4214;
   border-radius: 0% 0% 100% 00%;
   height: 400px;
@@ -242,7 +242,7 @@ Colour Palette
 .col-summer-solstice-background-right
 {
   
-  /*background-image: url("../images/heart-helpers-new-header-background-dark-heart-resize.png");*/
+  /*background-image: url("/assets/images/Mary.jpg");*/
  /*border:solid black;*/
   border-radius: 0% 0% 0% 0%;
   height: 400px;
@@ -262,7 +262,15 @@ Colour Palette
  
 }
 
-
+.header-summer-solstice
+{ 
+  color: #fafafa; 
+  letter-spacing: 2px; 
+  font-display: block;
+  font-size: adjust;
+  font-weight: bold;
+  text-align: center;
+}
 
 /*--------------------END OF SECOND SECTION--------------------------------------------------------------------------------*/
 
@@ -475,9 +483,6 @@ max-width-container
 {
    
   text-align: center;
-  padding: 0;
- 
-  width: 100%;
   margin: auto;
 
 }
