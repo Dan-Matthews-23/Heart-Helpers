@@ -99,7 +99,7 @@ Colour Palette
 }
   
 
-.header-title-font, .footer-font
+.header-title-font
 { 
   color: #fafafa; 
   letter-spacing: 2px; 
@@ -252,7 +252,8 @@ Colour Palette
 
 
 .row-summer-solstice-left
-{ background-color: #911306; 
+{ background-color: #911306;
+  
   
 }
 
@@ -263,11 +264,13 @@ Colour Palette
   background-image: url("/assets/images/Mary-resize-three.png");*/
   background-color: white;
   border-radius: 0% 0% 80% 0%;
-  height: 400px;
-  width: 100%;
+  height:450px;
+  width: 70%;
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
+  margin: auto;
+  
  
 }
 
@@ -298,8 +301,8 @@ Colour Palette
   /*background-image: url("/assets/images/Mary.jpg");*/
  /*border:solid black;*/
   /*border-radius: 0% 0% 0% 0%;*/
-  height: 400px;
-  width: 100;
+  height: 450px;
+  width: 100%;
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
@@ -382,7 +385,6 @@ Colour Palette
   
   /*border:solid black;*/
   background-color:#cf4214;
-  
   border-radius: 0% 0% 80% 00%;
  
 }
@@ -391,34 +393,36 @@ Colour Palette
 .col-mary-background-right
 {
   
-  /*background-image: url("/assets/images/Mary.jpg");*/
- /*border:solid black;*/
-  border-radius: 0% 0% 0% 0%;
+  
   height: 800px;
-  width: 100;
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover;
+  width: 100%;
+  text-align: justify;
+  /*padding: 20px 20px 20px 20px;*/
+ 
+  
  
 }
 
-.col-mary-logo-right
+/*.col-mary-logo-right
 {
-  text-align:top;
-  padding: 0px 0px 0px 0px;
-  /*border:solid black;*/
-  /*background-image: url(/assets/images/);*/
+  border-style:solid;
+  border-color: black;
+  
+  border:solid black;
+  background-image: url(/assets/images/);
  
-}
+}*/
 
 .header-mary
 { 
+  
   color: #fafafa; 
   letter-spacing: 2px; 
   font-display: block;
   font-size: adjust;
   font-weight: bold;
-  text-align: center;
+  
+  
 }
 
 .mary-body, .acknowledgements
@@ -427,8 +431,8 @@ Colour Palette
   letter-spacing: 2px; 
   font-display: block;
   font-size: adjust;
-  text-align: center;
-  padding-bottom: 50px;
+  text-align: justify;
+  
 }
 
 /*--------------------END OF MARY SECTION--------------------------------------------------------------------------------*/
@@ -501,7 +505,13 @@ Colour Palette
 .xxl-padding
 { padding: 64px;}
 
-
+.lg-padding-left-focus
+{ 
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-right: 16px;
+  padding-left: 100px;
+}
 
 
 
@@ -630,12 +640,24 @@ max-width-container
 
 
 /*<!-----------------------FOOTER------------------------------------>*/
+
+
+
+
+
+.row-footer
+{
+  width:80%;
+  margin: auto;
+}
+
+
 .footer-style{
   
   background-color: #911306;
-  border-radius: 80% 0% 0% 0%;
+  border-radius: 80% 80% 0% 0%;
   height: 400px;
-  padding-top: 50px;
+  margin:auto;
 
 }
 
@@ -653,6 +675,30 @@ max-width-container
   padding: 30px 30px 30px 30px;
   color: white;
 }
+
+.footer-font, #footer-head
+{ 
+  color: #fafafa; 
+  letter-spacing: 2px; 
+  font-display: block;
+  font-size: adjust;
+  
+   
+}
+#footer-head{
+text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
 /*<!------------------------------- ---------------------------------->*/
 
 
