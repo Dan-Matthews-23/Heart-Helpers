@@ -266,24 +266,20 @@ Colour Palette
 
 
 .row-summer-solstice-left
-{ background-color: #911306;
-  
-  
-}
+{ background-color: #cf4214 }
 
 
 .col-summer-solstice-background-left
 {
-  /*border:solid black;
-  background-image: url("/assets/images/Mary-resize-three.png");*/
-  background-color: white;
-  border-radius: 0% 0% 80% 0%;
-  height:450px;
-  width: 70%;
-  background-position: center; 
-  background-repeat: no-repeat; 
-  margin: auto;
-  
+  /*border:solid black;*/
+  background-image: url("/assets/images/Mary-resize-three.png");
+  background-color: #cf4214;
+  border-radius: 0% 0% 80% 00%;
+  height: 450px;
+  width: 100%;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
  
 }
 
@@ -300,10 +296,8 @@ Colour Palette
 {
   
   /*border:solid black;*/
-  background-color:#911306;
-  
-  border-radius: 0% 0% 80% 0%;
- 
+  background-color:#cf4214;
+  border-radius: 0% 0% 80% 00%;
  
 }
 
@@ -311,43 +305,46 @@ Colour Palette
 .col-summer-solstice-background-right
 {
   
-  /*background-image: url("/assets/images/Mary.jpg");*/
- /*border:solid black;*/
-  /*border-radius: 0% 0% 0% 0%;*/
-  height: 450px;
+  
+  height:450px;
   width: 100%;
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover;
+  text-align: justify;
+  /*padding: 20px 20px 20px 20px;*/
+ 
+  
  
 }
 
-.col-summer-solstice-logo-right
+/*.col-mary-logo-right
 {
-  text-align:top;
-  padding: 0px 0px 0px 0px;
-  /*border:solid black;*/
-  /*background-image: url(/assets/images/);*/
+  border-style:solid;
+  border-color: black;
+  
+  border:solid black;
+  background-image: url(/assets/images/);
  
-}
+}*/
 
 .header-summer-solstice
 { 
+  
   color: #fafafa; 
   letter-spacing: 2px; 
   font-display: block;
   font-size: adjust;
   font-weight: bold;
-  text-align: center;
+  
+  
 }
 
-.summer-solstice
+.summer-solstice-body
 { 
   color: #fafafa; 
   letter-spacing: 2px; 
   font-display: block;
   font-size: adjust;
-  text-align: center;
+  text-align: justify;
+  
 }
 
 
@@ -762,3 +759,12 @@ TO SAY WHERE I LEARNED THEM
 @media screen and (max-width: 400px) {    .col-header-background-left { display: none; } }
 
 @media screen and (max-width: 1074px) {    #nav-bar, #nav-bar a, .nav-links { float: none; width: 100%; } }
+
+@media screen and (max-width: 661px) {    .col-summer-solstice-background-left { display: none; } }
+
+
+
+
+
+
+
