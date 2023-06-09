@@ -336,6 +336,7 @@ The following tests were undertaken using Google Chrome, Firefox, Microsoft Edge
 |  index.html / style.css              | Chrome                    | #nav-bar                   | Pass       |
 |  index.html / style.css              | Chrome                    | .user-choice                   | Fail       |
 |  index.html / style.css              | Chrome                    | .user-choice-icons                   | Pass       |
+|  index.html / style.css              | Chrome                    | .footer-links                   | Pass       |
 
 
 

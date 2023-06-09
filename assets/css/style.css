@@ -87,7 +87,14 @@ Colour Palette
 
 #nav-container
 {
+  
+  
   overflow: hidden;
+  
+  
+  
+  
+  
 }
 
 
@@ -266,9 +273,8 @@ Colour Palette
   border-radius: 0% 0% 80% 0%;
   height:450px;
   width: 70%;
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat; 
   margin: auto;
   
  
@@ -363,7 +369,7 @@ Colour Palette
   background-image: url("/assets/images/Mary-resize-three.png");
   background-color: #cf4214;
   border-radius: 0% 0% 80% 00%;
-  height: 800px;
+  height: 450px;
   width: 100%;
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
@@ -394,7 +400,7 @@ Colour Palette
 {
   
   
-  height: 800px;
+  height:450px;
   width: 100%;
   text-align: justify;
   /*padding: 20px 20px 20px 20px;*/
@@ -715,26 +721,6 @@ text-align: center;
 
 
 
-@media screen and (min-width: 576px) 
- { 
-    div.responsive-text
-      { 
-/*<!-----------------------THIS SECTION OF CODE WAS BASED ON CODE SNIPPET FROM https://stackoverflow.com/questions/40528290/how-to-implement-max-font-size----------------------->*/       
-        font-size: calc(16px + 16 * ((100vw - 600px) / 600)); 
-/*<!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------->*/
-      } 
-  }
-
-
- @media screen and (min-width: 1200px) 
-  { 
-    div.responsive-text
-        { 
-          font-size: 20px; 
-        } 
-    }
-
-
 
 
 
@@ -756,15 +742,12 @@ text-align: center;
       padding-left: 80px;
     }
     
-    /*
-    @media screen and (min-width: 600px) {
-      .title {
-        font-size: calc(16px + 16 * ((100vw - 600px) / 600));
-      }
-    }
-    @media screen and (min-width: 1200px) {
-      .title {
-        font-size: 32px;
-      }
-    }*/
+    
 
+
+    
+/*-----
+THE FOLLOWING MEDIA QUERIES WERE BASED ON THE MEDIA QUERY MODULES I LEARNED THROUGH W3 SCHOOLS. THE CODE WAS WRITTEN BY ME BUT I FEEL IT IMPORTANT 
+TO SAY WHERE I LEARNED THEM
+----------*/
+@media screen and (max-width: 661px) {    .col-mary-background-left { display: none; } }
