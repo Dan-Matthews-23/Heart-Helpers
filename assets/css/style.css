@@ -272,8 +272,8 @@ Colour Palette
 .col-summer-solstice-background-left
 {
   /*border:solid black;*/
-  background-image: url("/assets/images/Mary-resize-three.png");
-  background-color: #cf4214;
+  /*background-image: url("/assets/images/Mary-resize-three.png");*/
+  background-color: white;
   border-radius: 0% 0% 80% 00%;
   height: 450px;
   width: 100%;
@@ -349,6 +349,7 @@ Colour Palette
   font-display: block;
   font-size: adjust;
   text-align: justify;
+  padding: 16px 16px 16px 16px;
   
 }
 
@@ -378,7 +379,7 @@ Colour Palette
   background-image: url("/assets/images/Mary-resize-three.png");
   background-color: #cf4214;
   border-radius: 0% 0% 80% 00%;
-  height: 450px;
+  height: 480px;
   width: 100%;
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
@@ -409,7 +410,7 @@ Colour Palette
 {
   
   
-  height:450px;
+  height:480px;
   width: 100%;
   text-align: justify;
   /*padding: 20px 20px 20px 20px;*/
@@ -436,6 +437,10 @@ Colour Palette
   font-display: block;
   font-size: adjust;
   font-weight: bold;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 0px;
+  padding-right: 0px;
   
   
 }
@@ -447,6 +452,7 @@ Colour Palette
   font-display: block;
   font-size: adjust;
   text-align: justify;
+  padding: 16px 16px 16px 16px;
   
 }
 
@@ -766,6 +772,9 @@ TO SAY WHERE I LEARNED THEM
 @media screen and (max-width: 1074px) {    #nav-bar, #nav-bar a, .nav-links { float: none; width: 100%; } }
 
 @media screen and (max-width: 661px) {    .col-summer-solstice-background-left { display: none; } }
+
+@media screen and (max-width: 618px) { .mary-body, .summer-solstice-body { font-size: 14px; }}
+@media screen and (max-width: 538px) { .row-summer-solstice-right, .row-mary-right, .row-header-right { border-radius: 0% 0% 0% 0%; }}
 
 
 
