@@ -663,13 +663,36 @@ max-width-container
 /*<!-----------------------FOOTER------------------------------------>*/
 
 
+.footer-head{
+  
+  
+    color: #fafafa; 
+    letter-spacing: 2px; 
+    font-display: block;
+    font-size: adjust;
+    font-weight: bold;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 0px;
+    padding-right: 0px;
+    
+    
+  
+}
 
+
+.contact-us
+{
+  
+  text-align:center;
+}
 
 
 .row-footer
 {
   width:80%;
   margin: auto;
+  height: 50px;
 }
 
 
@@ -677,7 +700,7 @@ max-width-container
   
   background-color: #911306;
   border-radius: 80% 80% 0% 0%;
-  height: 400px;
+  height: 500px;
   margin:auto;
 
 }
@@ -697,18 +720,19 @@ max-width-container
   color: white;
 }
 
-.footer-font, #footer-head
+.footer-font
 { 
   color: #fafafa; 
   letter-spacing: 2px; 
   font-display: block;
   font-size: adjust;
+  text-align: justify;
   
    
 }
-#footer-head{
-text-align: center;
-}
+
+
+
 
 
 
@@ -773,8 +797,13 @@ TO SAY WHERE I LEARNED THEM
 
 @media screen and (max-width: 661px) {    .col-summer-solstice-background-left { display: none; } }
 
-@media screen and (max-width: 618px) { .mary-body, .summer-solstice-body { font-size: 14px; }}
+@media screen and (max-width: 618px) { .mary-body, .summer-solstice-body, .footer-font { font-size: 14px; }}
 @media screen and (max-width: 538px) { .row-summer-solstice-right, .row-mary-right, .row-header-right { border-radius: 0% 0% 0% 0%; }}
+
+@media screen and (max-width: 430px) { .footer-style { border-radius: 0% 0% 0% 0%;  }}
+@media screen and (max-width: 395px) { .footer-style { height: 700px; }}
+
+
 
 
 
