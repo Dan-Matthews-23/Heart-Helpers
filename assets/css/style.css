@@ -369,69 +369,44 @@ Colour Palette
 
 
 
-.row-mary-left
+.row-mary-left, .row-testimonies-left
 { background-color: #cf4214 }
 
 
-.col-mary-background-left
+.col-mary-background-left, .col-testimonies-background-left-mary
 {
-  /*border:solid black;*/
+ 
   background-image: url("/assets/images/Mary-resize-three.png");
   background-color: #cf4214;
   border-radius: 0% 0% 80% 00%;
   height: 480px;
   width: 100%;
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
+  background-position: center; 
+  background-repeat: no-repeat; 
   background-size: cover;
- 
 }
 
-.col-mary-logo-left
+.col-mary-logo-left, .col-testimonies-logo-left
 {
   text-align:top;
- 
-  /*border:solid black;*/
-  /*background-image: url(/assets/images/);*/
- 
 }
 
-.row-mary-right
+.row-mary-right, .row-testimonies-right
 {
-  
-  /*border:solid black;*/
   background-color:#cf4214;
   border-radius: 0% 0% 80% 00%;
- 
-}
+ }
 
 
-.col-mary-background-right
+.col-mary-background-right, .col-testimonies-background-right-mary
 {
-  
-  
   height:480px;
   width: 100%;
   text-align: justify;
-  /*padding: 20px 20px 20px 20px;*/
- 
-  
- 
 }
 
-/*.col-mary-logo-right
-{
-  border-style:solid;
-  border-color: black;
-  
-  border:solid black;
-  background-image: url(/assets/images/);
- 
-}*/
-
-.header-mary
+.header-mary, .header-testimonies
 { 
-  
   color: #fafafa; 
   letter-spacing: 2px; 
   font-display: block;
@@ -441,11 +416,9 @@ Colour Palette
   padding-bottom: 16px;
   padding-left: 0px;
   padding-right: 0px;
-  
-  
-}
+ }
 
-.mary-body, .acknowledgements
+.mary-body, .acknowledgements, .testimonies-body
 { 
   color: #fafafa; 
   letter-spacing: 2px; 
@@ -453,10 +426,96 @@ Colour Palette
   font-size: adjust;
   text-align: justify;
   padding: 16px 16px 16px 16px;
-  
 }
 
 /*--------------------END OF MARY SECTION--------------------------------------------------------------------------------*/
+
+
+/*--------------------START OF TESTIMONIES SECTION--------------------------------------------------------------------------------*/
+
+.row-testimonies-left
+{ background-color: #cf4214 }
+
+
+.col-testimonies-background-left
+{
+ 
+  background-image: url("/assets/images/Mary-resize-three.png");
+  background-color: #cf4214;
+  border-radius: 0% 0% 80% 00%;
+  height: 480px;
+  width: 100%;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+
+.col-testimonies-logo-left
+{
+  text-align:top;
+}
+
+.row-testimonies-right
+{
+  background-color:#cf4214;
+  border-radius: 0% 0% 40% 00%;
+ }
+
+
+.col-testimonies-background-right
+{
+  height:480px;
+  width: 100%;
+  text-align: justify;
+}
+
+.header-testimonies
+{ 
+  color: #fafafa; 
+  letter-spacing: 2px; 
+  font-display: block;
+  font-size: adjust;
+  font-weight: bold;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 0px;
+  padding-right: 0px;
+ }
+
+.mary-body, .acknowledgements, .testimonies-body
+{ 
+  color: #fafafa; 
+  letter-spacing: 2px; 
+  font-display: block;
+  font-size: adjust;
+  text-align: justify;
+  padding: 16px 16px 16px 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -867,6 +926,14 @@ TO SAY WHERE I LEARNED THEM
 
 @media screen and (max-width: 430px) { .footer-style { border-radius: 0% 0% 0% 0%;  }}
 @media screen and (max-width: 395px) { .footer-style { height: 700px; }}
+
+@media screen and (max-width: 750px) { .row-testimonies-right { border-radius: 0% 0% 0% 0%; }}
+@media screen and (max-width: 685px) 
+{ 
+  .col-testimonies-background-left { display: none;  }
+  .row-testimonies-right { height: 850px;  }
+}
+
 
 
 
