@@ -438,7 +438,11 @@ Photo by Ugur Tandogan: https://www.pexels.com/photo/heart-drawn-on-glass-of-wet
 
 Photo by Engin Akyurt: https://www.pexels.com/photo/woman-smiling-while-standing-beside-fence-3290499/
 
+Photo by Andrea Piacquadio: https://www.pexels.com/photo/woman-in-collared-shirt-774909/
 
+Photo by Italo Melo: https://www.pexels.com/photo/portrait-photo-of-smiling-man-with-his-arms-crossed-standing-in-front-of-white-wall-2379004/
+
+Photo by Tristan Le: https://www.pexels.com/photo/smiling-man-and-woman-wearing-jackets-1642883/
 
 shop
 <div> Icons made by <a href="https://www.flaticon.com/authors/nikita-golubev" title="Nikita Golubev"> Nikita Golubev </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a></div>
