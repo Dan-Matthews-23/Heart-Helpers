@@ -40,7 +40,7 @@
         </div>
     </header>
     
-    <section class="sign-up">
+   <!-- <section class="sign-up">
         <form method="POST">
                 <div class="container-fluid g-0">
                     <div class="row sign-up-row-header header-padding align-center with-borders">
@@ -59,11 +59,14 @@
                         <div class="col-sign-up with-borders ">
                             <p class="sign-up"><input type="text" class="sign-up" name="name" id="name" placeholder="Name" required></p>
                             <p class="sign-up"><input type="email" class="sign-up" name="email" id="email" placeholder="Email Address" required></p>
-                            <p class="sign-up"><input type="date" class="sign-up" name="dob" id="dob" required>
-                                <span class="why-tooltip"><i class="fa-solid fa-question fa-sm" style="color: #f20d0d;"></i></span>
+                            <p class="sign-up">
+                                <span class="myDIV">
+                                <input type="date" class="sign-up" name="dob" id="dob" required>
+                                <i class="fa-solid fa-question fa-sm" style="color: #f20d0d;"></i>
+                                </span>
                             </p>
                             <p class="sign-up">
-                                <!--input type="select" class="sign-up" name="branch" id="branch" required>-->
+                               
                                     <select name="branch" id="branch" class="sign-up">
                                         <option value="no-branch">I am not involved with my local branch</option>
                                         <option value="caernarvon">Caernarvon</option>
@@ -80,11 +83,130 @@
                                         <option value="york">York</option>
                                     </select>
                                 </p>
+                                
+                                
                         </div>
                     </div>
                 </div> 
             </form>
+    </section>-->
+
+
+
+ <section class="sign-up">
+        <form method="POST" action="thank-you.html">
+                <div class="container-fluid g-0 with-borders align-center">
+                    <div class="row sign-up-row-header header-padding align-center with-borders">
+                        <div class="col with borders align-center ">
+                            <h1>Sign up now!</h1>
+                        </div>
+                    </div>
+
+                    <div class="row sign-up-row with-borders align-center">
+                        <div class="col-sign-up with-borders align-right ">
+                            <label for="name">Name:</label>
+                        </div>
+                        <div class="col-sign-up with-borders align-left">
+                                <input type="text" class="sign-up" name="name" id="name" placeholder="Name" required>
+                        </div>
+                    </div>
+
+                    <div class="row sign-up-row with-borders align-center">
+                        <div class="col-sign-up with-borders align-right ">
+                            <label for="email">Email Address:</label>
+                        </div>
+                        <div class="col-sign-up with-borders align-left">
+                                <input type="email" class="sign-up" name="email" id="email" placeholder="Email Address" required>
+                        </div>
+                    </div>
+
+                    <div class="row sign-up-row with-borders align-center">
+                        <div class="col-sign-up with-borders align-right ">
+                            <label for="branch">Local Branch :</label>
+                        </div>
+                        <div class="col-sign-up with-borders align-left">
+                            <select name="branch" id="branch" class="sign-up">
+                                <option value="no-branch">I am not involved with my local branch</option>
+                                <option value="caernarvon">Caernarvon</option>
+                                <option value="dublin">Dublin</option>
+                                <option value="durham">Durham</option>
+                                <option value="edinburgh">Edinburgh</option>
+                                <option value="inverness">Inverness</option>
+                                <option value="london">London</option>
+                                <option value="newcastle">Newcastle</option>
+                                <option value="nottingham">Nottingham</option>
+                                <option value="seaham">Seaham</option>
+                                <option value="sunderland">Sunderland</option>
+                                <option value="washington">Washington</option>
+                                <option value="york">York</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="row sign-up-row with-borders align-center hover-over-this g-0">
+                        <div class="col-sign-up with-borders align-right  g-0 " >
+                            <label for="dob">Date of Birth :</label>
+                        </div>
+                        <div class="col-sign-up with-borders align-left g-0 " >
+                                <input type="date" class="sign-up" name="dob" id="dob"  required>
+                                <i class="fa-solid fa-question fa-lg " style="color: #f20d0d;"></i>
+                                
+                        </div>
+                    </div>
+
+                    <div class="row sign-up-row with-borders align-center g-0 show-tooltip">
+                        <div class="col-12 sign-up-over-one with-borders align-center g-0" >
+                            We ask for your Date of Birth for tax and Health and Safety reasons. View our Terms and Conditions for further information
+                        </div>
+                    </div>
+
+                     <div class="row sign-up-row with-borders align-center g-0">
+                        <div class="col-12 sign-up-over-one with-borders align-center g-0">
+                            <label for="terms-and-condtitions">I have read and understood the <a href="#terms-and-conditions">Terms and Conditions</a>:</label>
+                            <input type="checkbox" class="sign-up" name="agree" id="agree" required>
+                        </div>
+                    </div>
+
+                    <div class="row sign-up-row with-borders align-center g-0">
+                        <div class="col-12 col-sign-up with-borders align-center g-0">
+                            <input type="submit" class="sign-up" name="submit" id="submit" value="Submit">
+                        </div>
+                    </div>
+                        
+                </div>
+                
+        </form>
     </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       
     
     <!--<section class="summer-solstice">            
