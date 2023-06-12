@@ -39,7 +39,7 @@ Colour Palette
 
 /* This section of code is for the navigation bar that is used across all pages ------------------------------------------------------------------------*/
 
-#nav-container
+.nav-container
 {
   
   overflow: hidden;
@@ -642,7 +642,43 @@ max-width-container
 
 
 
+.sign-up-row-header, .sign-up-row
+{ 
+    
+  width: 50%;  
+  letter-spacing: 2px; 
+  font-display: block;
+  font-size: adjust;
+  font-weight: bold;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
 
+.col-sign-up
+{ 
+    
+  width: 40%;  
+   
+  font-display: block;
+  
+  font-weight: bold;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.why-tooltip
+{
+  display: none;
+}
+
+.why-tooltip:hover + why-tooltip
+{
+  display: block;
+}
 
 
 
