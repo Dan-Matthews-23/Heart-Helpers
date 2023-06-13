@@ -735,6 +735,8 @@ max-width-container
 
 
 
+
+
 .align-center
 { 
    
@@ -775,7 +777,7 @@ max-width-container
 .col-sign-up
 { 
     
-  width:40%;  
+  width:50%;  
    
   font-display: block;
   
@@ -794,6 +796,10 @@ max-width-container
   padding: inherit; 
 }
 
+.text-area
+{
+  max-width: 100%;
+}
 
 /*-------THIS SECTION OF CODE I LEARNED AT W3 SCHOOLS. THE CODE WAS WRITTEN BY ME---------------------------*/
 .show-tooltip {
@@ -809,6 +815,16 @@ max-width-container
   text-align: top center;
   
 }
+
+
+
+/*SECTION CLASS
+.sign-up 
+{
+  border-style: solid;
+  border-color: black;
+  width: 80%;
+}*/
 /*-----------------------------------------------------------------*/
 
 

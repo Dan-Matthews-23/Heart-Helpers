@@ -95,52 +95,82 @@
 
  <section class="sign-up">
         <form method="POST" action="thank-you.html">
-                <div class="container-fluid g-0 with-borders align-center">
-                    <div class="row sign-up-row-header header-padding align-center with-borders">
-                        <div class="col with borders align-center ">
+                <div class="container-fluid g-0  align-center">
+                    <div class="row sign-up-row-header header-padding align-center ">
+                        <div class="col align-center ">
                             <h1>Need to contact us? No problem!</h1>
-                            <h3>You can use this form to ask us a question, leave a comment or a suggestion</h3>
                         </div>
                     </div>
+                    <div class="row sign-up-row-header header-padding align-center ">
+                    <div class="col align-center with-borders ">
+                            <p class="get-involved-body">You can use this form to ask us a question, leave a comment or a suggestion. Alternatively, you can select your local branch from the 
+                                drop-down menu and we will send your query to your branch, who will then respond to you directly. </p>
+                         </div>
+                    </div>
 
-                    <div class="row sign-up-row with-borders align-center">
-                        <div class="col-sign-up with-borders align-right ">
+                    <div class="row sign-up-row  align-center">
+                        <div class="col-sign-up  align-right ">
                             <label for="name">Name:</label>
                         </div>
-                        <div class="col-sign-up with-borders align-left">
+                        <div class="col-sign-up  align-left">
                                 <input type="text" class="sign-up" name="name" id="name" placeholder="Name" required>
                         </div>
                     </div>
 
-                    <div class="row sign-up-row with-borders align-center">
-                        <div class="col-sign-up with-borders align-right ">
+                    <div class="row sign-up-row  align-center">
+                        <div class="col-sign-up  align-right ">
                             <label for="email">Email Address:</label>
                         </div>
-                        <div class="col-sign-up with-borders align-left">
+                        <div class="col-sign-up  align-left">
                                 <input type="email" class="sign-up" name="email" id="email" placeholder="Email Address" required>
                         </div>
                     </div>
 
-                    <div class="row sign-up-row with-borders align-center">
-                        <div class="col-sign-up with-borders align-right ">
+                    <div class="row sign-up-row  align-center">
+                        <div class="col-sign-up  align-right ">
                             <label for="phone">Contact Number:</label>
                         </div>
-                        <div class="col-sign-up with-borders align-left">
+                        <div class="col-sign-up  align-left">
                                 <input type="text" class="sign-up" name="phone" id="phone" placeholder="You can leave blank if you don't want to provide this">
                         </div>
                     </div>
 
-                    <div class="row sign-up-row with-borders align-center">
-                        <div class="col-sign-up with-borders align-right ">
-                            <label for="textarea">Your query / comment:</label>
+
+                    <div class="row sign-up-row  align-center ">
+                        <div class="col-sign-up align-right s ">
+                            <label for="branch">Local Branch :</label>
                         </div>
-                        <div class="col-sign-up with-borders align-left">
-                            <textarea class="sign-up" name="textarea" id="textarea" rows="20" cols="45" placeholder="What would you like to tell us?"></textarea>
+                        <div class="col-sign-up  align-left ">
+                            <select name="branch" id="branch" class="sign-up">
+                                <option value="no-branch">I am not involved with my local branch</option>
+                                <option value="caernarvon">Caernarvon</option>
+                                <option value="dublin">Dublin</option>
+                                <option value="durham">Durham</option>
+                                <option value="edinburgh">Edinburgh</option>
+                                <option value="inverness">Inverness</option>
+                                <option value="london">London</option>
+                                <option value="newcastle">Newcastle</option>
+                                <option value="nottingham">Nottingham</option>
+                                <option value="seaham">Seaham</option>
+                                <option value="sunderland">Sunderland</option>
+                                <option value="washington">Washington</option>
+                                <option value="york">York</option>
+                            </select>
                         </div>
                     </div>
 
-                    <div class="row sign-up-row with-borders align-center g-0">
-                        <div class="col-12 col-sign-up with-borders align-center g-0">
+
+                    <div class="row sign-up-row align-center">
+                        <div class="col-sign-up  align-right ">
+                            <label for="textarea">Your query / comment:</label>
+                        </div>
+                        <div class="col-sign-up align-left">
+                            <textarea class="text-area" name="textarea" id="textarea" rows="20" cols="45" placeholder="What would you like to tell us?"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="row sign-up-row  align-center g-0">
+                        <div class="col-12 col-sign-up  align-center g-0">
                             <input type="submit" class="sign-up" name="submit" id="submit" value="Submit">
                         </div>
                     </div>

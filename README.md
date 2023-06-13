@@ -338,6 +338,7 @@ The following tests were undertaken using Google Chrome, Firefox, Microsoft Edge
 |  index.html / style.css              | Chrome                    | .user-choice-icons                   | Pass       |
 |  index.html / style.css              | Chrome                    | .footer-links                   | Pass       |
 |  contact-us.html / style.css          | Chrome                   | .sign-up                   | Fail       |
+|  contact-us.html / style.css          | Chrome                   | .sign-up                   | Pass       |
 
 
 
@@ -375,7 +376,7 @@ The following tests were undertaken using Google Chrome, Firefox, Microsoft Edge
 |  index.html / style.css | .user-choice             |   The DIVs were being pushed beneath one another for no apparent reason. Attempts to correct failed               |
 |  index.html / style.css | .user-choice             |   A class called 'align-center' was causing the error above. Removed class, passed tests               |
 |  index.html / style.css | .user-choice-icons             |   AAfter some research and a section of code I wrote that was based on a snippet I found from Scaler.com (see Acknowledgements)  I tested the new icons for scalability and responsiveness. Passed all tests              |
-|  contact-us.html / style.css | .sign-up             |   I incorrectly created the page for desktop rather than mobile-first. As a result the page failed all responsiveness tests and did not maintain cohension on smaller screens. I will make use of Bootstrap columns to correct this, but it's possible I may need to redesign the page considering how I've set it all out. Progress ongoing. 
+|  contact-us.html / style.css | .sign-up             |   I incorrectly created the page for desktop rather than mobile-first. As a result the page failed all responsiveness tests and did not maintain cohension on smaller screens. I will make use of Bootstrap columns to correct this, but it's possible I may need to redesign the page considering how I've set it all out. Progress ongoing. UPDATE: Used media queries rather than bootstrap, passed all tests 
               |
 
 
