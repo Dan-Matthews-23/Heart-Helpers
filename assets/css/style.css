@@ -141,7 +141,7 @@ Colour Palette
   background-image: url("/assets/images/heart-helpers-new-header-background-dark-heart-resize.png");
   
   border-radius: 0% 0% 100% 00%;
-  height: 400px;
+  height: 300px;
   width: 100%;
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
@@ -175,7 +175,7 @@ Colour Palette
   /*background-image: url("../images/heart-helpers-new-header-background-dark-heart-resize.png");*/
  /*border:solid black;*/
   border-radius: 0% 0% 0% 0%;
-  height: 400px;
+  height: 300px;
   width: 100%;
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
