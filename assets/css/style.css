@@ -138,7 +138,7 @@ Colour Palette
 .col-header-background-left
 {
   /*border:solid black;*/
-  background-image: url("../../assets/images/heart-helpers-new-header-background-dark-heart-resize.png");
+  background-image: url("/assets/images/heart-helpers-new-header-background-dark-heart-resize.png");
   
   border-radius: 0% 0% 100% 00%;
   height: 300px;
@@ -272,7 +272,7 @@ Colour Palette
 .col-summer-solstice-background-left
 {
   /*border:solid black;*/
-  /*background-image: url("../../assets/images/Mary-resize-three.png");*/
+  /*background-image: url("/assets/images/Mary-resize-three.png");*/
   background-color: white;
   border-radius: 0% 0% 80% 00%;
   height: 450px;
@@ -376,7 +376,7 @@ Colour Palette
 .col-mary-background-left, .col-testimonies-background-left-mary
 {
  
-  background-image: url("../../assets/images/Mary-resize-three.png");
+  background-image: url("/assets/images/Mary-resize-three.png");
   background-color: #cf4214;
   border-radius: 0% 0% 80% 00%;
   height: 480px;
@@ -450,7 +450,7 @@ Colour Palette
 .col-testimonies-background-left
 {
  
-  background-image: url("../../assets/images/Mary-resize-three.png");
+  background-image: url("/assets/images/Mary-resize-three.png");
   background-color: #cf4214;
   border-radius: 0% 0% 80% 00%;
   height: 500px;
@@ -504,7 +504,7 @@ Colour Palette
 
 
 .brian-img { 
-  background-image: url("../../assets/images/brian-original.png"); 
+  background-image: url("/assets/images/brian-original.png"); 
   background-color: #cf4214;
   border-radius: 0% 0% 80% 00%;
   height: 500px;
@@ -516,7 +516,7 @@ Colour Palette
 
 
 .wendy-img { 
-  background-image: url("../../assets/images/wendy-original.png"); 
+  background-image: url("/assets/images/wendy-original.png"); 
   background-color: #cf4214;
   border-radius: 0% 0% 80% 00%;
   height: 500px;
@@ -527,7 +527,7 @@ Colour Palette
 }
 
 .ian-img { 
-  background-image: url("../../assets/images/ian-original.png"); 
+  background-image: url("/assets/images/ian-original.png"); 
   background-color: #cf4214;
   border-radius: 0% 0% 80% 00%;
   height: 500px;
@@ -538,7 +538,7 @@ Colour Palette
 }
 
 .mary-img-testimonies { 
-  background-image: url("../../assets/images/Mary-resize-three.png"); 
+  background-image: url("/assets/images/Mary-resize-three.png"); 
   background-color: #cf4214;
   border-radius: 0% 0% 80% 00%;
   height: 500px;
