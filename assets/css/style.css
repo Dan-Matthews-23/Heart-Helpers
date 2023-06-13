@@ -138,14 +138,14 @@ Colour Palette
 .col-header-background-left
 {
   /*border:solid black;*/
-  background-image: url("../../assets/images/banner-original.webp");
+  background-image: url("../../assets/images/banner-again.webp");
   
   border-radius: 0% 0% 100% 00%;
   height: 300px;
   width: 100%;
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
-  /*background-size: cover;*/
+  background-size: cover;
  
 }
 
@@ -174,7 +174,7 @@ Colour Palette
   
   /*background-image: url("../images/heart-helpers-new-header-background-dark-heart-resize.webp");*/
  /*border:solid black;*/
-  border-radius: 0% 0% 0% 0%;
+  border-radius: 0% 0% 100% 0%;
   height: 300px;
   width: 100%;
   background-position: center; /* Center the image */
@@ -920,6 +920,8 @@ TO SAY WHERE I LEARNED THEM
 @media screen and (max-width: 661px) {    .col-mary-background-left { display: none; } }
 
 @media screen and (max-width: 400px) {    .col-header-background-left { display: none; } }
+
+@media screen and (min-width: 700px  ) {    .col-header-background-left { width: 700px; } }
 
 
 
