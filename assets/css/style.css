@@ -376,7 +376,7 @@ Colour Palette
 .col-mary-background-left, .col-testimonies-background-left-mary
 {
  
-  background-image: url("/assets/images/Mary-resize-three.png");
+  background-image: url("../../assets/images/Mary-resize-three.png");
   background-color: #cf4214;
   border-radius: 0% 0% 80% 00%;
   height: 480px;
@@ -450,7 +450,7 @@ Colour Palette
 .col-testimonies-background-left
 {
  
-  background-image: url("/assets/images/Mary-resize-three.png");
+  background-image: url("../../assets/images/Mary-resize-three.png");
   background-color: #cf4214;
   border-radius: 0% 0% 80% 00%;
   height: 500px;
@@ -504,7 +504,7 @@ Colour Palette
 
 
 .brian-img { 
-  background-image: url("/assets/images/brian-original.png"); 
+  background-image: url("../../assets/images/brian-original.png"); 
   background-color: #cf4214;
   border-radius: 0% 0% 80% 00%;
   height: 500px;
@@ -516,7 +516,7 @@ Colour Palette
 
 
 .wendy-img { 
-  background-image: url("/assets/images/wendy-original.png"); 
+  background-image: url("../../assets/images/wendy-original.png"); 
   background-color: #cf4214;
   border-radius: 0% 0% 80% 00%;
   height: 500px;
@@ -538,7 +538,7 @@ Colour Palette
 }
 
 .mary-img-testimonies { 
-  background-image: url("/assets/images/Mary-resize-three.png"); 
+  background-image: url("../../assets/images/Mary-resize-three.png"); 
   background-color: #cf4214;
   border-radius: 0% 0% 80% 00%;
   height: 500px;
