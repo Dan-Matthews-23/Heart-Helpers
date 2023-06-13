@@ -138,14 +138,14 @@ Colour Palette
 .col-header-background-left
 {
   /*border:solid black;*/
-  background-image: url("../../assets/images/banner-final.webp");
+  background-image: url("../../assets/images/banner-original.webp");
   
   border-radius: 0% 0% 100% 00%;
   height: 300px;
   width: 100%;
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover;
+  /*background-size: cover;*/
  
 }
 
