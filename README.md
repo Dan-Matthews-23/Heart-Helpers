@@ -484,3 +484,12 @@ Finally, I want to take the opportunity to thank and acknowledge the following f
 
 - [Harry Dhillon](https://github.com/Harry-Leepz), who is my mentor at the Code Institute
 - Craig Hudson, for their advice in testing for responsiveness
+
+
+
+Jigsaw validator
+
+The validator picked up 53 errors. 25 of these were relating to Bootstrap. However the remaining 28 errors were from my style.css file, overwhelmingly relating to invalid 
+references I'd made (e.g. .header-text-font	Property font-display doesn't exist : block). As the vast majority of my CSS was created through manipulating code and learning the end 
+result, I expected more than a few errors during the first check. There were also 419 warnings flagged, but again these related to Boostrap and was not something I could 
+fix. 
