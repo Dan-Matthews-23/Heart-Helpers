@@ -1,521 +1,675 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 /*<!-----------------------HEADER------------------------------------>*/
 
-          /* NAV BAR ------------------------------------------------------------------------*/
+/* NAV BAR ------------------------------------------------------------------------*/
 
 .nav-container {
-    overflow: hidden; }
+	overflow: hidden;
+}
 
-#nav-bar, #nav-bar a, .nav-links{
-  letter-spacing: 6px;
-  float: left;
-  padding-top: 5px;
-  padding-bottom: 0px;
-  padding-right: 30px;
-  padding-left: 30px;
-  text-align: center;
-  color: white;
-  display: block;
-  text-decoration: none;
-  font-weight: bold;  }
+#nav-bar,
+#nav-bar a,
+.nav-links {
+	letter-spacing: 6px;
+	float: left;
+	padding-top: 5px;
+	padding-bottom: 0px;
+	padding-right: 30px;
+	padding-left: 30px;
+	text-align: center;
+	color: white;
+	display: block;
+	text-decoration: none;
+	font-weight: bold;
+}
 
-#nav-bar a:hover{
-  border-bottom: 1px solid white; }
+#nav-bar a:hover {
+	border-bottom: 1px solid white;
+}
 
-.this-page{
-  border-bottom: 1px solid white; }
+.this-page {
+	border-bottom: 1px solid white;
+}
 
-      /* END NAV BAR-----------------------------------------------------------------------------------------------------------------------*/
+/* END NAV BAR-----------------------------------------------------------------------------------------------------------------------*/
 
-#header-padding
-{ padding-top: 50px;
-  padding-right: 50px;
-  padding-bottom: 10px;
-  padding-left: 30px; }
-  
+#header-padding {
+	padding-top: 50px;
+	padding-right: 50px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+}
 
-.header-title-font {  
-  color: #fafafa; 
-  letter-spacing: 2px; 
-  display: block;
-  font-style: inherit;
-  font-weight: bold; }
 
-.header-text-font { 
-  color: #fafafa; 
-  letter-spacing: 1px; 
-  display: block;
-  font-size: 1em; }
+.header-title-font {
+	color: #fafafa;
+	letter-spacing: 2px;
+	display: block;
+	font-style: inherit;
+	font-weight: bold;
+}
 
-.row-header-left
-{ background-color: #911306; }
+.header-text-font {
+	color: #fafafa;
+	letter-spacing: 1px;
+	display: block;
+	font-size: 1em;
+}
+
+.row-header-left {
+	background-color: #911306;
+}
 
 .col-header-background-left {
-  
-  background-image: url("../../assets/images/banner-again.webp");
-  border-radius: 0% 0% 100% 00%;
-  height: 300px;
-  width: 100%;
-  background-position: center; 
-  background-repeat: no-repeat; 
-  background-size: cover;  }
+
+	background-image: url("../../assets/images/banner-again.webp");
+	border-radius: 0% 0% 100% 00%;
+	height: 300px;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
 .col-header-logo-left {
-  padding: 0px 0px 0px 0px; }
+	padding: 0px 0px 0px 0px;
+}
 
 .row-header-right {
-  background-color: #911306;
-  padding-bottom: 0;
-  border-radius: 0% 0% 95% 00%; }
+	background-color: #911306;
+	padding-bottom: 0;
+	border-radius: 0% 0% 95% 00%;
+}
 
 
-.col-header-background-right
-{
-  border-radius: 0% 0% 100% 0%;
-  height: 300px;
-  width: 100%;
-  background-position: center; 
-  background-repeat: no-repeat; 
-  background-size: cover; }
+.col-header-background-right {
+	border-radius: 0% 0% 100% 0%;
+	height: 300px;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
-.col-header-logo-right
-{
-  text-align: justify;
-  padding: 0px 0px 0px 0px; }
+.col-header-logo-right {
+	text-align: justify;
+	padding: 0px 0px 0px 0px;
+}
 
 /*-------------------END OF HEADER SECTION----------------------------------------------------------------------------------*/
 
 /*--------------------START OF USER CHOICE SECTION--------------------------------------------------------------------------------*/
 
-.user-choice, .summer-solstice
-{
-  padding-top: 64px;
-  padding-right: 0;
-  padding-bottom: 128px;
-  padding-left: 0; }
+.user-choice,
+.summer-solstice {
+	padding-top: 64px;
+	padding-right: 0;
+	padding-bottom: 128px;
+	padding-left: 0;
+}
 
-.user-choice-row-title
-{
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  margin:auto;
-  padding-top: 10px;
-  padding-right: 5px;
-  padding-bottom: 10px;
-  padding-left: 5px;
-  }
+.user-choice-row-title {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	margin: auto;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+}
 
- .user-choice-row {
-  overflow: hidden;
-  text-align: center;
-  margin:auto;
-  padding-top: 10px;
-  padding-right: 5px;
-  padding-bottom: 30px;
-  padding-left: 5px;  }
+.user-choice-row {
+	overflow: hidden;
+	text-align: center;
+	margin: auto;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-bottom: 30px;
+	padding-left: 5px;
+}
 
 
- /*----------THIS SECTION OF CODE WAS BASED ON A SNIPPET OF CODE I GOT FROM SCALER.COM (FULL LINK: https://www.scaler.com/topics/css-line-break/)------------*/
- #next-week::after { content: "\a"; white-space: pre; }
- #nearest-branch::after { content: "\a"; white-space: pre; }
- #donate-items::after { content: "\a"; white-space: pre; }
- #know-facts::after { content: "\a"; white-space: pre; }
- 
+/*----------THIS SECTION OF CODE WAS BASED ON A SNIPPET OF CODE I GOT FROM SCALER.COM (FULL LINK: https://www.scaler.com/topics/css-line-break/)------------*/
+#next-week::after {
+	content: "\a";
+	white-space: pre;
+}
+
+#nearest-branch::after {
+	content: "\a";
+	white-space: pre;
+}
+
+#donate-items::after {
+	content: "\a";
+	white-space: pre;
+}
+
+#know-facts::after {
+	content: "\a";
+	white-space: pre;
+}
+
 /*-----------END OF CODE SNIPPET FROM SCALER.COM-------------------------------------------------------------------------------------*/
 
-.user-choice-links, .more-stories {
-  color: inherit;
-  text-decoration: none; }
+.user-choice-links,
+.more-stories {
+	color: inherit;
+	text-decoration: none;
+}
 
 .user-choice-icons {
-  height: 100%;
-  padding-top: 100px;
-  padding-left: 0px;
-  padding-bottom: 20px;
-  padding-right: 0px; }
+	height: 100%;
+	padding-top: 100px;
+	padding-left: 0px;
+	padding-bottom: 20px;
+	padding-right: 0px;
+}
 
 /*--------------------END OF USER CHOICE SECTION--------------------------------------------------------------------------------*/
-
 
 
 /*--------------------START OF SUMMER SOLSTICE SECTION--------------------------------------------------------------------------------*/
 
 
-.row-summer-solstice-left
-{ background-color: #cf4214 }
+.row-summer-solstice-left {
+	background-color: #cf4214
+}
 
 
 .col-summer-solstice-background-left {
-  background-color: white;
-  border-radius: 0% 0% 80% 00%;
-  height: 450px;
-  width: 100%;
-  background-position: center; 
-  background-repeat: no-repeat; 
-  background-size: cover; }
+	background-color: white;
+	border-radius: 0% 0% 80% 00%;
+	height: 450px;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
-.col-summer-solstice-logo-left { 
-  text-align: justify; }
+.col-summer-solstice-logo-left {
+	text-align: justify;
+}
 
 .row-summer-solstice-right {
-  background-color:#cf4214;
-  border-radius: 0% 0% 80% 0%; }
+	background-color: #cf4214;
+	border-radius: 0% 0% 80% 0%;
+}
 
 
 .col-summer-solstice-background-right {
-  height:450px;
-  width: 100%;
-  text-align: justify; }
+	height: 450px;
+	width: 100%;
+	text-align: justify;
+}
 
-.header-summer-solstice { 
-  
-  color: #fafafa; 
-  letter-spacing: 2px; 
-  display: block;
-  font-size: inherit;
-  font-weight: bold;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  padding-left: 0px;
-  padding-right: 0px; }
+.header-summer-solstice {
 
-.summer-solstice-body { 
-  color: #fafafa; 
-  letter-spacing: 2px; 
-  display: block;
-  font-size: inherit;
-  text-align: justify;
-  padding: 16px 16px 16px 16px; }
+	color: #fafafa;
+	letter-spacing: 2px;
+	display: block;
+	font-size: inherit;
+	font-weight: bold;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.summer-solstice-body {
+	color: #fafafa;
+	letter-spacing: 2px;
+	display: block;
+	font-size: inherit;
+	text-align: justify;
+	padding: 16px 16px 16px 16px;
+}
+
 /*--------------------END OF SUMMER SOLSTICE SECTION--------------------------------------------------------------------------------*/
 
 
 /*--------------------START OF MARY SECTION--------------------------------------------------------------------------------*/
-.row-mary-left, .row-testimonies-left { 
-  background-color: #cf4214 }
+.row-mary-left,
+.row-testimonies-left {
+	background-color: #cf4214
+}
 
 
-.col-mary-background-left, .col-testimonies-background-left-mary {
- 
-  background-image: url("../../assets/images/Mary-resize-three.webp");
-  background-color: #cf4214;
-  border-radius: 0% 0% 80% 00%;
-  height: 480px;
-  width: 100%;
-  background-position: center; 
-  background-repeat: no-repeat; 
-  background-size: cover; }
+.col-mary-background-left,
+.col-testimonies-background-left-mary {
 
-.col-mary-logo-left, .col-testimonies-logo-left {
-  text-align: justify; }
+	background-image: url("../../assets/images/Mary-resize-three.webp");
+	background-color: #cf4214;
+	border-radius: 0% 0% 80% 00%;
+	height: 480px;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
-.row-mary-right, .row-testimonies-right {
-  background-color:#cf4214;
-  border-radius: 0% 0% 80% 0%;  }
+.col-mary-logo-left,
+.col-testimonies-logo-left {
+	text-align: justify;
+}
+
+.row-mary-right,
+.row-testimonies-right {
+	background-color: #cf4214;
+	border-radius: 0% 0% 80% 0%;
+}
 
 
-.col-mary-background-right, .col-testimonies-background-right-mary {
-  height:480px;
-  width: 100%;
-  text-align: justify; }
+.col-mary-background-right,
+.col-testimonies-background-right-mary {
+	height: 480px;
+	width: 100%;
+	text-align: justify;
+}
 
-.header-mary, .header-testimonies { 
-  color: #fafafa; 
-  letter-spacing: 2px; 
-  display: block;
-  font-size: inherit;
-  font-weight: bold;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  padding-left: 0px;
-  padding-right: 0px;  }
+.header-mary,
+.header-testimonies {
+	color: #fafafa;
+	letter-spacing: 2px;
+	display: block;
+	font-size: inherit;
+	font-weight: bold;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
 
-.mary-body, .acknowledgements, .testimonies-body { 
-  color: #fafafa; 
-  letter-spacing: 2px; 
-  display: block;
-  font-size: inherit;
-  text-align: justify;
-  padding: 16px 16px 16px 16px; }
+.mary-body,
+.acknowledgements,
+.testimonies-body {
+	color: #fafafa;
+	letter-spacing: 2px;
+	display: block;
+	font-size: inherit;
+	text-align: justify;
+	padding: 16px 16px 16px 16px;
+}
 
 .get-involved-body {
-  color: black; 
-  letter-spacing: 2px; 
-  display: block;
-  font-size: inherit;
-  text-align: justify; }
+	color: black;
+	letter-spacing: 2px;
+	display: block;
+	font-size: inherit;
+	text-align: justify;
+}
+
 /*--------------------END OF MARY SECTION--------------------------------------------------------------------------------*/
 
 /*--------------------START OF TESTIMONIES SECTION--------------------------------------------------------------------------------*/
 
-.row-testimonies-left { 
-  background-color: #cf4214 }
+.row-testimonies-left {
+	background-color: #cf4214
+}
 
- .col-testimonies-background-left { 
-  background-image: url("../../assets/images/Mary-resize-three.webp");
-  background-color: #cf4214;
-  border-radius: 0% 0% 80% 00%;
-  height: 500px;
-  width: 100%;
-  background-position: center; 
-  background-repeat: no-repeat; 
-  background-size: cover; }
+.col-testimonies-background-left {
+	background-image: url("../../assets/images/Mary-resize-three.webp");
+	background-color: #cf4214;
+	border-radius: 0% 0% 80% 00%;
+	height: 500px;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
 .col-testimonies-logo-left {
-  text-align: justify; }
+	text-align: justify;
+}
 
 .row-testimonies-right {
-  background-color:#cf4214;
-  border-radius: 0% 0% 40% 0%;  }
+	background-color: #cf4214;
+	border-radius: 0% 0% 40% 0%;
+}
 
 
 .col-testimonies-background-right {
-  height:500px;
-  width: 100%;
-  text-align: justify; }
+	height: 500px;
+	width: 100%;
+	text-align: justify;
+}
 
-.header-testimonies { 
-  color: #fafafa; 
-  letter-spacing: 2px; 
-  display: block;
-  font-size: inherit;
-  font-weight: bold;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  padding-left: 0px;
-  padding-right: 0px; }
+.header-testimonies {
+	color: #fafafa;
+	letter-spacing: 2px;
+	display: block;
+	font-size: inherit;
+	font-weight: bold;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
 
-.mary-body, .acknowledgements, .testimonies-body { 
-  color: #fafafa; 
-  letter-spacing: 2px; 
-  display: block;
-  font-size: inherit;
-  text-align: justify;
-  padding: 16px 16px 16px 16px; }
-
-
-.brian-img { 
-  background-image: url("../../assets/images/brian-original.webp"); 
-  background-color: #cf4214;
-  border-radius: 0% 0% 80% 00%;
-  height: 500px;
-  width: 100%;
-  background-position: center; 
-  background-repeat: no-repeat; 
-  background-size: cover; }
+.mary-body,
+.acknowledgements,
+.testimonies-body {
+	color: #fafafa;
+	letter-spacing: 2px;
+	display: block;
+	font-size: inherit;
+	text-align: justify;
+	padding: 16px 16px 16px 16px;
+}
 
 
-.wendy-img { 
-  background-image: url("../../assets/images/wendy-original.webp"); 
-  background-color: #cf4214;
-  border-radius: 0% 0% 80% 00%;
-  height: 500px;
-  width: 100%;
-  background-position: center; 
-  background-repeat: no-repeat; 
-  background-size: cover; }
+.brian-img {
+	background-image: url("../../assets/images/brian-original.webp");
+	background-color: #cf4214;
+	border-radius: 0% 0% 80% 00%;
+	height: 500px;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
-.ian-img { 
-  background-image: url("../..assets/images/ian-original.webp"); 
-  background-color: #cf4214;
-  border-radius: 0% 0% 80% 00%;
-  height: 500px;
-  width: 100%;
-  background-position: center; 
-  background-repeat: no-repeat; 
-  background-size: cover; }
 
-.mary-img-testimonies { 
-  background-image: url("../../assets/images/Mary-resize-three.webp"); 
-  background-color: #cf4214;
-  border-radius: 0% 0% 80% 00%;
-  height: 500px;
-  width: 100%;
-  background-position: center; 
-  background-repeat: no-repeat; 
-  background-size: cover; }
+.wendy-img {
+	background-image: url("../../assets/images/wendy-original.webp");
+	background-color: #cf4214;
+	border-radius: 0% 0% 80% 00%;
+	height: 500px;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.ian-img {
+	background-image: url("../..assets/images/ian-original.webp");
+	background-color: #cf4214;
+	border-radius: 0% 0% 80% 00%;
+	height: 500px;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.mary-img-testimonies {
+	background-image: url("../../assets/images/Mary-resize-three.webp");
+	background-color: #cf4214;
+	border-radius: 0% 0% 80% 00%;
+	height: 500px;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 /*--------------------END OF TESTIMONIES SECTION--------------------------------------------------------------------------------*/
 
 /*--------------------START OF GENERIC CODE SECTION--------------------------------------------------------------------------------*/
 
-.xxsm-padding
-{ padding: 1px;}
-
-.xsm-padding
-{ padding: 2px;}
-
-.sm-padding
-{ padding: 4px;}
-
-.md-padding
-{ padding: 8px;}
-
-.lg-padding
-{ padding: 16px;}
-
-.xlg-padding
-{ padding: 32px;}
-
-.xxl-padding
-{ padding: 64px;}
-
-.lg-padding-left-focus { 
-  padding-top: 16px;
-  padding-bottom: 16px;
-  padding-right: 16px;
-  padding-left: 100px; }
-
-.content { 
-  background-color: #F5EBE6; }
-
-body { 
-  font-family: 'Poppins', sans-serif;  
-  font-size:16px; }
-
-h1 { 
-  font-size: 160%; }
-
-h3 {
-  font-size: 100%; }
-
-.max-width-container {
-  max-width: 1VW; }
-
-.align-center { 
-  text-align: center;
-  margin: auto; }
-
-.align-right { 
- text-align: right; }
-
-.align-left {
- text-align: left; }
-
- .with-borders {
-  border-style: solid;
-  border-color: black; }
-   
-
- /*--------------------START OF SIGN-UP SECTION--------------------------------------------------------------------------------*/
-.sign-up-row-header, .sign-up-row
-{ 
-    
-  width: 90%;  
-  letter-spacing: 2px; 
-  font-size: inherit;
-  font-weight: bold;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  padding-left: 0px;
-  padding-right: 0px;
+.xxsm-padding {
+	padding: 1px;
 }
 
-.col-sign-up { 
-  width:50%;  
-  font-weight: bold;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 8px;
-  padding-right: 8px; }
+.xsm-padding {
+	padding: 2px;
+}
+
+.sm-padding {
+	padding: 4px;
+}
+
+.md-padding {
+	padding: 8px;
+}
+
+.lg-padding {
+	padding: 16px;
+}
+
+.xlg-padding {
+	padding: 32px;
+}
+
+.xxl-padding {
+	padding: 64px;
+}
+
+.lg-padding-left-focus {
+	padding-top: 16px;
+	padding-bottom: 16px;
+	padding-right: 16px;
+	padding-left: 100px;
+}
+
+.content {
+	background-color: #F5EBE6;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+}
+
+h1 {
+	font-size: 160%;
+}
+
+h3 {
+	font-size: 100%;
+}
+
+.max-width-container {
+	max-width: 1VW;
+}
+
+.align-center {
+	text-align: center;
+	margin: auto;
+}
+
+.align-right {
+	text-align: right;
+}
+
+.align-left {
+	text-align: left;
+}
+
+.with-borders {
+	border-style: solid;
+	border-color: black;
+}
+
+
+/*--------------------START OF SIGN-UP SECTION--------------------------------------------------------------------------------*/
+.sign-up-row-header,
+.sign-up-row {
+
+	width: 90%;
+	letter-spacing: 2px;
+	font-size: inherit;
+	font-weight: bold;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.col-sign-up {
+	width: 50%;
+	font-weight: bold;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
 
 .sign-up-over-one {
-  width:100%;  
-  font-weight: inherit;
-  padding: inherit;  }
+	width: 100%;
+	font-weight: inherit;
+	padding: inherit;
+}
 
 .text-area {
-  max-width: 100%; }
+	max-width: 100%;
+}
 
-          /*-------THIS SECTION OF CODE I LEARNED AT W3 SCHOOLS. THE CODE WAS WRITTEN BY ME---------------------------*/
-.show-tooltip { 
-  display: none;
-  text-align: center; }
+/*-------THIS SECTION OF CODE I LEARNED AT W3 SCHOOLS. THE CODE WAS WRITTEN BY ME---------------------------*/
+.show-tooltip {
+	display: none;
+	text-align: center;
+}
 
-.hover-over-this:hover + .show-tooltip {
-  display: block;
-  color: red;
-  font-size: 14px;
-  text-align: center; }
-            /*-----------------------------------------------------------------*/
+.hover-over-this:hover+.show-tooltip {
+	display: block;
+	color: red;
+	font-size: 14px;
+	text-align: center;
+}
 
-
-
-
-
-
-
-
-
-
-
+/*-----------------------------------------------------------------*/
 
 
 /*<!-----------------------FOOTER------------------------------------>*/
-.footer-head{
-  color: #fafafa; 
-  letter-spacing: 2px; 
-  display: block;
-  font-size: inherit;
-  font-weight: bold;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  padding-left: 0px;
-  padding-right: 0px; }
+.footer-head {
+	color: #fafafa;
+	letter-spacing: 2px;
+	display: block;
+	font-size: inherit;
+	font-weight: bold;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
 
 
 .contact-us {
-  text-align:center; }
+	text-align: center;
+}
 
 .row-footer {
-  width:80%;
-  margin: auto;
-  height: 50px; }
-
-.footer-style{
-  background-color: #911306;
-  border-radius: 80% 80% 0% 0%;
-  height: 500px;
-  margin:auto; }
-
-.footer-links li{
-  display: inline; }
-
-.footer-links i{
-  font-size: 160%;
-  margin: auto;
-  padding: 30px 30px 30px 30px;
-  color: white; }
-
-.footer-font { 
-  color: #fafafa; 
-  letter-spacing: 2px; 
-  display: block;
-  font-size: inherit;
-  text-align: justify;  
+	width: 80%;
+	margin: auto;
+	height: 50px;
 }
+
+.footer-style {
+	background-color: #911306;
+	border-radius: 80% 80% 0% 0%;
+	height: 500px;
+	margin: auto;
+}
+
+.footer-links li {
+	display: inline;
+}
+
+.footer-links i {
+	font-size: 160%;
+	margin: auto;
+	padding: 30px 30px 30px 30px;
+	color: white;
+}
+
+.footer-font {
+	color: #fafafa;
+	letter-spacing: 2px;
+	display: block;
+	font-size: inherit;
+	text-align: justify;
+}
+
 /*<!-------------------------------END OF FOOTER SECTION ---------------------------------->*/
-    
+
 /*-----
 THE FOLLOWING MEDIA QUERIES WERE BASED ON THE MEDIA QUERY MODULES I LEARNED THROUGH W3 SCHOOLS. THE CODE WAS WRITTEN BY ME BUT I FEEL IT IMPORTANT 
 TO SAY WHERE I LEARNED THEM
 ----------*/
-@media screen and (max-width: 661px) {    .col-mary-background-left { display: none; } }
+@media screen and (max-width: 661px) {
+	.col-mary-background-left {
+		display: none;
+	}
+}
 
-@media screen and (max-width: 400px) {    .col-header-background-left { display: none; } }
+@media screen and (max-width: 400px) {
+	.col-header-background-left {
+		display: none;
+	}
+}
 
-@media screen and (min-width: 700px  ) {    .col-header-background-left { width: 700px; } }
+@media screen and (min-width: 700px) {
+	.col-header-background-left {
+		width: 700px;
+	}
+}
 
-@media screen and (max-width: 1074px)  {    
-  #nav-bar, #nav-bar a, .nav-links { float: none; width: 100%; } 
-  .col-sign-up { width: 80%; margin: auto; text-align: center; } }
+@media screen and (max-width: 1074px) {
 
-@media screen and (max-width: 661px) {    .col-summer-solstice-background-left { display: none; } }
+	#nav-bar,
+	#nav-bar a,
+	.nav-links {
+		float: none;
+		width: 100%;
+	}
 
-@media screen and (max-width: 618px) { .mary-body, .summer-solstice-body, .footer-font { font-size: 14px; }}
-@media screen and (max-width: 538px) { .row-summer-solstice-right, .row-mary-right, .row-header-right { border-radius: 0% 0% 0% 0%; }}
+	.col-sign-up {
+		width: 80%;
+		margin: auto;
+		text-align: center;
+	}
+}
 
-@media screen and (max-width: 430px) { .footer-style { border-radius: 0% 0% 0% 0%;  }}
-@media screen and (max-width: 395px) { .footer-style { height: 700px; }}
+@media screen and (max-width: 661px) {
+	.col-summer-solstice-background-left {
+		display: none;
+	}
+}
 
-@media screen and (max-width: 750px) { .row-testimonies-right { border-radius: 0% 0% 0% 0%; }}
-@media screen and (max-width: 685px)  {  .col-testimonies-background-left { display: none;  } .row-testimonies-right { height: 800px;  } }
+@media screen and (max-width: 618px) {
+
+	.mary-body,
+	.summer-solstice-body,
+	.footer-font {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 538px) {
+
+	.row-summer-solstice-right,
+	.row-mary-right,
+	.row-header-right {
+		border-radius: 0% 0% 0% 0%;
+	}
+}
+
+@media screen and (max-width: 430px) {
+	.footer-style {
+		border-radius: 0% 0% 0% 0%;
+	}
+}
+
+@media screen and (max-width: 395px) {
+	.footer-style {
+		height: 700px;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	.row-testimonies-right {
+		border-radius: 0% 0% 0% 0%;
+	}
+}
+
+@media screen and (max-width: 685px) {
+	.col-testimonies-background-left {
+		display: none;
+	}
+
+	.row-testimonies-right {
+		height: 800px;
+	}
+}

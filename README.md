@@ -483,10 +483,19 @@ Content for the website was written by Dan Matthews.
 Finally, I want to take the opportunity to thank and acknowledge the following for their support and patience in helping me create my first ever project:
 
 - [Harry Dhillon](https://github.com/Harry-Leepz), who is my mentor at the Code Institute
-- Craig Hudson, for their advice in testing for responsiveness
+- Craig Hudson and Ross Espley, for their advice in testing my code for responsiveness, general coding advice and patience in helping me troubleshoot problems along the way
+- Kofi Afriyie, who is my facilitor from West Herts College, for their time, patience and encouragement in helping me develop this project. 
 
 
 
 Jigsaw validator
 
-I used W3 School's Jigsaw Validator for my CSS. The validator picked up 53 errors. 25 of these were relating to Bootstrap. However the remaining 28 errors were from my style.css file, overwhelmingly relating to invalid references I'd made (e.g. .header-text-font	Property font-display doesn't exist : block). As the vast majority of my CSS was created through manipulating code and learning the end result, I expected more than a few errors during the first check. There were also 419 warnings flagged, but again these related to Boostrap and was not something I could fix. I addressed all CSS issues, ran the validator again and it passed all validation. 
+I used W3 School's Jigsaw Validator for my CSS. The validator picked up 53 errors. 25 of these were relating to Bootstrap. However the remaining 28 errors were from my style.css file, overwhelmingly relating to invalid references I'd made (e.g. .header-text-font	Property font-display doesn't exist : block). As the vast majority of my CSS was created through manipulating code and learning the end result, I expected more than a few errors during the first check. There were also 419 warnings flagged, but again these related to Boostrap and was not something I could fix. I addressed all CSS issues, ran the validator again and it passed all validation with the output: Congratulations! No Error Found. This document validates as CSS level 3 + SVG !
+
+
+I have also used Jigsaw to validate my HTML code. There were 23 errors identified which mainly covered my 'alt' tags, which I found were placed inappropiatly. I resolved all HTML issues and ran the validator again. It showed no further errors. 
+
+
+
+Formatting
+I've used [Formatter.com](https://www.freeformatter.com/html-formatter.html) to format my HTML code. I feel it was necessary to use a tool like this after I'd validated it, simply because this is my first project and I am very inexperienced as a developer at this point. 
