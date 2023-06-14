@@ -37,14 +37,14 @@
 .header-title-font {  
   color: #fafafa; 
   letter-spacing: 2px; 
-  font-display: block;
-  font-size: adjust;
+  display: block;
+  font-style: inherit;
   font-weight: bold; }
 
 .header-text-font { 
   color: #fafafa; 
   letter-spacing: 1px; 
-  font-display: block;
+  display: block;
   font-size: 1em; }
 
 .row-header-left
@@ -61,7 +61,6 @@
   background-size: cover;  }
 
 .col-header-logo-left {
-  text-align:top;
   padding: 0px 0px 0px 0px; }
 
 .row-header-right {
@@ -81,7 +80,7 @@
 
 .col-header-logo-right
 {
-  text-align:top;
+  text-align: justify;
   padding: 0px 0px 0px 0px; }
 
 /*-------------------END OF HEADER SECTION----------------------------------------------------------------------------------*/
@@ -157,7 +156,7 @@
   background-size: cover; }
 
 .col-summer-solstice-logo-left { 
-  text-align:top; }
+  text-align: justify; }
 
 .row-summer-solstice-right {
   background-color:#cf4214;
@@ -173,8 +172,8 @@
   
   color: #fafafa; 
   letter-spacing: 2px; 
-  font-display: block;
-  font-size: adjust;
+  display: block;
+  font-size: inherit;
   font-weight: bold;
   padding-top: 16px;
   padding-bottom: 16px;
@@ -184,8 +183,8 @@
 .summer-solstice-body { 
   color: #fafafa; 
   letter-spacing: 2px; 
-  font-display: block;
-  font-size: adjust;
+  display: block;
+  font-size: inherit;
   text-align: justify;
   padding: 16px 16px 16px 16px; }
 /*--------------------END OF SUMMER SOLSTICE SECTION--------------------------------------------------------------------------------*/
@@ -208,7 +207,7 @@
   background-size: cover; }
 
 .col-mary-logo-left, .col-testimonies-logo-left {
-  text-align:top; }
+  text-align: justify; }
 
 .row-mary-right, .row-testimonies-right {
   background-color:#cf4214;
@@ -223,8 +222,8 @@
 .header-mary, .header-testimonies { 
   color: #fafafa; 
   letter-spacing: 2px; 
-  font-display: block;
-  font-size: adjust;
+  display: block;
+  font-size: inherit;
   font-weight: bold;
   padding-top: 16px;
   padding-bottom: 16px;
@@ -234,16 +233,16 @@
 .mary-body, .acknowledgements, .testimonies-body { 
   color: #fafafa; 
   letter-spacing: 2px; 
-  font-display: block;
-  font-size: adjust;
+  display: block;
+  font-size: inherit;
   text-align: justify;
   padding: 16px 16px 16px 16px; }
 
 .get-involved-body {
   color: black; 
   letter-spacing: 2px; 
-  font-display: block;
-  font-size: adjust;
+  display: block;
+  font-size: inherit;
   text-align: justify; }
 /*--------------------END OF MARY SECTION--------------------------------------------------------------------------------*/
 
@@ -263,7 +262,7 @@
   background-size: cover; }
 
 .col-testimonies-logo-left {
-  text-align:top; }
+  text-align: justify; }
 
 .row-testimonies-right {
   background-color:#cf4214;
@@ -278,8 +277,8 @@
 .header-testimonies { 
   color: #fafafa; 
   letter-spacing: 2px; 
-  font-display: block;
-  font-size: adjust;
+  display: block;
+  font-size: inherit;
   font-weight: bold;
   padding-top: 16px;
   padding-bottom: 16px;
@@ -289,8 +288,8 @@
 .mary-body, .acknowledgements, .testimonies-body { 
   color: #fafafa; 
   letter-spacing: 2px; 
-  font-display: block;
-  font-size: adjust;
+  display: block;
+  font-size: inherit;
   text-align: justify;
   padding: 16px 16px 16px 16px; }
 
@@ -403,8 +402,7 @@ h3 {
     
   width: 90%;  
   letter-spacing: 2px; 
-  font-display: block;
-  font-size: adjust;
+  font-size: inherit;
   font-weight: bold;
   padding-top: 16px;
   padding-bottom: 16px;
@@ -414,7 +412,6 @@ h3 {
 
 .col-sign-up { 
   width:50%;  
-  font-display: block;
   font-weight: bold;
   padding-top: 8px;
   padding-bottom: 8px;
@@ -423,7 +420,6 @@ h3 {
 
 .sign-up-over-one {
   width:100%;  
-  font-display: inherit;
   font-weight: inherit;
   padding: inherit;  }
 
@@ -439,7 +435,7 @@ h3 {
   display: block;
   color: red;
   font-size: 14px;
-  text-align: top center; }
+  text-align: center; }
             /*-----------------------------------------------------------------*/
 
 
@@ -458,8 +454,8 @@ h3 {
 .footer-head{
   color: #fafafa; 
   letter-spacing: 2px; 
-  font-display: block;
-  font-size: adjust;
+  display: block;
+  font-size: inherit;
   font-weight: bold;
   padding-top: 16px;
   padding-bottom: 16px;
@@ -493,8 +489,8 @@ h3 {
 .footer-font { 
   color: #fafafa; 
   letter-spacing: 2px; 
-  font-display: block;
-  font-size: adjust;
+  display: block;
+  font-size: inherit;
   text-align: justify;  
 }
 /*<!-------------------------------END OF FOOTER SECTION ---------------------------------->*/
