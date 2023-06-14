@@ -7,11 +7,6 @@ INCLUDE IMAGE HERE
 
 [View Heart Helpers on Github](https://github.com/Dan-Matthews-23/heart-helpers)
 
-![GitHub last commit](LINK TO GITHUB LAST COMMIT)
-![GitHub contributors](LINK TO GITHUB)
-![GitHub language count](LINK TO GITHUB)
-![GitHub top language](LINK TO GITHUB)
-![W3C Validation](LINK TO W3C VALIDATION)
 
 ## CONTENTS
 
@@ -64,7 +59,7 @@ Heart Helpers are a fictional charitiable organisation that aim to generate reve
 There are two main aims for the website:
 
 - Recruit new and existing volunteers to help with natioanlly-organised events
-- Provide contact information about local branches to new and existing volunteers
+- Provide a means for the user to contact the organisers or their local branch
 
 
 #### Key information for the site
@@ -72,7 +67,7 @@ There are two main aims for the website:
 - Information on the next national event
 - Information about previous events
 - Testimonies of previous and existing volunteers
-- Contact information for the twelve branches across the United Kingdom
+- A means for contacting  the national team or the twelve branches across the United Kingdom
 
 
 ### About the user
@@ -96,8 +91,8 @@ There are two main aims for the website:
 #### Returning Visitor Goals
 
 - To sign up to the next event
-- To find out how sucessful the previous events have been
-- To read volunteer testimonies, or submit one
+- To read volunteer testimonies
+- To contact the national team or local branch
 
 
 #### Frequent Visitor Goals
@@ -161,13 +156,11 @@ The font I have chosen to use for Heart Helpers is one called Poppins, which is 
 
 ### Images
 
-Where did your images come from? Did ypu get permission? Did you credit them?
+All of the images used on the Heart Helpers website are from Pexels.com, and the icons are from Font Awesome and Flaticon. The authors are noted and are available to view in the #Credits section.
 
 
 
 ### Features
-
-
 
 #### Header
 
@@ -194,25 +187,6 @@ Get Involved will be where the user can sign up to the next event by using a for
 
 There is also a checkbox with a 'I agree with the Terms of Service' label assigned to it. There will be no data validation assigned to this checkbox. The label will carry a hyperlink that will take the user to the Terms of Service page. 
 
-
- ## Future Developments
-
-There are several improvements I would like to make to Heart Helpers in the future when my knowledge and experience are improved.
-
-
-
-
-|      Page     |   Future Development Ideas  | Reason not added in this release  |
-| ------------  | ------------ | ------------ |
-|  Get Involved | On:Hover option that explains why DOB is required  |  Limited knowledge of Javascript |
-|  Get Involved | Javascript that will idenfity if the user is under 18. If yes, refer to sign-up-on-hold page, await parental consent  | Limited knowledge of Javascript  |
-|  Get Involved | Data vadlidation on Confirm Email Address | Limited knowledge of Javascript  |
-|  Get Involved | Data validation on Terms of Service checkbox | Limited knowledge of Javascript  |
-|  Contact Us   | Data vadlidation on Contact Us form to detect value submission (more than 0, less than 'X') |  Limited knowledge of Javascript  |
-|  Contact Us   | Data validation on other input values (email address format, numerical only for telephone) | Limited knowledge of Javascript  |
-|  About Us     | Interactivity on central rounded image so that when user clicks, information sections are shown | Limited knowledge of Javascript  |
-
-
 ### Accessibility
 
 I have been mindful during coding to ensure that the website is as accessible friendly as possible. I have achieved this by:
@@ -222,6 +196,46 @@ I have been mindful during coding to ensure that the website is as accessible fr
 - Using an easy to access navigation bar that clearly highlights which page the user is currently viewing
 - Where possible, using screen reading tools where there is no alternative text available and the user is presented with an important feature (e.g. button, icon)
 - Using semantic scripts
+
+
+
+## Reflection
+
+### Design
+
+Referring back to my original design ideas, the end result was slightly different to what I initially planned in the following ways:
+
+- **Heart Helpers Logo** - I did not include a logo in my end result project as I originally planned for two reasons:
+  1) I could not find an image that was appropiate to the colour scheme, related to the theme of the project and could be scaled for responsiveness.
+  2) After doing some research on other websites, I deemed it was not essential for a logo to be present on the website, since it did not affect the end user. 
+
+
+
+- **Contact Us** -  I originally planned to have the contact details for all twelve branches on the website, however I felt that it was too much information for the user to absorb. Instead, I intergrated a drop-down menu into the Contact Us page so that a message could be sent to the local branch the user selects (obviously with added Javascript and/or Python which I don't know at this point).
+
+
+
+
+- **Responsivness.** - My ideas for responsiveness across the pages was limited to what I knew at that point. I planned for Bootstrap to do most of the work, however I chose to use only a small portion of bootstrap for several reasons: 
+  1) I wanted to exhert as much creative control over my project as possible
+  2) Bootstrap is either limited in what it can do, or I lacked the knowledge to use it properly. I'm not sure which one it was but it's something I will learn before the next project. 
+
+  As a result, I used Media Queries to do the things that I wanted Bootstrap to do, which I feel was a good choice to make as it gave me a great deal of flexability. 
+
+  - **About Us, Previous Events** - I originally planned to have an About Us and Previous Events page alongside my end result pages, however I was advised by my mentor that the requirements for a pass is three pages, and advised me to write these pages only if I had time. Unfortunatly, I did run out of time, but I would add these pages at a later date if I had the time. 
+
+  - **Confirm Sign-Up, confirmation email** - I had planned to intergrate a 'method="POST"' function to the user form on the Get Involved page that would take the user to another page that confirmed the user's name and send them a confirmation email as well as check their age. I chose not to do that for thefollowing reasons:
+  1) I ran out of time to learn how to code a user form to send an automated email to the address the user supplies. I am confident that this will not take long to learn, however to make sure it works well and is fit for purpose, this should be added to the list of future developments. Instead, I created a simple 'thankyou' page that the user should be directed to.
+    2) The 'POST' element to the form would not work, and would not take the user to the confirmation page. I contacted Tutor SUpport who told me that the 'POST' function will not work unless I code it with Javascript or a server-side language. They advised me to remove the 'method="POST' part completley and have only action="thankyou.html", which I did
+
+
+
+
+
+
+
+
+
 
 
 - - -
@@ -241,10 +255,10 @@ I have been mindful during coding to ensure that the website is as accessible fr
 |  *Image Compression tools*    | [Tiny PNG](https://tinypng.com/)                                                |
 |  *Image editing*              | [Birme](https://www.birme.net/)                                                 |
 |  *Responsiveness testing*     | [Am I Responsive?](http://ami.responsivedesign.is/)                             |
-|  *Other icons*                | [Shields.io](https://shields.io/)                                               |
+|  *Other icons*                | [Flaticon](https://shields.io/)                                               |
 |                               |                                                                                 |                                                                            
 |  Version control              | Git                                                                             |
-|  IDE / file storing           | [Gitpod](https://gitpod.io/) and [Code Anywhere](https://app.codeanywhere.com/) |
+|  IDE / file storing           | [Gitpod](https://gitpod.io/), [Code Anywhere](https://app.codeanywhere.com/)  and [VS Code](https://code.visualstudio.com/)|
 |  Wireframes                   | [Balsamiq](https://balsamiq.com/)                                               |
 |  Code Validation              | [W3C Schools](https://validator.w3.org/)                                        |
 |  Developer Tools              | Chrome Developer Tools                                                          |
@@ -381,32 +395,24 @@ The following tests were undertaken using Google Chrome, Firefox, Microsoft Edge
 |  All pages | All images            |   When deplying my site to GitHub none of the images would load. I had to commit many times to try to figure this out. Along the way I was asdvised by a peer that I could use Developer Tools to try and correct the error without having to keep commiting and pushing. I soon figured out that GitHub does not like a filepath like the one I was using (assets/images). This worked after some help from a peer and my own testing (see acknowledgements)            |
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### Known Bugs
 |      Page   |   Feature                       | Element | Explaination                                                                                               |
 | ------------| ------------                    | -----------  | -----------                                                                                                                           |
-|  index.html   | Chrome                        |  .responsive-background-section            | On viewports less than 992px, the rounded-circle div distorts. To counter this I've forced the browser to remove the section completley in viewports less than 992px       |
+|  contact-us.html   | Chrome                        |  Form on contact-us.html            | The form does not have a method assigned to it, so does not capture the information on the form. I tested this extensivley but I kept getting a 405 error. I then contacted Tutor Support for help. They advised me to remove the 'method="POST"' part because this would not work unless I used Javascript or a server-based language, which we have not yet covered in the modules. I have set the form to refer to the thankyou.html page instead, but this is an improvement I would like to make at a later date      |
+
+
+### Validation and formatting
+**Jigsaw validator**
+
+I used W3 School's Jigsaw Validator for my CSS. The validator picked up 53 errors. 25 of these were relating to Bootstrap. However the remaining 28 errors were from my style.css file, overwhelmingly relating to invalid references I'd made (e.g. .header-text-font	Property font-display doesn't exist : block). As the vast majority of my CSS was created through manipulating code and learning the end result, I expected more than a few errors during the first check. There were also 419 warnings flagged, but again these related to Boostrap and was not something I could fix. I addressed all CSS issues, ran the validator again and it passed all validation with the output: Congratulations! No Error Found. This document validates as CSS level 3 + SVG !
+
+
+I have also used Jigsaw to validate my HTML code. There were 23 errors identified which mainly covered my 'alt' tags, which I found were placed inappropiatly. I resolved all HTML issues and ran the validator again. It showed no further errors. 
 
 
 
-
-
-
-
-
-
+**Formatting**
+I've used [Formatter.com](https://www.freeformatter.com/html-formatter.html) to format my HTML and CSS code. I feel it was necessary to use a tool like this after I'd validated it, simply because this is my first project and I am very inexperienced as a developer at this point. 
 
 
 ### Testing User Stories
@@ -417,6 +423,22 @@ Refer back to the User Stories under First Time Visitors, Returning Visotirs and
 - - -
 
 
+ ## Future Developments
+
+There are several improvements I would like to make to Heart Helpers in the future when my knowledge and experience are improved.
+
+
+
+
+|      Page     |   Future Development Ideas  | Reason not added in this release  |
+| ------------  | ------------ | ------------ |
+|  Get Involved | On:Hover option that explains why DOB is required  |  Limited knowledge of Javascript |
+|  Get Involved | Javascript that will idenfity if the user is under 18. If yes, refer to sign-up-on-hold page, await parental consent  | Limited knowledge of Javascript  |
+|  Get Involved | Data vadlidation on Confirm Email Address | Limited knowledge of Javascript  |
+|  Get Involved | Data validation on Terms of Service checkbox | Limited knowledge of Javascript  |
+|  Contact Us   | Data vadlidation on Contact Us form to detect value submission (more than 0, less than 'X') |  Limited knowledge of Javascript  |
+|  Contact Us   | Data validation on other input values (email address format, numerical only for telephone) | Limited knowledge of Javascript  |
+|  About Us     | Interactivity on central rounded image so that when user clicks, information sections are shown | Limited knowledge of Javascript  |
 
 
 
@@ -428,42 +450,55 @@ Refer back to the User Stories under First Time Visitors, Returning Visotirs and
 
 
 ## Credits
-[The Office of National Statistics](https://style.ons.gov.uk/category/data-visualisation/using-colours/#accessibility-and-colours) for advice on colour palette. 
 
-Photo by Stas Knop: https://www.pexels.com/photo/red-vinyl-record-3552948/ - heart logo
-Photo by cottonbro studio: https://www.pexels.com/photo/close-up-photo-of-a-volunteer-id-6565756/ - background header - 
 
-Photo by EVG Kowalievska: https://www.pexels.com/photo/three-person-looking-at-x-ray-result-1170979/
+The vast majority of my time spent developing this project was spent by creating code from various sources, adapting, testing and evaluating. At the start of this project I had next to no coding experience. However, one of my skills is to find relevant information from various sources and adapt it to suit my own needs. Apart from one instance, I have not used any code written by others anywhere in this project, but feel it important to note from where I've taken inspiration. 
 
-Photo by Hassan OUAJBIR: https://www.pexels.com/photo/woman-sitting-while-showing-heart-sign-hands-1535288/
 
-Photo by Allec Gomes: https://www.pexels.com/photo/neon-heart-shining-in-red-9762615/
+**British Heart Foundation**
 
-Photo by Ugur Tandogan: https://www.pexels.com/photo/heart-drawn-on-glass-of-wet-window-7557532/
+First and foremost, I have taken a lot of inspiration from the [British Heart Foundation](https://www.bhf.org.uk/). I have volunteered with the British Heart Foundation for almost a decade and am familiar with how they fundraise and fully support their cause. I would like to think of Heart Helpers as a tribute, rather than an immitation of the British Heart Foundation. 
+I also feel it important to note that I took away a lot of ideas on how my project would look based on how the British Heart Foundation website is set up. Notably the rounded corners, the User Choice section and the idea of two background images overlapping, it's not something I've seen before. I taught myself how to do all of this through W3 Schools and implemented it on my own project. The last thing I need to mention is that I contacted Tutor Support at the Code Institute about a concern I had around certain similarities my project had to the British Heart Foundation website. I then made a decision to change some elements of my own project so as not to be as similar. 
 
-Photo by Engin Akyurt: https://www.pexels.com/photo/woman-smiling-while-standing-beside-fence-3290499/
 
-Photo by Andrea Piacquadio: https://www.pexels.com/photo/woman-in-collared-shirt-774909/
+**W3 Schools**
 
-Photo by Italo Melo: https://www.pexels.com/photo/portrait-photo-of-smiling-man-with-his-arms-crossed-standing-in-front-of-white-wall-2379004/
+The vast majority of coding I have learned for this project has come from [W3 Schools](https://www.w3schools.com). A few examples of this are [rounded borders](https://www.w3schools.com/css/css3_borders.asp), [media queries](https://www.w3schools.com/css/css_rwd_mediaqueries.asp) and [background properties](https://www.w3schools.com/cssref/css3_pr_background.php). The information and resources are brilliant and have been a major factor in my completing this project.
 
-Photo by Tristan Le: https://www.pexels.com/photo/smiling-man-and-woman-wearing-jackets-1642883/
 
-shop
-<div> Icons made by <a href="https://www.flaticon.com/authors/nikita-golubev" title="Nikita Golubev"> Nikita Golubev </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a></div>
+**Scaler.com**
 
-next event
-<div> Icons made by <a href="https://www.flaticon.com/authors/ifanicon" title="Ifanicon"> Ifanicon </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a></div>
+It was Scaler.com that taught me how to create a line break (lines 133 - 154 in /assets/styles.css) in CSS code. I have noted in the file where the code starts and ends. This section of code is the only part of code I have not written myself, although I have adapted it for my own purposes. The code is available [here](https://www.scaler.com/topics/css-line-break/).
 
-pre-loved
-<div> Icons made by <a href="https://www.flaticon.com/authors/darius-dan" title="Darius Dan"> Darius Dan </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a></div>
 
-fact
-<div> Icons made by <a href="https://www.flaticon.com/authors/awicon" title="Awicon"> Awicon </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a></div>
+**Pexels**
 
-https://www.scaler.com/topics/css-line-break/
+All of the images on this website come from Pexels, and can be found via the following links:
 
-Photo by Allec Gomes: https://www.pexels.com/photo/neon-heart-shining-in-red-9762615/
+[Photo by Allec Gomes](https://www.pexels.com/photo/neon-heart-shining-in-red-9762615/)
+
+[Photo by Engin Akyurt](https://www.pexels.com/photo/woman-smiling-while-standing-beside-fence-3290499/)
+
+[Photo by Andrea Piacquadio](https://www.pexels.com/photo/woman-in-collared-shirt-774909/)
+
+[Photo by Italo Melo](https://www.pexels.com/photo/portrait-photo-of-smiling-man-with-his-arms-crossed-standing-in-front-of-white-wall-2379004/)
+
+[Photo by Tristan Le](https://www.pexels.com/photo/smiling-man-and-woman-wearing-jackets-1642883/)
+
+
+**Flaticon**
+
+Some of the icons on this website come from [Flaticon](https://flaticon.com). I have referenced the following authors in my footers across all pages as requested in the Terms and Conditions:
+
+[Nikita Golubev](https://www.flaticon.com/authors/nikita-golubev)
+
+[Awicon](https://www.flaticon.com/authors/awicon)
+
+[Darius Dan](ttps://www.flaticon.com/authors/darius-da)
+
+[Awicon](https://www.flaticon.com/authors/awicon)
+
+
 
 
 ### Code Used
@@ -474,9 +509,29 @@ Photo by Allec Gomes: https://www.pexels.com/photo/neon-heart-shining-in-red-976
 
 Content for the website was written by Dan Matthews.
 
-### Media
+### Code Used
 
-#### Other Images
+The following code can be found in style.css on lines 133 - 154 in /assets/styles.css. The original code can be found [here](https://www.scaler.com/topics/css-line-break/).
+
+#next-week::after {
+	content: "\a";
+	white-space: pre;
+}
+
+#nearest-branch::after {
+	content: "\a";
+	white-space: pre;
+}
+
+#donate-items::after {
+	content: "\a";
+	white-space: pre;
+}
+
+#know-facts::after {
+	content: "\a";
+	white-space: pre;
+}
 
 ### Acknowledgments
 
@@ -488,14 +543,8 @@ Finally, I want to take the opportunity to thank and acknowledge the following f
 
 
 
-Jigsaw validator
-
-I used W3 School's Jigsaw Validator for my CSS. The validator picked up 53 errors. 25 of these were relating to Bootstrap. However the remaining 28 errors were from my style.css file, overwhelmingly relating to invalid references I'd made (e.g. .header-text-font	Property font-display doesn't exist : block). As the vast majority of my CSS was created through manipulating code and learning the end result, I expected more than a few errors during the first check. There were also 419 warnings flagged, but again these related to Boostrap and was not something I could fix. I addressed all CSS issues, ran the validator again and it passed all validation with the output: Congratulations! No Error Found. This document validates as CSS level 3 + SVG !
-
-
-I have also used Jigsaw to validate my HTML code. There were 23 errors identified which mainly covered my 'alt' tags, which I found were placed inappropiatly. I resolved all HTML issues and ran the validator again. It showed no further errors. 
 
 
 
-Formatting
-I've used [Formatter.com](https://www.freeformatter.com/html-formatter.html) to format my HTML code. I feel it was necessary to use a tool like this after I'd validated it, simply because this is my first project and I am very inexperienced as a developer at this point. 
+
+[The Office of National Statistics](https://style.ons.gov.uk/category/data-visualisation/using-colours/#accessibility-and-colours) for advice on colour palette. 
