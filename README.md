@@ -42,11 +42,7 @@
     - [Code Used](#code-used)
   - [Acknowledgments](#acknowledgments)
 
-  
-
-
-
-- - -
+  - - -
 
 ## Heart Helpers
 
@@ -411,7 +407,7 @@ I did ask for a peer review of my code but wasn't able to get a response, so I a
 
 This is what I did to resolve it:
 
-- Removed the hyperlink attached to the W3C button in the footer. This was supposed to confirm that my code was W3c validated, but the link seems to have expired
+- The error was being caused by an expired link, so I attempted to remove the hyperlink and then test again. However the image failed responsiveness testing, so I decided to remove the image
 
 - It seems there were several reasons for the errors in thankyou.html. I had duplicate external icons, and I had set the height of the footer as a static measurement. I fixed these errors, however that left me with a large chunk of white space in the middle of the screen. Despite my earlier statement, I have decided to add a video into this section after checking YouTube's terms of service, which meant I did not need permission from the British Heart Foundation to embed this video. It's important to note here that I have not included this just to get rid of white space. My intention is to have this video as part of an overall facts page, much as the Mary section on the homepage is part of the overall Testimonies page. As such, I've added the following statement in the thankyou.html page: Before you go, we wanted to let you know that we're planning to introduce a 'Know Your Facts' section very soon, and your opinion really matters to us, so please do head over to our Contact Us page and give us your thoughts! Please take some time to watch the video below about one of the most important aspects of heart disease - Heart Attacks
 
