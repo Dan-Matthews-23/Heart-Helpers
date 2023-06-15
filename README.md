@@ -436,7 +436,13 @@ I've used [Formatter.com](https://www.freeformatter.com/html-formatter.html) to 
 
 ### Testing User Stories
 
-Refer back to the User Stories under First Time Visitors, Returning Visitors and the other one. Get feedback from peers
+I had several people test the site for its main aims, which was to:
+- **Receive the same user experience on multiple devices** - which I've demonstrated through use of Media Queries and Bootstrap to provide the same information across all devices with the exception of larger images which dissapear on smaller screens. 
+
+- **To find out about previous and upcoming events easily** - which is met by having a link to the next event in the first section the user sees, and the opportunity to sign up. 
+- **To sign up to volunteer on the next national event** - as above, the user form allows the user to sign up quite easily
+- **To allow users to find information on their local branch** - although I changed the way the user can get this information, I felt it more practical to have the form come through a system for a message to be sent to the local branch, rather than the user being able to get the details. From experience this will reduce the chance of human error when dealing with multiple queries a day
+- **To allow the user to contact someone if they need more information** - an easy to use contact form is available for the user to contact the national/local branch.
 
 - - -
 
