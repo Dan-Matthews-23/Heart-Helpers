@@ -48,17 +48,17 @@ INCLUDE IMAGE HERE
     - [Acknowledgments](#acknowledgments)
 
 - - -
-
+# Heart Helpers
 ## User Experience (UX)
 
 ### Background
 
-Heart Helpers are a fictional charitiable organisation that aim to generate revenue and attarct volunteers to support in local and national events in the interest of raising money for people affected by heart disease. Heart Helpers have twelve branches across the United Kingsdom. Each branch hosts fundraising activities in their local communities such as sponsered walks, walks and events with their local authority to raise awareness, particularly in schools and community centres. Each branch participates in quarterly national events organised by the central team. This website aims to showcase such events and attract new participents. 
+Heart Helpers are a fictional charitiable organisation that aim to generate revenue and attract volunteers to support in local and national events in the interest of raising money for people affected by heart disease. Heart Helpers have twelve branches across the United Kingdom. Each branch hosts fundraising activities in their local communities such as sponsored walks and events with their local authority to raise awareness, particularly in schools and community centres. Each branch participates in quarterly national events organised by the central team. This website aims to showcase such events and attract new participents. 
 
 
 There are two main aims for the website:
 
-- Recruit new and existing volunteers to help with natioanlly-organised events
+- Recruit new and existing volunteers to help with nationally-organised events
 - Provide a means for the user to contact the organisers or their local branch
 
 
@@ -71,6 +71,13 @@ There are two main aims for the website:
 
 
 ### About the user
+The website is designed with an end user in mind: a person who is looking to support Heart Helpers main aim of increasing revenue. Personal or protected charateristics are largely irrelevant, and as such Heart Helpers will not collect information other than name, email address, contact number (if the user wants to provide it) and date of birth. Date of birth is the only peice of information that is important for tax and health and safety reasons. 
+
+**Tax reasons** - Under UK tax regulations, charities can claim back 25% of most donations from the UK government as Tax Aid. But for charities to be able to do that, the person making the donation or purchase must be liable for [tax ](https://www.gov.uk/donating-to-charity/gift-aid), which means only volunteers over the age of 16 would qualify for Gift Aid. It is important to note here that a person under 16 years of age would we welcomed just the same, provided they satisfy the Health and Safety agreement. 
+
+**Health and Safety** - For Heart Helpers, a volunteer under the age of 16 needs parental consent to volunteer. This falls in line with relevant [guidance](https://learning.nspcc.org.uk/safeguarding-child-protection/working-with-young-volunteers) and covers the organisers of the events against anything that could happen. 
+
+**Disclaimer: It's important to note here that I am not a qualified tax person or a health and safety executive, and if I were designing this project for a client I would consult the relevant H&S/Law professionals or leave this to the client to research. The Tax Reasons and Health and Safety aspect of Heart Helpers is only my interpretation and is designed as part of the fictional Terms and Condtitions**
 
 #### User Goals
 
@@ -117,11 +124,13 @@ Wireframes were created for desktop, tablet and mobile (1200px, 758px, 476px res
 [Home Page Wireframe in Desktop View](/assets/images/wireframes-index-desktop.png)
 
 
+
 [About Us Page Wireframe in Mobile View](/assets/images/wireframes-aboutus-mobile.png)
 
 [About Us Page Wireframe in Tablet View](/assets/images/wireframes-aboutus-tablet.png)
 
 [About Us Page Wireframe in Desktop View](/assets/images/wireframes-aboutus-desktop.png)
+
 
 
 [Get Involved Page Wireframe in Mobile View](/assets/images/wireframes-getinvolved-mobile.png)
@@ -133,12 +142,12 @@ Wireframes were created for desktop, tablet and mobile (1200px, 758px, 476px res
 
 ### Colour
 
-![HEART HELPERS COLOUR PALETTE](/assets/images/Final-Colour-Palette.png)
+![HEART HELPERS COLOUR PALETTE](/assets/images/Final-Colour-Palette.webp)
 
 [Also available as Coolors palette](https://coolors.co/2b0201-911306-240101-5d0d04-cf4214)
 
 
-I have chosen the above colour palette for the Heart Helpers website for several reasons. First, I wanted to use a palette that was easy for the users to see. I did research on what colours would be the most accessible to use. The Office for National Statistics suggest three helpful rules to consider when creating accessible websites:
+I have chosen the above colour palette for the Heart Helpers website because I wanted to use a palette that was easy for the users to see. I did research on what colours would be the most accessible to use. [The Office for National Statistics](https://style.ons.gov.uk/data-visualisation/using-colours/accessibility-and-colours/) suggest three helpful rules to consider when creating accessible websites:
 
 - “Get it right in black and white”
 
@@ -146,19 +155,16 @@ I have chosen the above colour palette for the Heart Helpers website for several
 
 - “Red and green should never be seen”
 
-Following the advice of fellow students, I decided to use [Coolors](https://coolors.co/) for my palette. I've used this particular palette out of personal choice. I'm partially colourblind myself and have always appreciated a website with an appropiate contrast. 
-
+To that end, I have chosen a mixture of black and white font, and primarily a mixture of deep red with orange to break up sections of the pages. I've kept these colours a darker shade so that the white font would be easily seen. I did struggle with the colour set. I'm partially colour blind myself which means I don't see shades of secondary or tertiary colours well at all. I've had to get feedback consistently on how easy the colours blended. I've also had a lot of support through the paid subscription of [Coolors](https://coolors.co/), which was reccomended to me by a peer at the Code Institute. The service allowed me to create a colour scheme based on the image I uploaded, which really did help. Overall,  I'm confident that I have chosen a colour scheme that is accessible that meets my design specification. 
 
 ### Font
 
-The font I have chosen to use for Heart Helpers is one called Poppins, which is part of the Sans Sarif family. It can be found [here](https://fonts.google.com/specimen/Poppins?preview.text=Heart%20Helpers&preview.text_type=custom). I chose the 'Light' weighting as I felt that it would look better against an off-white colour I planned to use as my background colour. 
+The font I have chosen to use for Heart Helpers is one called Poppins, which is part of the Sans Sarif family. It can be found [here](https://fonts.google.com/specimen/Poppins?preview.text=Heart%20Helpers&preview.text_type=custom). I chose the 'Light' weighting as I felt that it would look better against the background colour. 
 
 
 ### Images
 
 All of the images used on the Heart Helpers website are from Pexels.com, and the icons are from Font Awesome and Flaticon. The authors are noted and are available to view in the #Credits section.
-
-
 
 ### Features
 
@@ -226,7 +232,10 @@ Referring back to my original design ideas, the end result was slightly differen
 
   - **Confirm Sign-Up, confirmation email** - I had planned to intergrate a 'method="POST"' function to the user form on the Get Involved page that would take the user to another page that confirmed the user's name and send them a confirmation email as well as check their age. I chose not to do that for thefollowing reasons:
   1) I ran out of time to learn how to code a user form to send an automated email to the address the user supplies. I am confident that this will not take long to learn, however to make sure it works well and is fit for purpose, this should be added to the list of future developments. Instead, I created a simple 'thankyou' page that the user should be directed to.
-    2) The 'POST' element to the form would not work, and would not take the user to the confirmation page. I contacted Tutor SUpport who told me that the 'POST' function will not work unless I code it with Javascript or a server-side language. They advised me to remove the 'method="POST' part completley and have only action="thankyou.html", which I did
+  2) The 'POST' element to the form would not work, and would not take the user to the confirmation page. I contacted Tutor SUpport who told me that the 'POST' function will not work unless I code it with Javascript or a server-side language. They advised me to remove the 'method="POST' part completley and have only action="thankyou.html", which I did. 
+
+  **Elements not included**
+  I have chosen not to include any videos or audio in my project, simply because Heart Helpers is a fictional organisation and there is no material available that would be appropiate to include. I perhaps could have contacted the British Heart Foundation to ask for permission to use a promotional video, but due to the time constraints on this project that wasn't possible. If I were going to create this project for a client, I would ask for all promotional material (which could include YouTube videos, audio clips, multimedia) before I finalised the project so I could include it. I do feel as though a video about the facts of heart disease could have helped the end user and it is something I would include if I were to add future developments. 
 
 
 
@@ -439,6 +448,7 @@ There are several improvements I would like to make to Heart Helpers in the futu
 |  Contact Us   | Data vadlidation on Contact Us form to detect value submission (more than 0, less than 'X') |  Limited knowledge of Javascript  |
 |  Contact Us   | Data validation on other input values (email address format, numerical only for telephone) | Limited knowledge of Javascript  |
 |  About Us     | Interactivity on central rounded image so that when user clicks, information sections are shown | Limited knowledge of Javascript  |
+| Know the Facts | This is not a page I was able to create, but it was something I was going to create if I had more time. I would include many facts about Heart Disease and perhaps even an information video, possibly a link to YouTube (if such a video exists).| This was not added to the end project simply due to time constraints on the project, although there was a technical skills gap involved too, as I'm unsure how to add videos to code at this time |
 
 
 
@@ -497,12 +507,6 @@ Some of the icons on this website come from [Flaticon](https://flaticon.com). I 
 [Darius Dan](ttps://www.flaticon.com/authors/darius-da)
 
 [Awicon](https://www.flaticon.com/authors/awicon)
-
-
-
-
-### Code Used
-
 
 
 ### Content
