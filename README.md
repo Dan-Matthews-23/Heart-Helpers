@@ -3,9 +3,9 @@
 The Heart Helpers website is designed to attract prospect volunteers to participate in events that raise money for people suffering with heart disease. It is designed to be responsive so that users of a range of devices can use the website without degredation of experience.
 
 INCLUDE IMAGE HERE
-![ALT TEXT](HYPERLINK.PNG)
+![Am I responsive](/assets/images/responsive.png)
 
-[View Heart Helpers on Github](https://github.com/Dan-Matthews-23/heart-helpers)
+[View Heart Helpers on Github](https://dan-matthews-23.github.io/heart-helpers/)
 
 
 ## CONTENTS
@@ -166,6 +166,10 @@ The font I have chosen to use for Heart Helpers is one called Poppins, which is 
 
 All of the images used on the Heart Helpers website are from Pexels.com, and the icons are from Font Awesome and Flaticon. The authors are noted and are available to view in the #Credits section.
 
+### Videos
+
+There is one video in this project that was added as a late addition, which is an embedded YouTube video from the British Heart Foundation regarding Heart Attacks. 
+
 ### Features
 
 #### Header
@@ -184,7 +188,7 @@ My Home page will begin with the Next Event with a large image (see Images) and 
 
 The next thing the desktop and tablet users will see is an image of the previous event (in this case, the Winter Wonderland Event), showcasing a team of happy volunteers. This image will not be displayed on the mobile view.
 
-Beneath the Winter Wonderland Event image, the user will be shown a series of four written testimonies from previous volunteers. All four will be shown to users regardless of the device they are using, however the way in which they see them will differ (see Wireframes).
+Beneath the Winter Wonderland Event image, the user will be shown a series of four written testimonies from volunteers. All four will be shown to users regardless of the device they are using, however the way in which they see them will differ (see Wireframes).
 
 
 #### Get Involved
@@ -226,7 +230,7 @@ Referring back to my original design ideas, the end result was slightly differen
   1) I wanted to exhert as much creative control over my project as possible
   2) Bootstrap is either limited in what it can do, or I lacked the knowledge to use it properly. I'm not sure which one it was but it's something I will learn before the next project. 
 
-  As a result, I used Media Queries to do the things that I wanted Bootstrap to do, which I feel was a good choice to make as it gave me a great deal of flexability. 
+  Instead, I used Media Queries to do the things that I wanted Bootstrap to do, which I feel was a good choice to make as it gave me a great deal of flexability. 
 
   - **About Us, Previous Events** - I originally planned to have an About Us and Previous Events page alongside my end result pages, however I was advised by my mentor that the requirements for a pass is three pages, and advised me to write these pages only if I had time. Unfortunatly, I did run out of time, but I would add these pages at a later date if I had the time. 
 
@@ -235,7 +239,8 @@ Referring back to my original design ideas, the end result was slightly differen
   2) The 'POST' element to the form would not work, and would not take the user to the confirmation page. I contacted Tutor SUpport who told me that the 'POST' function will not work unless I code it with Javascript or a server-side language. They advised me to remove the 'method="POST' part completley and have only action="thankyou.html", which I did. 
 
   **Elements not included**
-  I have chosen not to include any videos or audio in my project, simply because Heart Helpers is a fictional organisation and there is no material available that would be appropiate to include. I perhaps could have contacted the British Heart Foundation to ask for permission to use a promotional video, but due to the time constraints on this project that wasn't possible. If I were going to create this project for a client, I would ask for all promotional material (which could include YouTube videos, audio clips, multimedia) before I finalised the project so I could include it. I do feel as though a video about the facts of heart disease could have helped the end user and it is something I would include if I were to add future developments. 
+  I have chosen not to include any videos or audio in my project, simply because Heart Helpers is a fictional organisation and there is no material available that would be appropiate to include. I perhaps could have contacted the British Heart Foundation to ask for permission to use a promotional video, but due to the time constraints on this project that wasn't possible. If I were going to create this project for a client, I would ask for all promotional material (which could include YouTube videos, audio clips, multimedia) before I finalised the project so I could include it. I do feel as though a video about the facts of heart disease could have helped the end user and it is something I would include if I were to add future developments.
+  **EDIT: A video has now been included in the latest addition of the project. Please see Peer Feedback for more information** 
 
 
 
@@ -260,17 +265,18 @@ Referring back to my original design ideas, the end result was slightly differen
 |  Fonts                        | [Google Fonts](https://fonts.google.com/)                                       |
 |  **Images**                   |                                                                                 |
 |                               |                                                                                 |
-|  *Icons*                      | [Font Awesome](https://fontawesome.com/) and [Favicon](https://favicon.io/)     |
-|  *Image Compression tools*    | [Tiny PNG](https://tinypng.com/)                                                |
-|  *Image editing*              | [Birme](https://www.birme.net/)                                                 |
+|  *Icons*                      | [Font Awesome](https://fontawesome.com/) and [Flaticon](https://www.flaticon.com/)     |
+|  *Image Compression tools*    | [Image Resizer](https://imageresizer.com/)                                                |
+|  *Image editing*              | [Image Resizer](https://imageresizer.com/)                                                  |
 |  *Responsiveness testing*     | [Am I Responsive?](http://ami.responsivedesign.is/)                             |
-|  *Other icons*                | [Flaticon](https://shields.io/)                                               |
+|            |                                               |
 |                               |                                                                                 |                                                                            
 |  Version control              | Git                                                                             |
 |  IDE / file storing           | [Gitpod](https://gitpod.io/), [Code Anywhere](https://app.codeanywhere.com/)  and [VS Code](https://code.visualstudio.com/)|
 |  Wireframes                   | [Balsamiq](https://balsamiq.com/)                                               |
 |  Code Validation              | [W3C Schools](https://validator.w3.org/)                                        |
 |  Developer Tools              | Chrome Developer Tools                                                          |
+|  Code Formatting              | [Free Formater](https://www.freeformatter.com/html-formatter.html)                                                          |
 
 
 - - -
@@ -425,9 +431,9 @@ I did ask for a peer review of my code but wasn't able to get a response, so I a
 
 This is what I did to resolve it:
 
-- Removed the W3C button in the footer. This was supposed to confirm that my code was W3c validated, but the link seems to have expired
+- Removed the hyperlink attached to the W3C button in the footer. This was supposed to confirm that my code was W3c validated, but the link seems to have expired
 
-- It seems there were several reasons for the errors in thankyou.html. I had duplicate external icons, and I had set the height of the footer as a static measurement. I fixed these errors, however that left me with a large chunk of white space in the middle of the screen. Despite my earlier statement, I have decided to add a video into this section after checking YouTube's terms of service, which meant I did not need permission from the British Heart Foundation to embed this video. It's important to note here that I have not included this just to get rid of white space. My intention is to have this video as part of an overall facts page. As such, I've added the following statement in the thankyou.html page: Before you go, we wanted to let you know that we're planning to introduce a 'Know Your Facts' section very soon, and your opnion really matters to us, so please do head over to our Contact Us page and give us your thoughts! Please take some time to watch the video below about one of the most important aspects of heart disease - Heart Attacks
+- It seems there were several reasons for the errors in thankyou.html. I had duplicate external icons, and I had set the height of the footer as a static measurement. I fixed these errors, however that left me with a large chunk of white space in the middle of the screen. Despite my earlier statement, I have decided to add a video into this section after checking YouTube's terms of service, which meant I did not need permission from the British Heart Foundation to embed this video. It's important to note here that I have not included this just to get rid of white space. My intention is to have this video as part of an overall facts page, much as the Mary section on the homepage is part of the overall Testimonies page. As such, I've added the following statement in the thankyou.html page: Before you go, we wanted to let you know that we're planning to introduce a 'Know Your Facts' section very soon, and your opnion really matters to us, so please do head over to our Contact Us page and give us your thoughts! Please take some time to watch the video below about one of the most important aspects of heart disease - Heart Attacks
 
 - The Contact Us form has been amended to fall in line with the removal of the POST part of the form, as advised by Tutor Support
 
@@ -435,19 +441,11 @@ This is what I did to resolve it:
 
 - The issue with the footer has now been corrected
 
-- I've changed the border-radius of the row on testimonies.html to a 5% decrease. I did try to set padding, but this didn't have the effect I wanted. 
+- I've changed the border-radius of the row on testimonies.html to a 5% decrease. I did try to set padding, but this didn't have the effect I wanted.
 
 - I couldn't repeat the step to resolve the text for the Mary section on the homepage because I wanted the curve of the border-radius to be symetrical on both columns for the desired effect. Instead, I've set the width of the right column to a 5% decrease which pulls the text off the edge of the div. 
 
 - Corrected a problem with the link on testimonies.html where the image should have been showing
-
-
-
-
-
-
-
-
 
 ### Validation and formatting
 **Jigsaw validator**
@@ -455,12 +453,12 @@ This is what I did to resolve it:
 I used W3 School's Jigsaw Validator for my CSS. The validator picked up 53 errors. 25 of these were relating to Bootstrap. However the remaining 28 errors were from my style.css file, overwhelmingly relating to invalid references I'd made (e.g. .header-text-font	Property font-display doesn't exist : block). As the vast majority of my CSS was created through manipulating code and learning the end result, I expected more than a few errors during the first check. There were also 419 warnings flagged, but again these related to Boostrap and was not something I could fix. I addressed all CSS issues, ran the validator again and it passed all validation with the output: Congratulations! No Error Found. This document validates as CSS level 3 + SVG !
 
 
-I have also used Jigsaw to validate my HTML code. There were 23 errors identified which mainly covered my 'alt' tags, which I found were placed inappropiatly. I resolved all HTML issues and ran the validator again. It showed no further errors. 
+I have also used Jigsaw to validate my HTML code. There were 23 errors identified which mainly covered my 'alt' tags, which I found were placed inappropiatly. I resolved all HTML issues and ran the validator again. It showed no further errors. I re-ran the code after I made changes based on feedback from my peers.
 
 
 
 **Formatting**
-I've used [Formatter.com](https://www.freeformatter.com/html-formatter.html) to format my HTML and CSS code. I feel it was necessary to use a tool like this after I'd validated it, simply because this is my first project and I am very inexperienced as a developer at this point. 
+I've used [Formatter.com](https://www.freeformatter.com/html-formatter.html) to format my HTML and CSS code. I feel it was necessary to use a tool like this after I'd validated it, simply because this is my first project and I am very inexperienced as a developer at this point. I formatted my code again after I made changes to the code following peer feedback. 
 
 
 ### Testing User Stories
@@ -537,7 +535,7 @@ All of the images on this website come from Pexels, and can be found via the fol
 
 **Flaticon**
 
-Some of the icons on this website come from [Flaticon](https://flaticon.com). I have referenced the following authors in my footers across all pages as requested in the Terms and Conditions:
+Some of the icons on this website come from [Flaticon](https://flaticon.com). 
 
 [Nikita Golubev](https://www.flaticon.com/authors/nikita-golubev)
 
@@ -583,11 +581,4 @@ Finally, I want to take the opportunity to thank and acknowledge the following f
 - [Harry Dhillon](https://github.com/Harry-Leepz), who is my mentor at the Code Institute
 - Craig Hudson and Ross Espley, for their advice in testing my code for responsiveness, general coding advice and patience in helping me troubleshoot problems along the way
 - Kofi Afriyie, who is my facilitor from West Herts College, for their time, patience and encouragement in helping me develop this project. 
-
-
-
-
-
-
-
-[The Office of National Statistics](https://style.ons.gov.uk/category/data-visualisation/using-colours/#accessibility-and-colours) for advice on colour palette. 
+- [The Office of National Statistics](https://style.ons.gov.uk/category/data-visualisation/using-colours/#accessibility-and-colours) for advice on colour palette. 
