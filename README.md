@@ -410,6 +410,32 @@ The following tests were undertaken using Google Chrome, Firefox, Microsoft Edge
 |  contact-us.html   | Chrome                        |  Form on contact-us.html            | The form does not have a method assigned to it, so does not capture the information on the form. I tested this extensivley but I kept getting a 405 error. I then contacted Tutor Support for help. They advised me to remove the 'method="POST"' part because this would not work unless I used Javascript or a server-based language, which we have not yet covered in the modules. I have set the form to refer to the thankyou.html page instead, but this is an improvement I would like to make at a later date      |
 
 
+
+### Peer Feedback
+
+I did ask for a peer review of my code but wasn't able to get a response, so I asked my fellow classmates to review my project. They provided me with the following feedback:
+
+- The W3C Validator button you have in the footer doesn't work
+- There's a lot of white space on the thankyou.html page at the bottom
+- The submission of the Contact Us page gives a 405 error
+- There are duplicate Social Media icons in the footer
+- The text on Testimonies section on homepage needs to be moved up
+- The text for Mary pn homepage is overflowing
+- Ian's stoy on Testimonies, mobile view has a huge blank space above
+
+This is what I did to resolve it:
+
+- Removed the W3C button in the footer. This was supposed to confirm that my code was W3c validated, but the link seems to have expired
+- 
+
+
+
+
+
+
+
+
+
 ### Validation and formatting
 **Jigsaw validator**
 
