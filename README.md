@@ -419,14 +419,27 @@ I did ask for a peer review of my code but wasn't able to get a response, so I a
 - There's a lot of white space on the thankyou.html page at the bottom
 - The submission of the Contact Us page gives a 405 error
 - There are duplicate Social Media icons in the footer
-- The text on Testimonies section on homepage needs to be moved up
-- The text for Mary pn homepage is overflowing
-- Ian's stoy on Testimonies, mobile view has a huge blank space above
+- The text on footer section on homepage needs to be moved up
+- The text for Mary on homepage is overflowing
+- Ian's story on Testimonies, mobile view has a huge blank space above
 
 This is what I did to resolve it:
 
 - Removed the W3C button in the footer. This was supposed to confirm that my code was W3c validated, but the link seems to have expired
-- 
+
+- It seems there were several reasons for the errors in thankyou.html. I had duplicate external icons, and I had set the height of the footer as a static measurement. I fixed these errors, however that left me with a large chunk of white space in the middle of the screen. Despite my earlier statement, I have decided to add a video into this section after checking YouTube's terms of service, which meant I did not need permission from the British Heart Foundation to embed this video. It's important to note here that I have not included this just to get rid of white space. My intention is to have this video as part of an overall facts page. As such, I've added the following statement in the thankyou.html page: Before you go, we wanted to let you know that we're planning to introduce a 'Know Your Facts' section very soon, and your opnion really matters to us, so please do head over to our Contact Us page and give us your thoughts! Please take some time to watch the video below about one of the most important aspects of heart disease - Heart Attacks
+
+- The Contact Us form has been amended to fall in line with the removal of the POST part of the form, as advised by Tutor Support
+
+- The duplicate social media icons have now been removed
+
+- The issue with the footer has now been corrected
+
+- I've changed the border-radius of the row on testimonies.html to a 5% decrease. I did try to set padding, but this didn't have the effect I wanted. 
+
+- I couldn't repeat the step to resolve the text for the Mary section on the homepage because I wanted the curve of the border-radius to be symetrical on both columns for the desired effect. Instead, I've set the width of the right column to a 5% decrease which pulls the text off the edge of the div. 
+
+- Corrected a problem with the link on testimonies.html where the image should have been showing
 
 
 
@@ -474,7 +487,7 @@ There are several improvements I would like to make to Heart Helpers in the futu
 |  Contact Us   | Data vadlidation on Contact Us form to detect value submission (more than 0, less than 'X') |  Limited knowledge of Javascript  |
 |  Contact Us   | Data validation on other input values (email address format, numerical only for telephone) | Limited knowledge of Javascript  |
 |  About Us     | Interactivity on central rounded image so that when user clicks, information sections are shown | Limited knowledge of Javascript  |
-| Know the Facts | This is not a page I was able to create, but it was something I was going to create if I had more time. I would include many facts about Heart Disease and perhaps even an information video, possibly a link to YouTube (if such a video exists).| This was not added to the end project simply due to time constraints on the project, although there was a technical skills gap involved too, as I'm unsure how to add videos to code at this time |
+| Know the Facts | This is not a page I was able to create, but it was something I was going to create if I had more time. I would include many facts about Heart Disease and perhaps even an information video, possibly a link to YouTube (if such a video exists).| This was not added to the end project simply due to time constraints on the project, although there was a technical skills gap involved too, as I'm unsure how to add videos to code at this time. UPDATE: This has now been included following peer feedback |
 
 
 

@@ -264,7 +264,7 @@
 .col-mary-background-right,
 .col-testimonies-background-right-mary {
 	height: 480px;
-	width: 100%;
+	width: 90%;
 	text-align: justify;
 }
 
@@ -325,7 +325,7 @@
 
 .row-testimonies-right {
 	background-color: #cf4214;
-	border-radius: 0% 0% 40% 0%;
+	border-radius: 0% 0% 35% 0%;
 }
 
 
@@ -383,7 +383,7 @@
 }
 
 .ian-img {
-	background-image: url("../..assets/images/ian-original.webp");
+	background-image: url("../../assets/images/ian-original.webp");
 	background-color: #cf4214;
 	border-radius: 0% 0% 80% 00%;
 	height: 500px;
@@ -402,6 +402,7 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	padding-right:50px;
 }
 
 /*--------------------END OF TESTIMONIES SECTION--------------------------------------------------------------------------------*/
