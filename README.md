@@ -510,7 +510,7 @@ Some of the icons on this website come from [Flaticon](https://flaticon.com).
 
 [Awicon](https://www.flaticon.com/authors/awicon)
 
-[Darius Dan](ttps://www.flaticon.com/authors/darius-da)
+[Darius Dan](https://www.flaticon.com/authors/darius-dan)
 
 [Awicon](https://www.flaticon.com/authors/awicon)
 
