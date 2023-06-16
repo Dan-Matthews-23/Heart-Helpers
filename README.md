@@ -18,9 +18,9 @@
     - [Footer](#footer)
     - [Home Page](#home-page)
     - [Get Involved](#get-involved)
-    - [Contact Us]
-    - [Thank you]
-    - [Testimonies]
+    - [Contact Us](#contact-us)
+    - [Thank you](#thank-you)
+    - [Testimonies](#testimonies)
   - [Accessibility](#accessibility)
   - [Reflection](#reflection)
     - [Design](#design)
@@ -65,12 +65,11 @@ There are two main aims for the website:
 ### Key information for the site
 
 - Information on the next national event
-- Information about previous events
 - Testimonies of previous and existing volunteers
 - A means for contacting the national team or the twelve branches across the United Kingdom
 
 ### About the user
-The website is designed with an end user in mind: a person who is looking to support Heart Helpers main aim of increasing revenue. Personal or protected characteristics are largely irrelevant, and as such Heart Helpers will not collect information other than name, email address, contact number (if the user wants to provide it) and date of birth. Date of birth is the only piece of information that is important for tax and health and safety reasons. 
+The website is designed with an end user in mind: a person who is looking to support Heart Helpers' main aim of increasing revenue. Personal or protected characteristics are largely irrelevant, and as such Heart Helpers will not collect information other than name, email address, contact number (if the user wants to provide it) and date of birth. Date of birth is the only piece of information that is important for tax and health and safety reasons. 
 
 **Tax reasons** - Under UK tax regulations, charities can claim back 25% of most donations from the UK government as Tax Aid. But for charities to be able to do that, the person making the donation or purchase must be liable for [tax ](https://www.gov.uk/donating-to-charity/gift-aid), which means only volunteers over the age of 16 would qualify for Gift Aid. It is important to note here that a person under 16 years of age would we welcomed just the same, provided they satisfy the Health and Safety agreement. 
 
@@ -101,7 +100,8 @@ The website is designed with an end user in mind: a person who is looking to sup
 ### Frequent Visitor Goals
 
 - To find out how successful the previous events have been
-- To read volunteer testimonies, or submit one
+- To get involved with an upcoming event
+- To offer suggestions for the website or anything else
 
 - - -
 
@@ -163,7 +163,7 @@ There is one video in this project that was added as a late addition, which is a
 
 ### Header
 
-My header will be comprised of the Heart Helpers logo (see above for images) that will also act as a hyperlink that will always bring the user back to the Home page. It will also contain the navigation bar which will change position depending on the user's device.
+My header will be comprised of the Heart Helpers logo (see above for images) that will also act as a hyperlink that will always bring the user back to the Home page. It will also contain the navigation bar which will change depending on the user's device.
 
 ### Footer
 
@@ -173,15 +173,31 @@ My footer will contain links to LinkedIn, GitHub, Facebook and Twitter.
 
 My Home page will begin with the Next Event with a large image (see Images) and a block of text describing what the event is, with a button just below called 'Sign Up'. If clicked, the button will take the user to the Get Involved page so that they can sign up to this event. 
 
-The next thing the desktop and tablet users will see is an image of the previous event (in this case, the Winter Wonderland Event), showcasing a team of happy volunteers. This image will not be displayed on the mobile view.
+The next section will be a part of the Testimonies page, with part of one testimony. The user will be able to click to view more and be taken to the testimonies.html page
 
-Beneath the Winter Wonderland Event image, the user will be shown a series of four written testimonies from volunteers. All four will be shown to users regardless of the device they are using, however the way in which they see them will differ (see Wireframes).
 
 ### Get Involved
 
 Get Involved will be where the user can sign up to the next event by using a form that captures (through POST) the user's name, email address and date of birth. There is also a 'Confirm Email' address and a date selection for the date of birth, although neither of them has validation assigned to it (see Future Developments).
 
 There is also a checkbox with a 'I agree with the Terms of Service' label assigned to it. There will be no data validation assigned to this checkbox. The label will carry a hyperlink that will take the user to the Terms of Service page. 
+
+
+### Contact Us
+
+The Contact Us page will be a form where the user inputs some of their information. The form will be a POST method and will take the user to a confirmation page. There will be a drop-down menu, checkbox, submit button and text boxes available
+
+
+### Thank You
+
+Thank You will be a very short page confirming that the registration is being processed. I am constrained in what I can do with this because of my lack of JavaScript knowledge, however I have documented this in Future Developments
+
+
+### Testimonies
+
+This page will be a collection of testimonies from previous volunteers and/or people who have benefited from Heart Helpers. 
+
+
 
 ## Accessibility
 
@@ -211,28 +227,19 @@ Referring back to my original design ideas, the end result was slightly differen
 
 - **Responsiveness.** - My ideas for responsiveness across the pages was limited to what I knew at that point. I planned for Bootstrap to do most of the work, however I chose to use only a small portion of bootstrap for several reasons: 
   1) I wanted to exert as much creative control over my project as possible
-  2) Bootstrap is either limited in what it can do, or I lacked the knowledge to use it properly. I'm not sure which one it was but it's something I will learn before the next project. 
+  2) Bootstrap is either limited in what it can do, or I lacked the knowledge to use it properly. 
 
   Instead, I used Media Queries to do the things that I wanted Bootstrap to do, which I feel was a good choice to make as it gave me a great deal of flexibility. 
 
   - **About Us, Previous Events** - I originally planned to have an About Us and Previous Events page alongside my end result pages, however I was advised by my mentor that the requirements for a pass is three pages, and advised me to write these pages only if I had time. Unfortunately, I did run out of time, but I would add these pages at a later date if I had the time. 
 
-  - **Confirm Sign-Up, confirmation email** - I had planned to integrate a 'method="POST"' function to the user form on the Get Involved page that would take the user to another page that confirmed the user's name and send them a confirmation email as well as check their age. I chose not to do that for the following reasons:
+  - **Confirm Sign-Up, confirmation email** - I had planned to integrate a 'method="POST"' function to the user form on the Get Involved and Contact Us pages that would take the user to another page that confirmed the user's name and send them a confirmation email as well as check their age. I chose not to do that for the following reasons:
   1) I ran out of time to learn how to code a user form to send an automated email to the address the user supplies. I am confident that this will not take long to learn, however to make sure it works well and is fit for purpose, this should be added to the list of future developments. Instead, I created a simple 'thankyou' page that the user should be directed to.
   2) The 'POST' element to the form would not work, and would not take the user to the confirmation page. I contacted Tutor Support who told me that the 'POST' function will not work unless I code it with JavaScript or a server-side language. They advised me to remove the 'method="POST' part completely and have only action="thankyou.html", which I did. 
 
   **Elements not included**
   I have chosen not to include any videos or audio in my project, simply because Heart Helpers is a fictional organisation and there is no material available that would be appropriate to include. I perhaps could have contacted the British Heart Foundation to ask for permission to use a promotional video, but due to the time constraints on this project that wasn't possible. If I were going to create this project for a client, I would ask for all promotional material (which could include YouTube videos, audio clips, multimedia) before I finalised the project so I could include it. I do feel as though a video about the facts of heart disease could have helped the end user and it is something I would include if I were to add future developments.
   **EDIT: A video has now been included in the latest addition of the project. Please see Peer Feedback for more information** 
-
-
-
-
-
-
-
-
-
 
 - - -
 
@@ -390,7 +397,7 @@ The following tests were undertaken using Google Chrome, Firefox, Microsoft Edge
 ### Known Bugs
 |      Page   |   Feature                       | Element | Explanation                                                                                               |
 | ------------| ------------                    | -----------  | -----------                                                                                                                           |
-|  contact-us.html   | Chrome                        |  Form on contact-us.html            | The form does not have a method assigned to it, so does not capture the information on the form. I tested this extensively but I kept getting a 405 error. I then contacted Tutor Support for help. They advised me to remove the 'method="POST"' part because this would not work unless I used JavaScript or a server-based language, which we have not yet covered in the modules. I have set the form to refer to the thankyou.html page instead, but this is an improvement I would like to make at a later date      |
+|  contact-us.html / get-involved   | Chrome                        |  Form on contact-us.html / get-involved            | The form does not have a method assigned to it, so does not capture the information on the form. I tested this extensively but I kept getting a 405 error. I then contacted Tutor Support for help. They advised me to remove the 'method="POST"' part because this would not work unless I used JavaScript or a server-based language, which we have not yet covered in the modules. I have set the form to refer to the thankyou.html page instead, but this is an improvement I would like to make at a later date      |
 
 
 ### Peer Feedback
