@@ -1,4 +1,3 @@
-
 # Contents
 - [Heart Helpers](#heart-helpers)
   - [User Experience (UX)](#user-experience)
@@ -198,7 +197,6 @@ Thank You will be a very short page confirming that the registration is being pr
 This page will be a collection of testimonies from previous volunteers and/or people who have benefited from Heart Helpers. 
 
 
-
 ## Accessibility
 
 I have been mindful during coding to ensure that the website is as accessible friendly as possible. I have achieved this by:
@@ -222,7 +220,6 @@ Referring back to my original design ideas, the end result was slightly differen
 
 
 - **Contact Us** - I originally planned to have the contact details for all twelve branches on the website, however I felt that it was too much information for the user to absorb. Instead, I integrated a drop-down menu into the Contact Us page so that a message could be sent to the local branch the user selects (obviously with added JavaScript and/or Python which I don't know at this point).
-
 
 
 - **Responsiveness.** - My ideas for responsiveness across the pages was limited to what I knew at that point. I planned for Bootstrap to do most of the work, however I chose to use only a small portion of bootstrap for several reasons: 
@@ -305,7 +302,7 @@ To clone the Heart Helpers repository:
 
 ## Testing
 
-The following tests were undertaken using Google Chrome, Firefox, Microsoft Edge and Safari. I have not tested the features using Internet Explorer as support ended for this browser (on some operating systems in June 2022.
+The project was built using Google Chrome and tested through Chrome Developer Tools. All elements were then tested with Firefox, Microsoft Edge and Safari (from my personal device). I have not tested the features using Internet Explorer as support ended for this browser on some operating systems in June 2022.
 
 |      Page     |   Browser                 |   Feature (by class/ ID / name)   | Result     | 
 | ------------  | ------------              | ------------                      |------------|
@@ -355,6 +352,24 @@ The following tests were undertaken using Google Chrome, Firefox, Microsoft Edge
 |  contact-us.html / style.css          | Chrome                   | .sign-up                   | Fail       |
 |  contact-us.html / style.css          | Chrome                   | .sign-up                   | Pass       |
 |  All pages          | Chrome                   | all images                   | Fail       |
+| index.html | Mozilla Firefox | All elements | Pass |
+| get-involved.html | Mozilla Firefox | All elements | Pass |
+| contact-us.html | Mozilla Firefox | All elements | Pass |
+| testimonies.html | Mozilla Firefox | All elements | Pass |
+| message-sent.html | Mozilla Firefox | All elements | Pass |
+| thankyou.html | Mozilla Firefox | All elements | Pass |
+| index.html | Safari  | All elements | Pass |
+| get-involved.html | Safari | All elements | Pass |
+| contact-us.html | Safari | All elements | Pass |
+| testimonies.html | Safari | All elements | Pass |
+| message-sent.html | Safari | All elements | Pass |
+| thankyou.html | Safari | All elements | Pass |
+| index.html | Microsoft Edge | All elements | Pass |
+| get-involved.html | Microsoft Edge | All elements | Pass |
+| contact-us.html | Microsoft Edge | All elements | Pass |
+| testimonies.html | Microsoft Edge | All elements | Pass |
+| message-sent.html | Microsoft Edge | All elements | Pass |
+| thankyou.html | Microsoft Edge | All elements | Pass |
 
 
 
@@ -458,7 +473,6 @@ I had several people test the site for its main aims, which was to:
 There are several improvements I would like to make to Heart Helpers in the future when my knowledge and experience are improved.
 
 
-
 |      Page     |   Future Development Ideas  | Reason not added in this release  |
 | ------------  | ------------ | ------------ |
 |  Get Involved | On:Hover option that explains why DOB is required  |  Limited knowledge of JavaScript |
@@ -470,13 +484,6 @@ There are several improvements I would like to make to Heart Helpers in the futu
 |  About Us     | Interactivity on central rounded image so that when user clicks, information sections are shown | Limited knowledge of JavaScript  |
 | Know the Facts | This is not a page I was able to create, but it was something I was going to create if I had more time. I would include many facts about Heart Disease and perhaps even an information video, possibly a link to YouTube (if such a video exists).| This was not added to the end project simply due to time constraints on the project, although there was a technical skills gap involved too, as I'm unsure how to add videos to code at this time. UPDATE: This has now been included following peer feedback |
 | style.css | import URL| To make things flow better on the style.css I would like to use the @import "header.css"; function for header, footer and the different web pages. This is to keep things more organised |
-
-
-
-
-
-
-
 
 
 ## Credits
@@ -558,4 +565,3 @@ Finally, I want to take the opportunity to thank and acknowledge the following f
 - Craig Hudson and Ross Espley, for their advice in testing my code for responsiveness, general coding advice and patience in helping me troubleshoot problems along the way
 - Kofi Afriyie, who is my facilitator from West Herts College, for their time, patience and encouragement in helping me develop this project. 
 - [The Office of National Statistics](https://style.ons.gov.uk/category/data-visualisation/using-colours/#accessibility-and-colours) for advice on colour palette. 
-
