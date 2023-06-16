@@ -469,6 +469,7 @@ There are several improvements I would like to make to Heart Helpers in the futu
 |  Contact Us   | Data validation on other input values (email address format, numerical only for telephone) | Limited knowledge of JavaScript  |
 |  About Us     | Interactivity on central rounded image so that when user clicks, information sections are shown | Limited knowledge of JavaScript  |
 | Know the Facts | This is not a page I was able to create, but it was something I was going to create if I had more time. I would include many facts about Heart Disease and perhaps even an information video, possibly a link to YouTube (if such a video exists).| This was not added to the end project simply due to time constraints on the project, although there was a technical skills gap involved too, as I'm unsure how to add videos to code at this time. UPDATE: This has now been included following peer feedback |
+| style.css | import URL| To make things flow better on the style.css I would like to use the @import "header.css"; function for header, footer and the different web pages. This is to keep things more organised |
 
 
 
