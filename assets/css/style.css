@@ -239,7 +239,7 @@
 .col-mary-background-left,
 .col-testimonies-background-left-mary {
 
-	background-image: url("../../assets/images/mary-resize-three.webp");
+	background-image: url("../../assets/images/mary.webp");
 	background-color: #cf4214;
 	border-radius: 0% 0% 80% 00%;
 	height: 480px;
@@ -309,7 +309,7 @@
 }
 
 .col-testimonies-background-left {
-	background-image: url("../../assets/images/mary-resize-three.webp");
+	background-image: url("../../assets/images/mary.webp");
 	background-color: #cf4214;
 	border-radius: 0% 0% 80% 00%;
 	height: 500px;
@@ -394,7 +394,7 @@
 }
 
 .mary-img-testimonies {
-	background-image: url("../../assets/images/mary-resize-three.webp");
+	background-image: url("../../assets/images/mary.webp");
 	background-color: #cf4214;
 	border-radius: 0% 0% 80% 00%;
 	height: 500px;
