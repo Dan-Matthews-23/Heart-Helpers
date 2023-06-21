@@ -591,7 +591,7 @@ The following code can be found in style.css on lines 133 - 154 in /assets/style
 
 Finally, I want to take the opportunity to thank and acknowledge the following for their support and patience in helping me create my first ever project:
 
-- [Harry Dhillon](https://github.com/Harry-Leepz), who is my mentor at the Code Institute
+- [Harry Dhillon](https://github.com/Harry-Leepz), who is my mentor at the Code Institute, for their continued support and guidance. 
 - Craig Hudson and Ross Espley, for their advice in testing my code for responsiveness, general coding advice and patience in helping me troubleshoot problems along the way
 - Kofi Afriyie, who is my facilitator from West Herts College, for their time, patience and encouragement in helping me develop this project. 
 - [The Office of National Statistics](https://style.ons.gov.uk/category/data-visualisation/using-colours/#accessibility-and-colours) for advice on colour palette. 
