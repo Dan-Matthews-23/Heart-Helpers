@@ -110,25 +110,25 @@ The website is designed with an end user in mind: a person who is looking to sup
 
 Wireframes were created for desktop, tablet and mobile (1200px, 758px, 476px respectively).
 
-[Home Page Wireframe in Mobile View](/assets/images/wireframes-index-mobile.png)
+[Home Page Wireframe in Mobile View](/assets/images/wireframes-index-mobile.webp)
 
-[Home Page Wireframe in Tablet View](/assets/images/wireframes-index-tablet.png)
+[Home Page Wireframe in Tablet View](/assets/images/wireframes-index-tablet.webp)
 
-[Home Page Wireframe in Desktop View](/assets/images/wireframes-index-desktop.png)
-
-
-[About Us Page Wireframe in Mobile View](/assets/images/wireframes-aboutus-mobile.png)
-
-[About Us Page Wireframe in Tablet View](/assets/images/wireframes-aboutus-tablet.png)
-
-[About Us Page Wireframe in Desktop View](/assets/images/wireframes-aboutus-desktop.png)
+[Home Page Wireframe in Desktop View](/assets/images/wireframes-index-desktop.webp)
 
 
-[Get Involved Page Wireframe in Mobile View](/assets/images/wireframes-getinvolved-mobile.png)
+[About Us Page Wireframe in Mobile View](/assets/images/wireframes-aboutus-mobile.webp)
 
-[Get Involved Page Wireframe in Tablet View](/assets/images/wireframes-getinvolved-tablet.png)
+[About Us Page Wireframe in Tablet View](/assets/images/wireframes-aboutus-tablet.webp)
 
-[Get Involved Page Wireframe in Desktop View](/assets/images/wireframes-getinvolved-desktop.png)
+[About Us Page Wireframe in Desktop View](/assets/images/wireframes-aboutus-desktop.webp)
+
+
+[Get Involved Page Wireframe in Mobile View](/assets/images/wireframes-getinvolved-mobile.webp)
+
+[Get Involved Page Wireframe in Tablet View](/assets/images/wireframes-getinvolved-tablet.webp)
+
+[Get Involved Page Wireframe in Desktop View](/assets/images/wireframes-getinvolved-desktop.webp)
 
 ### Colour
 
@@ -168,33 +168,63 @@ My header will be comprised of the Heart Helpers logo (see above for images) tha
 
 My footer will contain links to LinkedIn, GitHub, Facebook and Twitter. 
 
+
+
 ### Home Page
+
+![Homepage Snippet](/assets/images/features-index-snip.webp)
 
 My Home page will begin with the Next Event with a large image (see Images) and a block of text describing what the event is, with a button just below called 'Sign Up'. If clicked, the button will take the user to the Get Involved page so that they can sign up to this event. 
 
 The next section will be a part of the Testimonies page, with part of one testimony. The user will be able to click to view more and be taken to the testimonies.html page
 
 
+
+
 ### Get Involved
+
+![Get-Involved-Snippet](/assets/images/features-get-involved-snip.webp)
 
 Get Involved will be where the user can sign up to the next event by using a form that captures (through POST) the user's name, email address and date of birth. There is also a 'Confirm Email' address and a date selection for the date of birth, although neither of them has validation assigned to it (see Future Developments).
 
-There is also a checkbox with a 'I agree with the Terms of Service' label assigned to it. There will be no data validation assigned to this checkbox. The label will carry a hyperlink that will take the user to the Terms of Service page. 
+There is also a checkbox with a 'I agree with the Terms of Service' label assigned to it. There will be no data validation assigned to this checkbox. The label will carry a hyperlink that will take the user to the Terms of Service page. The form once submitted will guide the user to a thank you page 
 
 
-### Contact Us
-
-The Contact Us page will be a form where the user inputs some of their information. The form will be a POST method and will take the user to a confirmation page. There will be a drop-down menu, checkbox, submit button and text boxes available
 
 
 ### Thank You
 
-Thank You will be a very short page confirming that the registration is being processed. I am constrained in what I can do with this because of my lack of JavaScript knowledge, however I have documented this in Future Developments
+![Thank-You-Snippet](/assets/images/features-thank-you-snip.webp)
+
+Thank You will be a very short page confirming that the registration is being processed. I am constrained in what I can do with this because of my lack of JavaScript knowledge, however I have documented this in Future Developments. It will also have on it an embedded information video from the British Heart Foundation Youtube Channel available [here](https://www.youtube.com/watch?v=bw_Vv2WRG-A)
+
+
+
+### Contact Us
+
+![Contact-Us-Snippet](/assets/images/features-contact-us-snip.webp)
+
+The Contact Us page will be a form where the user inputs some of their information. The form will be a POST method and will take the user to a confirmation page. There will be a drop-down menu, checkbox, submit button and text boxes available. The form once submitted will guide the user to a confirmation page
+
+
+
+
+### Message Sent
+
+![Message-Sent-Snippet](/assets/images/features-message-sent-snip.webp)
+
+The Message Sent is a confirmation page for the user that will inform the user that the message has been sent sucessfully. It will also have on it an embedded information video from the British Heart Foundation Youtube Channel available [here](https://www.youtube.com/watch?v=bw_Vv2WRG-A)
+
+
 
 
 ### Testimonies
 
+![Testimonies](/assets/images/features-testimonies-snip.webp)
+
 This page will be a collection of testimonies from previous volunteers and/or people who have benefited from Heart Helpers. 
+
+
 
 
 ## Accessibility
